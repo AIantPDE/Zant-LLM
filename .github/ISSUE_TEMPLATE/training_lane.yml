@@ -1,0 +1,22 @@
+name: Training lane
+about: Propose or track a Zant-LLM training lane
+labels: [training-lane]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should this lane train or evaluate?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Runtime boundary
+      options:
+        - label: This lane does not enable provider dispatch.
+          required: true
+        - label: This lane does not grant runtime authority.
+          required: true
+        - label: This lane does not create route or fetch decisions.
+          required: true

@@ -1,0 +1,11 @@
+{
+  "package": "zant_llm_v0_1_initial_branch",
+  "version": "0.1.0",
+  "target_repository": "https://github.com/AIantPDE/Zant-LLM.git",
+  "target_branch": "v0.1",
+  "file_count": 40,
+  "seed_count": 30,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "model_checkpoint_included": false
+}

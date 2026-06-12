@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "name": "zant_llm_v0_1_seed_30",
+  "path": "data/seed/zant_llm_v0_1_seed_30.jsonl",
+  "count": 30,
+  "data_class": "synthetic_governance_seed",
+  "allowed_use": "baseline validation and template training preparation",
+  "contains_private_data": false,
+  "contains_runtime_authority": false,
+  "notes": "Synthetic seed data for initial v0.1 branch only. Replace or extend before real training."
+}

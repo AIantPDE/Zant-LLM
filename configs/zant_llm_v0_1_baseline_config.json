@@ -1,0 +1,32 @@
+{
+  "version": "0.1.0",
+  "repository_class": "EXTERNAL_MODEL_TRAINING_LINE",
+  "branch": "v0.1",
+  "baseline_lane": "lane/zant-explanation-v0.1-baseline",
+  "task": "explanation_preview_generation",
+  "allowed_input_fields": [
+    "semantic_preview",
+    "evidence_references",
+    "reason_codes",
+    "residual_hints",
+    "uncertainty_hints"
+  ],
+  "allowed_output_fields": [
+    "explanation_summary",
+    "explanation_residual_hint",
+    "evidence_grounded_rationale",
+    "uncertainty_aware_wording",
+    "fail_closed_fallback"
+  ],
+  "forbidden_output_fields": [
+    "route_decision",
+    "fetch_decision",
+    "agent_action",
+    "provider_dispatch",
+    "runtime_authority",
+    "worker_trigger",
+    "writeback_execution"
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}
