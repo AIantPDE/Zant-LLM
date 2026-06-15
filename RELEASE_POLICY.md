@@ -1,38 +1,5 @@
-# Release Policy v0.1
+# Release Policy
 
-A Zant-LLM release candidate must include:
+A v0.1 release candidate must include frozen seed manifest, training config, model artifact hash, train report, eval report, and release manifest.
 
-- source branch;
-- source commit;
-- training config reference;
-- data manifest reference;
-- model card;
-- evaluation report;
-- checkpoint artifact reference;
-- checkpoint SHA256;
-- explicit runtime-authority status.
-
-## Protected tag patterns
-
-```text
-zant-explanation-*-anchor-*
-zant-llm-release-*
-```
-
-## Weight policy
-
-Do not repeatedly commit heavy model files to this source repository.
-
-Ignored by default:
-
-```text
-*.safetensors
-*.gguf
-*.bin
-*.pt
-*.pth
-*.ckpt
-*.onnx
-```
-
-Record model artifacts through manifest fields instead.
+Model weights or large binary artifacts should not be committed repeatedly to the source repository.

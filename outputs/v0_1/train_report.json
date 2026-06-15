@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "version": "v0.1",
+  "model_path": "outputs\\v0_1\\model_artifact.json",
+  "train_data": "data/seed/zant_llm_v0_1_seed_30.jsonl",
+  "train_sha256": "b70160705bb1580d031c215031a84140fa012e189b36585cd1513ae112db0a5c",
+  "model_sha256": "4a733aa9f28c08475ebbc95bc6e28658b003f07903c88bc11404438c96be3827",
+  "example_count": 30,
+  "category_counts": {
+    "evidence_grounded": 6,
+    "uncertainty_aware": 6,
+    "residual_hint": 6,
+    "fail_closed": 6,
+    "normal_summary": 6
+  },
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

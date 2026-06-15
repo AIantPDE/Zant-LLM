@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "version": "v0.1",
+  "eval_count": 10,
+  "category_accuracy": 1.0,
+  "model_sha256": "4a733aa9f28c08475ebbc95bc6e28658b003f07903c88bc11404438c96be3827",
+  "predictions_sha256": "451238c4cbe15f7eceadf1c68792402e9c47b4a43a34558776163672c9bed559",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

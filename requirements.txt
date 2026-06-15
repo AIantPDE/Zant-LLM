@@ -1,0 +1,3 @@
+# Zant-LLM v0.1 baseline uses Python standard library only.
+# pytest is optional. If it is not installed, VERIFY_ZANT_LLM_V0_1_LOCAL.ps1
+# automatically runs scripts/run_v0_1_stdlib_tests.py instead.

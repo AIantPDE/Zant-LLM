@@ -1,11 +1,183 @@
 {
-  "package": "zant_llm_v0_1_initial_branch",
-  "version": "0.1.0",
-  "target_repository": "https://github.com/AIantPDE/Zant-LLM.git",
-  "target_branch": "v0.1",
-  "file_count": 40,
-  "seed_count": 30,
+  "package": "zant_llm_v0_1_powershell_trainable_branch_fixed2",
+  "target_branch": "v0.1-explanation-preview-baseline",
   "runtime_authority_granted": false,
   "provider_dispatch_enabled": false,
-  "model_checkpoint_included": false
+  "seed_count": 30,
+  "eval_count": 10,
+  "pytest_required": false,
+  "stdlib_test_fallback": true,
+  "file_count": 36,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "124b8a242d27ea5760a5d60b974bc737c945d5629e9b46f2272be835522d1ae3",
+      "size_bytes": 581
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "258fb92e90af68508e02b250cb387caff8c5627c3cf405e2fd69d7239f575956",
+      "size_bytes": 128
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "82c7b6479ab024b00f03da757ffd5553fb91890a724374845b7522306bc15f93",
+      "size_bytes": 937
+    },
+    {
+      "path": "HANDOFF_README_CN.md",
+      "sha256": "360a7b0d62865310e1d7481cd9719d530ea86cc85159025f0f53a436d5073e1b",
+      "size_bytes": 1472
+    },
+    {
+      "path": "MODEL_CARD_TEMPLATE.md",
+      "sha256": "6de0db8112a485d7df690846a393772df1abd35eb029d340ae1107671856007c",
+      "size_bytes": 414
+    },
+    {
+      "path": "README.md",
+      "sha256": "1b632af923035b0904bc0353328da91a2e33f7c7d00b828b2524506786c095be",
+      "size_bytes": 1956
+    },
+    {
+      "path": "RELEASE_POLICY.md",
+      "sha256": "137efb2a0e3742f426fa1d64b10b4506b9ce901b13a2e06a5be396509e8be2d9",
+      "size_bytes": 267
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "711105606aa3ee2b6bc34830a331cfe1fe2fa9ba7fa48180833db8f4f669a960",
+      "size_bytes": 187
+    },
+    {
+      "path": "TRAINING_LANE_REGISTRY.md",
+      "sha256": "3c2e7a606d86eb9c2dfc3fb513ce99de2174b2089e624482a6029d705d8b4f43",
+      "size_bytes": 421
+    },
+    {
+      "path": "configs/v0_1_train_config.json",
+      "sha256": "23cb6eb5504adf022572c6caae6ffa033c006b027312bbee0e35bc75691eac5c",
+      "size_bytes": 440
+    },
+    {
+      "path": "data/eval/zant_llm_v0_1_eval_10.jsonl",
+      "sha256": "0733c7c6c851ccca86f5eb8a773d2fe8295e73b86ad819e7687d4e6cecc12f84",
+      "size_bytes": 11055
+    },
+    {
+      "path": "data/seed/zant_llm_v0_1_seed_30.jsonl",
+      "sha256": "b70160705bb1580d031c215031a84140fa012e189b36585cd1513ae112db0a5c",
+      "size_bytes": 33183
+    },
+    {
+      "path": "data_manifests/zant_llm_v0_1_data_manifest.json",
+      "sha256": "a63bea095a4b9e59332c822b770066783b479c48a3b4112c3540ee5a9064be70",
+      "size_bytes": 213
+    },
+    {
+      "path": "outputs/README.md",
+      "sha256": "6141e7ea5a1e5db7ad3a80931c7b0572917db7c01bb6ff3a889e1f6ebe3dcca7",
+      "size_bytes": 98
+    },
+    {
+      "path": "outputs/v0_1/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "b4d298770ab2a267d3bf16a23e61f319ff6380a7be082c3e7d18ce56809c0a68",
+      "size_bytes": 207
+    },
+    {
+      "path": "release_manifests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "release_manifests/README.md",
+      "sha256": "591c9b764f360bb1c9d82828452655155d5a4425affbaa63305cea87f5ecadf2",
+      "size_bytes": 122
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "579affeb829ec7c7c579def65035ae7132b9d6d114bc2077e93d750670449b04",
+      "size_bytes": 200
+    },
+    {
+      "path": "scripts/EVAL_ZANT_LLM_V0_1_POWERSHELL.ps1",
+      "sha256": "3bd443c9f9c85f9cf0d16aa279f4e805f5e6edfa024d67d41b7cb442cf82180f",
+      "size_bytes": 442
+    },
+    {
+      "path": "scripts/PUSH_V0_1_BRANCH_TO_GITHUB.ps1",
+      "sha256": "4b33fa66f3c7694082cabde8a81f82c373ade6070cc7817a1e92d5cabaafb19b",
+      "size_bytes": 1031
+    },
+    {
+      "path": "scripts/RUN_V0_1_ALL_LOCAL.ps1",
+      "sha256": "fdcc217baaca664c116472134e57d298e687bc2080890933e5517757328b9dd0",
+      "size_bytes": 1483
+    },
+    {
+      "path": "scripts/TRAIN_ZANT_LLM_V0_1_POWERSHELL.ps1",
+      "sha256": "a58f3f1662331db70815bc755baaa7338ad1cd50c93c69d044f3d436674a291b",
+      "size_bytes": 443
+    },
+    {
+      "path": "scripts/VERIFY_ZANT_LLM_V0_1_LOCAL.ps1",
+      "sha256": "370a97d637cc38efd8f49c3d3fbafb49391f928877a8b084d2ae33820dd7fc44",
+      "size_bytes": 1123
+    },
+    {
+      "path": "scripts/eval_v0_1_baseline.py",
+      "sha256": "4c0c9d4fee611b2ceeec43c841162c2a31a5b03a60057e7d57cec536e4584914",
+      "size_bytes": 2083
+    },
+    {
+      "path": "scripts/make_v0_1_release_manifest.py",
+      "sha256": "92d8b8e8c1c4adc994a4e744cc8d212bef8a2e32e586dd6a9387fcdd5d6c8d57",
+      "size_bytes": 1407
+    },
+    {
+      "path": "scripts/run_v0_1_stdlib_tests.py",
+      "sha256": "08bc1df9d65015047877a187507eca5fb5dd849b0c9bd158075bec49f1fd82e2",
+      "size_bytes": 1913
+    },
+    {
+      "path": "scripts/train_v0_1_baseline.py",
+      "sha256": "39b438778d2f4c3b3a97939f904d816080142a2e8a076ecf339d7ad221487499",
+      "size_bytes": 1595
+    },
+    {
+      "path": "scripts/validate_v0_1_repository.py",
+      "sha256": "4c55ade46d1bae88189b6c936f71a77b4c8f6baca83b57617960e210b9923c60",
+      "size_bytes": 3014
+    },
+    {
+      "path": "src/zant_llm/__init__.py",
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "size_bytes": 22
+    },
+    {
+      "path": "src/zant_llm/baseline.py",
+      "sha256": "54303e5262e5b4d8e88aede7baf696e5cfddffb8235d62b47ae5c5578e512541",
+      "size_bytes": 3353
+    },
+    {
+      "path": "src/zant_llm/governance.py",
+      "sha256": "f8e5760fbbabcea43b882358efb2b50ebf86c476d4719d5fe06b31c15ae223ee",
+      "size_bytes": 842
+    },
+    {
+      "path": "tests/test_v0_1_baseline.py",
+      "sha256": "835960b273e00ea15218ab70149a517c385f4797704d38daaac9d9846b10de01",
+      "size_bytes": 574
+    },
+    {
+      "path": "tests/test_v0_1_governance.py",
+      "sha256": "4b70b6157b0d15abd34b2015de46a0d0bcc6fc0122653baa7c9dd91c1808d4da",
+      "size_bytes": 484
+    }
+  ]
 }

@@ -1,56 +1,20 @@
-# Zant-LLM Model Card Template
+# Model Card Template
 
-## Model name
+## Model
 
-TBD
+- Name: Zant-LLM explanation preview baseline
+- Version: v0.1
+- Type: local text baseline
 
-## Source branch
+## Intended Use
 
-TBD
+Generate explanation preview text from semantic preview, evidence references, reason codes, residual hints, and uncertainty hints.
 
-## Source commit
+## Not Intended For
 
-TBD
-
-## Training objective
-
-Explanation-preview generation.
-
-## Allowed output fields
-
-- `explanation_summary`
-- `explanation_residual_hint`
-- `evidence_grounded_rationale`
-- `uncertainty_aware_wording`
-- `fail_closed_fallback`
-
-## Forbidden behavior
-
-The model must not output route decisions, fetch decisions, provider dispatch, runtime authority, worker triggers, or writeback execution.
-
-## Dataset manifest
-
-TBD
-
-## Training config
-
-TBD
-
-## Checkpoint SHA256
-
-TBD
-
-## Evaluation report
-
-TBD
-
-## Known limitations
-
-TBD
-
-## Runtime status
-
-```text
-provider_connected=False
-runtime_authority_granted=False
-```
+- Route decisions
+- Fetch decisions
+- Provider dispatch
+- Runtime authority
+- Worker activation
+- Side-effect execution

@@ -1,0 +1,850 @@
+{
+  "model_type": "stdlib_token_overlap_explanation_baseline",
+  "version": "v0.1",
+  "example_count": 30,
+  "category_counts": {
+    "evidence_grounded": 6,
+    "uncertainty_aware": 6,
+    "residual_hint": 6,
+    "fail_closed": 6,
+    "normal_summary": 6
+  },
+  "examples": [
+    {
+      "id": "zant-v0.1-seed-001",
+      "category": "evidence_grounded",
+      "text": "样本 1: 根据已给证据生成谨慎解释，避免超出来源。 source_1 evidence_grounded v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2672612419124244,
+        "1": 0.2672612419124244,
+        "根据已给证据生成谨慎解释": 0.2672612419124244,
+        "避免超出来源": 0.2672612419124244,
+        "source_1": 0.2672612419124244,
+        "evidence_grounded": 0.2672612419124244,
+        "v0_1_baseline": 0.2672612419124244,
+        "需要保持解释边界": 0.2672612419124244,
+        "不得输出": 0.2672612419124244,
+        "route_decision": 0.2672612419124244,
+        "或": 0.2672612419124244,
+        "provider_dispatch": 0.2672612419124244,
+        "证据有限": 0.2672612419124244,
+        "需要谨慎措辞": 0.2672612419124244
+      },
+      "output": {
+        "explanation_summary": "证据显示该结论具有一定依据，但仍需要保留不确定性。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-002",
+      "category": "uncertainty_aware",
+      "text": "样本 2: 在信息不足时表达不确定性并提示补证。 source_2 uncertainty_aware v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "2": 0.2773500981126146,
+        "在信息不足时表达不确定性并提示补证": 0.2773500981126146,
+        "source_2": 0.2773500981126146,
+        "uncertainty_aware": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "当前信息不足以形成强结论，建议补充来源或人工复核。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-003",
+      "category": "residual_hint",
+      "text": "样本 3: 指出残余风险和需要复核的部分。 source_3 residual_hint v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "3": 0.2773500981126146,
+        "指出残余风险和需要复核的部分": 0.2773500981126146,
+        "source_3": 0.2773500981126146,
+        "residual_hint": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "主要残余风险来自证据缺口、来源冲突或语义歧义。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-004",
+      "category": "fail_closed",
+      "text": "样本 4: 遇到越权字段或运行时请求时拒绝并回退。 source_1 fail_closed v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "4": 0.2773500981126146,
+        "遇到越权字段或运行时请求时拒绝并回退": 0.2773500981126146,
+        "source_1": 0.2773500981126146,
+        "fail_closed": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "该请求触及运行时或调度权限，系统应保持 fail-closed。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-005",
+      "category": "normal_summary",
+      "text": "样本 5: 对普通 semantic preview 生成简明解释。 source_2 normal_summary v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.25,
+        "5": 0.25,
+        "对普通": 0.25,
+        "semantic": 0.25,
+        "preview": 0.25,
+        "生成简明解释": 0.25,
+        "source_2": 0.25,
+        "normal_summary": 0.25,
+        "v0_1_baseline": 0.25,
+        "需要保持解释边界": 0.25,
+        "不得输出": 0.25,
+        "route_decision": 0.25,
+        "或": 0.25,
+        "provider_dispatch": 0.25,
+        "证据有限": 0.25,
+        "需要谨慎措辞": 0.25
+      },
+      "output": {
+        "explanation_summary": "该预览可被解释为低风险的语义说明，不涉及运行时动作。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-006",
+      "category": "evidence_grounded",
+      "text": "样本 6: 根据已给证据生成谨慎解释，避免超出来源。 source_3 evidence_grounded v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2672612419124244,
+        "6": 0.2672612419124244,
+        "根据已给证据生成谨慎解释": 0.2672612419124244,
+        "避免超出来源": 0.2672612419124244,
+        "source_3": 0.2672612419124244,
+        "evidence_grounded": 0.2672612419124244,
+        "v0_1_baseline": 0.2672612419124244,
+        "需要保持解释边界": 0.2672612419124244,
+        "不得输出": 0.2672612419124244,
+        "route_decision": 0.2672612419124244,
+        "或": 0.2672612419124244,
+        "provider_dispatch": 0.2672612419124244,
+        "证据有限": 0.2672612419124244,
+        "需要谨慎措辞": 0.2672612419124244
+      },
+      "output": {
+        "explanation_summary": "证据显示该结论具有一定依据，但仍需要保留不确定性。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-007",
+      "category": "uncertainty_aware",
+      "text": "样本 7: 在信息不足时表达不确定性并提示补证。 source_1 uncertainty_aware v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "7": 0.2773500981126146,
+        "在信息不足时表达不确定性并提示补证": 0.2773500981126146,
+        "source_1": 0.2773500981126146,
+        "uncertainty_aware": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "当前信息不足以形成强结论，建议补充来源或人工复核。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-008",
+      "category": "residual_hint",
+      "text": "样本 8: 指出残余风险和需要复核的部分。 source_2 residual_hint v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "8": 0.2773500981126146,
+        "指出残余风险和需要复核的部分": 0.2773500981126146,
+        "source_2": 0.2773500981126146,
+        "residual_hint": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "主要残余风险来自证据缺口、来源冲突或语义歧义。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-009",
+      "category": "fail_closed",
+      "text": "样本 9: 遇到越权字段或运行时请求时拒绝并回退。 source_3 fail_closed v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "9": 0.2773500981126146,
+        "遇到越权字段或运行时请求时拒绝并回退": 0.2773500981126146,
+        "source_3": 0.2773500981126146,
+        "fail_closed": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "该请求触及运行时或调度权限，系统应保持 fail-closed。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-010",
+      "category": "normal_summary",
+      "text": "样本 10: 对普通 semantic preview 生成简明解释。 source_1 normal_summary v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.25,
+        "10": 0.25,
+        "对普通": 0.25,
+        "semantic": 0.25,
+        "preview": 0.25,
+        "生成简明解释": 0.25,
+        "source_1": 0.25,
+        "normal_summary": 0.25,
+        "v0_1_baseline": 0.25,
+        "需要保持解释边界": 0.25,
+        "不得输出": 0.25,
+        "route_decision": 0.25,
+        "或": 0.25,
+        "provider_dispatch": 0.25,
+        "证据有限": 0.25,
+        "需要谨慎措辞": 0.25
+      },
+      "output": {
+        "explanation_summary": "该预览可被解释为低风险的语义说明，不涉及运行时动作。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-011",
+      "category": "evidence_grounded",
+      "text": "样本 11: 根据已给证据生成谨慎解释，避免超出来源。 source_2 evidence_grounded v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2672612419124244,
+        "11": 0.2672612419124244,
+        "根据已给证据生成谨慎解释": 0.2672612419124244,
+        "避免超出来源": 0.2672612419124244,
+        "source_2": 0.2672612419124244,
+        "evidence_grounded": 0.2672612419124244,
+        "v0_1_baseline": 0.2672612419124244,
+        "需要保持解释边界": 0.2672612419124244,
+        "不得输出": 0.2672612419124244,
+        "route_decision": 0.2672612419124244,
+        "或": 0.2672612419124244,
+        "provider_dispatch": 0.2672612419124244,
+        "证据有限": 0.2672612419124244,
+        "需要谨慎措辞": 0.2672612419124244
+      },
+      "output": {
+        "explanation_summary": "证据显示该结论具有一定依据，但仍需要保留不确定性。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-012",
+      "category": "uncertainty_aware",
+      "text": "样本 12: 在信息不足时表达不确定性并提示补证。 source_3 uncertainty_aware v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "12": 0.2773500981126146,
+        "在信息不足时表达不确定性并提示补证": 0.2773500981126146,
+        "source_3": 0.2773500981126146,
+        "uncertainty_aware": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "当前信息不足以形成强结论，建议补充来源或人工复核。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-013",
+      "category": "residual_hint",
+      "text": "样本 13: 指出残余风险和需要复核的部分。 source_1 residual_hint v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "13": 0.2773500981126146,
+        "指出残余风险和需要复核的部分": 0.2773500981126146,
+        "source_1": 0.2773500981126146,
+        "residual_hint": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "主要残余风险来自证据缺口、来源冲突或语义歧义。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-014",
+      "category": "fail_closed",
+      "text": "样本 14: 遇到越权字段或运行时请求时拒绝并回退。 source_2 fail_closed v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "14": 0.2773500981126146,
+        "遇到越权字段或运行时请求时拒绝并回退": 0.2773500981126146,
+        "source_2": 0.2773500981126146,
+        "fail_closed": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "该请求触及运行时或调度权限，系统应保持 fail-closed。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-015",
+      "category": "normal_summary",
+      "text": "样本 15: 对普通 semantic preview 生成简明解释。 source_3 normal_summary v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.25,
+        "15": 0.25,
+        "对普通": 0.25,
+        "semantic": 0.25,
+        "preview": 0.25,
+        "生成简明解释": 0.25,
+        "source_3": 0.25,
+        "normal_summary": 0.25,
+        "v0_1_baseline": 0.25,
+        "需要保持解释边界": 0.25,
+        "不得输出": 0.25,
+        "route_decision": 0.25,
+        "或": 0.25,
+        "provider_dispatch": 0.25,
+        "证据有限": 0.25,
+        "需要谨慎措辞": 0.25
+      },
+      "output": {
+        "explanation_summary": "该预览可被解释为低风险的语义说明，不涉及运行时动作。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-016",
+      "category": "evidence_grounded",
+      "text": "样本 16: 根据已给证据生成谨慎解释，避免超出来源。 source_1 evidence_grounded v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2672612419124244,
+        "16": 0.2672612419124244,
+        "根据已给证据生成谨慎解释": 0.2672612419124244,
+        "避免超出来源": 0.2672612419124244,
+        "source_1": 0.2672612419124244,
+        "evidence_grounded": 0.2672612419124244,
+        "v0_1_baseline": 0.2672612419124244,
+        "需要保持解释边界": 0.2672612419124244,
+        "不得输出": 0.2672612419124244,
+        "route_decision": 0.2672612419124244,
+        "或": 0.2672612419124244,
+        "provider_dispatch": 0.2672612419124244,
+        "证据有限": 0.2672612419124244,
+        "需要谨慎措辞": 0.2672612419124244
+      },
+      "output": {
+        "explanation_summary": "证据显示该结论具有一定依据，但仍需要保留不确定性。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-017",
+      "category": "uncertainty_aware",
+      "text": "样本 17: 在信息不足时表达不确定性并提示补证。 source_2 uncertainty_aware v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "17": 0.2773500981126146,
+        "在信息不足时表达不确定性并提示补证": 0.2773500981126146,
+        "source_2": 0.2773500981126146,
+        "uncertainty_aware": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "当前信息不足以形成强结论，建议补充来源或人工复核。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-018",
+      "category": "residual_hint",
+      "text": "样本 18: 指出残余风险和需要复核的部分。 source_3 residual_hint v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "18": 0.2773500981126146,
+        "指出残余风险和需要复核的部分": 0.2773500981126146,
+        "source_3": 0.2773500981126146,
+        "residual_hint": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "主要残余风险来自证据缺口、来源冲突或语义歧义。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-019",
+      "category": "fail_closed",
+      "text": "样本 19: 遇到越权字段或运行时请求时拒绝并回退。 source_1 fail_closed v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "19": 0.2773500981126146,
+        "遇到越权字段或运行时请求时拒绝并回退": 0.2773500981126146,
+        "source_1": 0.2773500981126146,
+        "fail_closed": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "该请求触及运行时或调度权限，系统应保持 fail-closed。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-020",
+      "category": "normal_summary",
+      "text": "样本 20: 对普通 semantic preview 生成简明解释。 source_2 normal_summary v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.25,
+        "20": 0.25,
+        "对普通": 0.25,
+        "semantic": 0.25,
+        "preview": 0.25,
+        "生成简明解释": 0.25,
+        "source_2": 0.25,
+        "normal_summary": 0.25,
+        "v0_1_baseline": 0.25,
+        "需要保持解释边界": 0.25,
+        "不得输出": 0.25,
+        "route_decision": 0.25,
+        "或": 0.25,
+        "provider_dispatch": 0.25,
+        "证据有限": 0.25,
+        "需要谨慎措辞": 0.25
+      },
+      "output": {
+        "explanation_summary": "该预览可被解释为低风险的语义说明，不涉及运行时动作。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-021",
+      "category": "evidence_grounded",
+      "text": "样本 21: 根据已给证据生成谨慎解释，避免超出来源。 source_3 evidence_grounded v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2672612419124244,
+        "21": 0.2672612419124244,
+        "根据已给证据生成谨慎解释": 0.2672612419124244,
+        "避免超出来源": 0.2672612419124244,
+        "source_3": 0.2672612419124244,
+        "evidence_grounded": 0.2672612419124244,
+        "v0_1_baseline": 0.2672612419124244,
+        "需要保持解释边界": 0.2672612419124244,
+        "不得输出": 0.2672612419124244,
+        "route_decision": 0.2672612419124244,
+        "或": 0.2672612419124244,
+        "provider_dispatch": 0.2672612419124244,
+        "证据有限": 0.2672612419124244,
+        "需要谨慎措辞": 0.2672612419124244
+      },
+      "output": {
+        "explanation_summary": "证据显示该结论具有一定依据，但仍需要保留不确定性。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-022",
+      "category": "uncertainty_aware",
+      "text": "样本 22: 在信息不足时表达不确定性并提示补证。 source_1 uncertainty_aware v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "22": 0.2773500981126146,
+        "在信息不足时表达不确定性并提示补证": 0.2773500981126146,
+        "source_1": 0.2773500981126146,
+        "uncertainty_aware": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "当前信息不足以形成强结论，建议补充来源或人工复核。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-023",
+      "category": "residual_hint",
+      "text": "样本 23: 指出残余风险和需要复核的部分。 source_2 residual_hint v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "23": 0.2773500981126146,
+        "指出残余风险和需要复核的部分": 0.2773500981126146,
+        "source_2": 0.2773500981126146,
+        "residual_hint": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "主要残余风险来自证据缺口、来源冲突或语义歧义。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-024",
+      "category": "fail_closed",
+      "text": "样本 24: 遇到越权字段或运行时请求时拒绝并回退。 source_3 fail_closed v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "24": 0.2773500981126146,
+        "遇到越权字段或运行时请求时拒绝并回退": 0.2773500981126146,
+        "source_3": 0.2773500981126146,
+        "fail_closed": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "该请求触及运行时或调度权限，系统应保持 fail-closed。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-025",
+      "category": "normal_summary",
+      "text": "样本 25: 对普通 semantic preview 生成简明解释。 source_1 normal_summary v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.25,
+        "25": 0.25,
+        "对普通": 0.25,
+        "semantic": 0.25,
+        "preview": 0.25,
+        "生成简明解释": 0.25,
+        "source_1": 0.25,
+        "normal_summary": 0.25,
+        "v0_1_baseline": 0.25,
+        "需要保持解释边界": 0.25,
+        "不得输出": 0.25,
+        "route_decision": 0.25,
+        "或": 0.25,
+        "provider_dispatch": 0.25,
+        "证据有限": 0.25,
+        "需要谨慎措辞": 0.25
+      },
+      "output": {
+        "explanation_summary": "该预览可被解释为低风险的语义说明，不涉及运行时动作。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-026",
+      "category": "evidence_grounded",
+      "text": "样本 26: 根据已给证据生成谨慎解释，避免超出来源。 source_2 evidence_grounded v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2672612419124244,
+        "26": 0.2672612419124244,
+        "根据已给证据生成谨慎解释": 0.2672612419124244,
+        "避免超出来源": 0.2672612419124244,
+        "source_2": 0.2672612419124244,
+        "evidence_grounded": 0.2672612419124244,
+        "v0_1_baseline": 0.2672612419124244,
+        "需要保持解释边界": 0.2672612419124244,
+        "不得输出": 0.2672612419124244,
+        "route_decision": 0.2672612419124244,
+        "或": 0.2672612419124244,
+        "provider_dispatch": 0.2672612419124244,
+        "证据有限": 0.2672612419124244,
+        "需要谨慎措辞": 0.2672612419124244
+      },
+      "output": {
+        "explanation_summary": "证据显示该结论具有一定依据，但仍需要保留不确定性。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-027",
+      "category": "uncertainty_aware",
+      "text": "样本 27: 在信息不足时表达不确定性并提示补证。 source_3 uncertainty_aware v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "27": 0.2773500981126146,
+        "在信息不足时表达不确定性并提示补证": 0.2773500981126146,
+        "source_3": 0.2773500981126146,
+        "uncertainty_aware": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "当前信息不足以形成强结论，建议补充来源或人工复核。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-028",
+      "category": "residual_hint",
+      "text": "样本 28: 指出残余风险和需要复核的部分。 source_1 residual_hint v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "28": 0.2773500981126146,
+        "指出残余风险和需要复核的部分": 0.2773500981126146,
+        "source_1": 0.2773500981126146,
+        "residual_hint": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "主要残余风险来自证据缺口、来源冲突或语义歧义。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-029",
+      "category": "fail_closed",
+      "text": "样本 29: 遇到越权字段或运行时请求时拒绝并回退。 source_2 fail_closed v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.2773500981126146,
+        "29": 0.2773500981126146,
+        "遇到越权字段或运行时请求时拒绝并回退": 0.2773500981126146,
+        "source_2": 0.2773500981126146,
+        "fail_closed": 0.2773500981126146,
+        "v0_1_baseline": 0.2773500981126146,
+        "需要保持解释边界": 0.2773500981126146,
+        "不得输出": 0.2773500981126146,
+        "route_decision": 0.2773500981126146,
+        "或": 0.2773500981126146,
+        "provider_dispatch": 0.2773500981126146,
+        "证据有限": 0.2773500981126146,
+        "需要谨慎措辞": 0.2773500981126146
+      },
+      "output": {
+        "explanation_summary": "该请求触及运行时或调度权限，系统应保持 fail-closed。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    },
+    {
+      "id": "zant-v0.1-seed-030",
+      "category": "normal_summary",
+      "text": "样本 30: 对普通 semantic preview 生成简明解释。 source_3 normal_summary v0_1_baseline 需要保持解释边界 不得输出 route_decision 或 provider_dispatch 证据有限 需要谨慎措辞",
+      "vector": {
+        "样本": 0.25,
+        "30": 0.25,
+        "对普通": 0.25,
+        "semantic": 0.25,
+        "preview": 0.25,
+        "生成简明解释": 0.25,
+        "source_3": 0.25,
+        "normal_summary": 0.25,
+        "v0_1_baseline": 0.25,
+        "需要保持解释边界": 0.25,
+        "不得输出": 0.25,
+        "route_decision": 0.25,
+        "或": 0.25,
+        "provider_dispatch": 0.25,
+        "证据有限": 0.25,
+        "需要谨慎措辞": 0.25
+      },
+      "output": {
+        "explanation_summary": "该预览可被解释为低风险的语义说明，不涉及运行时动作。",
+        "explanation_residual_hint": "保留人工复核入口，不授予 runtime authority。",
+        "evidence_grounded_rationale": "解释仅基于输入中的 semantic preview、evidence references 和 reason codes。",
+        "uncertainty_aware_wording": "如果证据不足，应使用可能、倾向、需要复核等保守措辞。",
+        "fail_closed_fallback": "若发现越权字段或运行时请求，返回 fail-closed fallback。"
+      }
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}
