@@ -1,4 +1,4 @@
-param([string]$BaseModelPath = "D:\gemma-4-E2B-it", [string]$OutputDir = "outputs\v0_3\gemma4_qlora_adapter", [switch]$DryRun, [switch]$No4Bit)
+﻿param([string]$BaseModelPath = "D:\gemma-4-E2B-it", [string]$OutputDir = "outputs\v0_3\gemma4_qlora_adapter", [switch]$DryRun, [switch]$No4Bit)
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $Root
@@ -9,3 +9,4 @@ if ($No4Bit) { $argsList += "--no-4bit" }
 python @argsList
 if ($LASTEXITCODE -ne 0) { throw "train_v0_3_gemma4_qlora.py failed" }
 Write-Host "ZANT_LLM_V0_3_TRAIN_POWERSHELL_OK=True"
+
