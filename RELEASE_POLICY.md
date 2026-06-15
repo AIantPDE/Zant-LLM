@@ -1,10 +1,5 @@
-# Release Policy
+# Release Policy v0.3
 
-A v0.2 release may only be considered valid when:
+v0.3 releases may include source code, configs, data manifests, eval reports, release manifests, and model card drafts.
 
-- local verification passes;
-- all gold seed cases pass hard gates;
-- all negative seed cases fail as expected;
-- validation reports are generated;
-- release manifest is generated;
-- runtime authority and provider dispatch remain disabled.
+Large model weights should not be committed repeatedly into source branches. Store adapter artifacts in controlled model artifact storage or release assets with SHA256 sidecars.

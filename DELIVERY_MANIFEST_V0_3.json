@@ -1,0 +1,381 @@
+{
+  "delivery": "zant_llm_v0_3_gemma4_qlora_explanation_baseline_branch",
+  "branch": "v0.3-gemma4-qlora-explanation-baseline",
+  "file_count": 74,
+  "train_case_count": 60,
+  "eval_case_count": 12,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "ad18cd3e8c2be680cb5b885d45cfebf6028b3cf35565306c00279c030389af22",
+      "size_bytes": 616
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "fe360d1bb1fda2bf0655064e0953ac466e090396ef9e5dea2e976f9c8181fa5c",
+      "size_bytes": 262
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "bdc127c97738b89cc214ef23ca61fcbf84f2986deceedca1366c957a830004ba",
+      "size_bytes": 764
+    },
+    {
+      "path": "HANDOFF_README_CN.md",
+      "sha256": "af5287f6899ba78834dc2ade56047618d713e9de666adf08e2ba101a3816f92d",
+      "size_bytes": 732
+    },
+    {
+      "path": "MODEL_CARD_TEMPLATE.md",
+      "sha256": "8681267818fa33f2204d165364bb0ea4884ca8347c85954b5b4ecbded3e8fa5e",
+      "size_bytes": 284
+    },
+    {
+      "path": "README.md",
+      "sha256": "3dc98fdfcb2010cc161f67b95c2e46f58a55336b52c65e0dae374b68ba65c906",
+      "size_bytes": 1373
+    },
+    {
+      "path": "RELEASE_POLICY.md",
+      "sha256": "1bea11c7cc4c8214a74955b34a23f384ae4e078cab464ae4d5284ca79ca0c3a5",
+      "size_bytes": 123
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "6063597ec3fc254f76a2839decf26928ce3dd97ec90c195ccf62b8390ae65cd4",
+      "size_bytes": 92
+    },
+    {
+      "path": "TRAINING_LANE_REGISTRY.md",
+      "sha256": "4db78ab2abafbf9b6e1f02e99392aee3113c19463d1b8f3d65693c96db6491e8",
+      "size_bytes": 322
+    },
+    {
+      "path": "VERSION",
+      "sha256": "626586e1a9535562c57b1de8d7fe05bcabf56e2b5448713437bb6b59bef4cf59",
+      "size_bytes": 5
+    },
+    {
+      "path": "configs/v0_3_gemma4_qlora_config.json",
+      "sha256": "c6636f42ad23c0d84383315e3bce6c449066edf859a2ce69bd3a54590ecea57f",
+      "size_bytes": 685
+    },
+    {
+      "path": "data/trace_hix_v0_3/sft_eval_12.jsonl",
+      "sha256": "41b1b19a8c84f4f89538b4c71bfb074585156fe4666d36e1f175136d3d940870",
+      "size_bytes": 137976
+    },
+    {
+      "path": "data/trace_hix_v0_3/sft_train_60.jsonl",
+      "sha256": "30151ef6c8f8d40cc01aeff3fcb1a2f00a22b432eed54b8b459c3715dedbdf95",
+      "size_bytes": 693204
+    },
+    {
+      "path": "data/trace_hix_v0_3/trace_hix_v0_3_eval_cases_12.jsonl",
+      "sha256": "de49d40f9da437e6c83509b4e1f594920e0550b7b2d85be38638646dec299848",
+      "size_bytes": 48726
+    },
+    {
+      "path": "data/trace_hix_v0_3/trace_hix_v0_3_train_cases_60.jsonl",
+      "sha256": "65d299a5bd49a36dc3f656ad5e23383d0da1246b7e40784154445d5ab91a66f1",
+      "size_bytes": 245322
+    },
+    {
+      "path": "data_manifests/zant_llm_v0_3_data_manifest.json",
+      "sha256": "c2d99a281355b403223f8d11215d5ef7a52677e1105bbf3377ad0decc2a9893a",
+      "size_bytes": 184
+    },
+    {
+      "path": "docs/V0_3_GEMMA4_QLORA_EXPLANATION_BASELINE_PLAN.md",
+      "sha256": "1af37568d63d90691754dc5efd1e4d3db864e1984fca6c8c724fdddcfafdaafc",
+      "size_bytes": 88
+    },
+    {
+      "path": "outputs/v0_3/README.md",
+      "sha256": "9d9f2cc91d124e1c4a995d0c99dfa67fda7fa98b6b9ab972c18e6c36dd3de7d2",
+      "size_bytes": 14
+    },
+    {
+      "path": "outputs/v0_3/gemma4_qlora_adapter/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "b81fd2b0ab27589451d4988def5dc3d8027d6aade9664a5271919add65ac2977",
+      "size_bytes": 148
+    },
+    {
+      "path": "registries/allowed_predicate_registry_v0.json",
+      "sha256": "57d3b1b105df02ad0898d4d393615b8b6ad15e4ec645230efa830646e4852c75",
+      "size_bytes": 361
+    },
+    {
+      "path": "registries/forbidden_output_registry_v0.json",
+      "sha256": "1ea982198974091d2f6130898afc097bb5bd6315a4d258fdb472f1e4847d4aed",
+      "size_bytes": 496
+    },
+    {
+      "path": "release_manifests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "release_manifests/zant_llm_v0_3_release_manifest.json",
+      "sha256": "4956436f0f670e35ecfc30b2bee29148eb7774462ada2220a3cc104e7767cbf9",
+      "size_bytes": 580
+    },
+    {
+      "path": "reports/v0_3/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "reports/v0_3/zant_llm_v0_3_eval_report.json",
+      "sha256": "bfb3aeee8345cfa7ff9d4504bbbf9c35f89d7bbf4f2ba229c638ac8f4a4423fa",
+      "size_bytes": 7825
+    },
+    {
+      "path": "requirements-v0.3.txt",
+      "sha256": "100a9f411bc741ba341c3a63fd00b18a2f1feef7b6795b1f108654f854dfb610",
+      "size_bytes": 148
+    },
+    {
+      "path": "schemas/trace_hix_claim_atom_v0.schema.json",
+      "sha256": "32ea1efc1e86003f41c1fd6911f2b854711bb28d8781e0a95708d34fcc6b8c1c",
+      "size_bytes": 178
+    },
+    {
+      "path": "schemas/trace_hix_drl_decision_explanation_bundle_v0.schema.json",
+      "sha256": "5cc7fc4559a8bbda63eb78153ea1d662e06b7b8b5a6fb93764cd93a3f6c5bff0",
+      "size_bytes": 195
+    },
+    {
+      "path": "schemas/trace_hix_human_explanation_preview_v0.schema.json",
+      "sha256": "46c88fd90924530f5ea1ee64098f293c48a8525204f3f151f0df6944a6abca74",
+      "size_bytes": 185
+    },
+    {
+      "path": "scripts/BUILD_V0_3_SFT_DATASET.ps1",
+      "sha256": "6df80a1f8d69010dc2c9d980512277fb49c3232097e31c64a42a27a3b06620b5",
+      "size_bytes": 241
+    },
+    {
+      "path": "scripts/EVAL_ZANT_LLM_V0_3_GEMMA4_QLORA.ps1",
+      "sha256": "3377d886dd1e560cd7ccdf4c83398c74d437ad5f47cc0001a34464ed3595c6c6",
+      "size_bytes": 535
+    },
+    {
+      "path": "scripts/INSTALL_ZANT_LLM_V0_3_TRAIN_DEPS.ps1",
+      "sha256": "b304130ce3e52d36495aac0a5d2bb369a89e8a912033252b8cb2809003239427",
+      "size_bytes": 344
+    },
+    {
+      "path": "scripts/MAKE_V0_3_RELEASE_MANIFEST.ps1",
+      "sha256": "3285dc0ae8cc68fd8696ae9632e835779dcee551ede8351b7a1e5ee1dafa4049",
+      "size_bytes": 249
+    },
+    {
+      "path": "scripts/PUSH_V0_3_BASED_ON_REMOTE_V0_2.ps1",
+      "sha256": "8cba449379bf84de89ae7f37dcce5c1de315a70fc96798d5a30cdd955bb2b3bf",
+      "size_bytes": 1373
+    },
+    {
+      "path": "scripts/RUN_V0_3_ALL_LOCAL.ps1",
+      "sha256": "9e282333e93160140631ecd4de0397b72736ea95754c52020921ba411b11eaee",
+      "size_bytes": 1363
+    },
+    {
+      "path": "scripts/TRAIN_ZANT_LLM_V0_3_GEMMA4_QLORA.ps1",
+      "sha256": "0a0551f392ddbe28394de17763976e5c9fe88458c0d6348ef0991250c918d274",
+      "size_bytes": 770
+    },
+    {
+      "path": "scripts/VERIFY_ZANT_LLM_V0_3_LOCAL.ps1",
+      "sha256": "059758b9de683880bf08b5bd9a1fd8ed06910f0d54614370e37e8add245ac19f",
+      "size_bytes": 768
+    },
+    {
+      "path": "scripts/__pycache__/build_v0_3_sft_dataset.cpython-313.pyc",
+      "sha256": "a637ef16e22aece2e6e3fdf377f2bf73f254af2f53521838521280af41a962e7",
+      "size_bytes": 1318
+    },
+    {
+      "path": "scripts/__pycache__/eval_v0_3_gemma4_qlora.cpython-313.pyc",
+      "sha256": "3d727a1d0a94d4e12f3fc648863a82270d707a7b4197774718adeecc22bf3121",
+      "size_bytes": 5301
+    },
+    {
+      "path": "scripts/__pycache__/make_v0_3_release_manifest.cpython-313.pyc",
+      "sha256": "e3a7aef73156c42db69746ba80f96175061f2a6344c7374c9eba58a5c5fcafc6",
+      "size_bytes": 2901
+    },
+    {
+      "path": "scripts/__pycache__/run_v0_3_stdlib_tests.cpython-313.pyc",
+      "sha256": "0a65ed83ed0c40ba5b68f9cd1581597e14165054dd287fa23365239160fb6f48",
+      "size_bytes": 2008
+    },
+    {
+      "path": "scripts/__pycache__/train_v0_3_gemma4_qlora.cpython-313.pyc",
+      "sha256": "6c2d861cc91a0af71112c892a2823761d37f5fc8bcfc4e42b0a2e2c72e7fedb2",
+      "size_bytes": 9539
+    },
+    {
+      "path": "scripts/__pycache__/validate_v0_3_repository.cpython-313.pyc",
+      "sha256": "e1243ca2544595422a269df69ba08a72ce228f5d522c49476d35f4c4d4a2fd03",
+      "size_bytes": 2118
+    },
+    {
+      "path": "scripts/build_v0_3_sft_dataset.py",
+      "sha256": "8738d54e2da3c3c3a9bc8f91d5efbaa0063d268c12373127ecc6edb4bb0e306f",
+      "size_bytes": 645
+    },
+    {
+      "path": "scripts/eval_v0_3_gemma4_qlora.py",
+      "sha256": "826f8e20cedf7abdc5f3af64b855b2fe6c29c85b134c0dfff43d06328be39f65",
+      "size_bytes": 2613
+    },
+    {
+      "path": "scripts/make_v0_3_release_manifest.py",
+      "sha256": "61987b1df801472612bd0818c4e44e6d511923a94a38b68fd9f272fb29b78991",
+      "size_bytes": 1263
+    },
+    {
+      "path": "scripts/run_v0_3_stdlib_tests.py",
+      "sha256": "b00f945cf5ded6e5bbb48d0a95f8ad60ed8e60c480cd0297a856c7e960005134",
+      "size_bytes": 772
+    },
+    {
+      "path": "scripts/train_v0_3_gemma4_qlora.py",
+      "sha256": "888e521537dcb43b0ffdf4c02dcb4a78cac55588c7523f825d00d3afb5422825",
+      "size_bytes": 5256
+    },
+    {
+      "path": "scripts/validate_v0_3_repository.py",
+      "sha256": "b036bf7a6fe2a40b997169ba71ca4201dce79db570dfc75df461a9445c204d67",
+      "size_bytes": 1215
+    },
+    {
+      "path": "src/zant_llm/__init__.py",
+      "sha256": "56b5e91c3bb77ab933c25fd65eba883419bdc5691cc94cb9dc840e8f4e3674eb",
+      "size_bytes": 22
+    },
+    {
+      "path": "src/zant_llm/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "d38312fefeb9701bb4284b5719c2756d30b5ff3aa287a28c1d3d411d1417636f",
+      "size_bytes": 212
+    },
+    {
+      "path": "src/zant_llm/__pycache__/formatting.cpython-313.pyc",
+      "sha256": "b321468e239273b89082b0cef8cc44c6611dd0e8c4f17d01f6f410e41744b4d5",
+      "size_bytes": 1975
+    },
+    {
+      "path": "src/zant_llm/__pycache__/governance.cpython-313.pyc",
+      "sha256": "304d8c56ca052e86bfc96b506271973c91cee490362a713e7098bf27aa79a39d",
+      "size_bytes": 2200
+    },
+    {
+      "path": "src/zant_llm/__pycache__/v0_3_dataset.cpython-313.pyc",
+      "sha256": "81dc3946fb09acf1c630db58a8c5ca8f1c551bba8d0ca7b802dc5b2648c6b879",
+      "size_bytes": 1944
+    },
+    {
+      "path": "src/zant_llm/formatting.py",
+      "sha256": "dc7430f1d4e22bb5c112a889474b44499acd7e08dd119ddfb1f184d163879ffb",
+      "size_bytes": 1355
+    },
+    {
+      "path": "src/zant_llm/governance.py",
+      "sha256": "396126049ae02448ace65482ad747434b75823ad474a9ec1856ae2538ec9d328",
+      "size_bytes": 1452
+    },
+    {
+      "path": "src/zant_llm/v0_3_dataset.py",
+      "sha256": "20c92769e70becc0d65e3320ecabbbfef7d2ee1802cc86039e4f7e19750c006e",
+      "size_bytes": 819
+    },
+    {
+      "path": "src/zant_llm/validators/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "5ae3ab1bd241a7c64e853a1971b655b4e6adabd9b328b43e9ad4d7ca5725bdb3",
+      "size_bytes": 132
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/authority_leakage_scanner_v0.cpython-313.pyc",
+      "sha256": "35b942d9c25091659dfa2ec77e19e6b4f12d1c67421cee7ff0b710a4c2a0ee94",
+      "size_bytes": 808
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/claim_support_validator_v0.cpython-313.pyc",
+      "sha256": "a3d2e484bf00b98dab557ec196cc8d9042e7f59e672c82ffcccd7aa583e71e25",
+      "size_bytes": 1867
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/forbidden_output_scanner_v0.cpython-313.pyc",
+      "sha256": "fa1d171a162fec201b569edf0015bc3cede13146e61dbe98d653d6e0e97dfa6d",
+      "size_bytes": 541
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/reference_closure_validator_v0.cpython-313.pyc",
+      "sha256": "81f756cb2ee5ef45b526dbaa5138c1c33cb8619f8cebc9dd1f0db562b6e827cf",
+      "size_bytes": 2294
+    },
+    {
+      "path": "src/zant_llm/validators/authority_leakage_scanner_v0.py",
+      "sha256": "92cd3de2900cad0df5a31c090a27a8709b1b9a87e9de42088d136402e2fee04c",
+      "size_bytes": 474
+    },
+    {
+      "path": "src/zant_llm/validators/claim_support_validator_v0.py",
+      "sha256": "84b0663aac7d1b2fffa60820e8ee0e711e144a7ae6dccdc1a59df56b90d9dcc8",
+      "size_bytes": 1070
+    },
+    {
+      "path": "src/zant_llm/validators/forbidden_output_scanner_v0.py",
+      "sha256": "cf08dc8aa9975464a2bf5d57643e5f4aa7307afce2be63f6516542e08a682e22",
+      "size_bytes": 270
+    },
+    {
+      "path": "src/zant_llm/validators/reference_closure_validator_v0.py",
+      "sha256": "a672e479b6038deb209849bbf10fca06fc6e7c76d16ca72c26d2ad7bc94f51fe",
+      "size_bytes": 1103
+    },
+    {
+      "path": "tests/__pycache__/test_v0_3_dataset.cpython-313.pyc",
+      "sha256": "c44ed422f7ec98e68e2f289927453ad431323c8ee0de6d126eca6801e5749774",
+      "size_bytes": 1100
+    },
+    {
+      "path": "tests/__pycache__/test_v0_3_training_static.cpython-313.pyc",
+      "sha256": "80892edb50e469647ebd6d0f0695c3cc6c91fe37470925cc14cfbfa585e425b0",
+      "size_bytes": 723
+    },
+    {
+      "path": "tests/__pycache__/test_v0_3_validators.cpython-313.pyc",
+      "sha256": "f6f332c4b8e39294d8f8d6c224fd0fc02124e618ad96399fa6bec1af8b8e51aa",
+      "size_bytes": 1775
+    },
+    {
+      "path": "tests/test_v0_3_dataset.py",
+      "sha256": "e82f459a023547bffd2fb12596f6a7d9397c20d9033423ae38975d21a8ee8a12",
+      "size_bytes": 391
+    },
+    {
+      "path": "tests/test_v0_3_training_static.py",
+      "sha256": "1c304d8ef8a2138686314993fedb00a1f38b491b3b8a93dec270ecc59267e222",
+      "size_bytes": 247
+    },
+    {
+      "path": "tests/test_v0_3_validators.py",
+      "sha256": "2f6ec3c2a9906302ba5b5a3d53e6fd6571b2ce361515cdd55256fee74901faa0",
+      "size_bytes": 1013
+    }
+  ]
+}

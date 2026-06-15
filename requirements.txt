@@ -1,2 +1,0 @@
-# v0.2 uses Python standard library only.
-# pytest is optional; scripts fall back to stdlib tests when pytest is unavailable.

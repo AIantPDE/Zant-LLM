@@ -1,8 +1,0 @@
-{
-  "version": "v0.1",
-  "seed_file": "data/seed/zant_llm_v0_1_seed_30.jsonl",
-  "seed_count": 30,
-  "eval_file": "data/eval/zant_llm_v0_1_eval_10.jsonl",
-  "eval_count": 10,
-  "runtime_authority_granted": false
-}
