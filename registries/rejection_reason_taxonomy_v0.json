@@ -1,0 +1,14 @@
+{
+  "taxonomy_version": "trace_hix_rejection_reason_taxonomy_v0",
+  "rejection_reasons": [
+    "input_governance_failure",
+    "target_schema_invalid",
+    "trace_immutability_failure",
+    "evidence_references_escape_bundle",
+    "unsupported_claim_atom",
+    "forbidden_output_field",
+    "authority_or_decision_leakage",
+    "counterfactual_not_explanation_only"
+  ],
+  "hard_gate_default": "FailClosed"
+}

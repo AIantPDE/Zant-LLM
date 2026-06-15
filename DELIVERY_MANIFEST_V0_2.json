@@ -1,0 +1,393 @@
+{
+  "delivery": "zant_llm_v0_2_trace_hix_contracts_and_validators_branch",
+  "branch": "v0.2-trace-hix-contracts-and-validators",
+  "base_branch": "v0.1-explanation-preview-baseline",
+  "repository": "https://github.com/AIantPDE/Zant-LLM.git",
+  "file_count": 76,
+  "gold_seed_count": 30,
+  "negative_seed_count": 30,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "1d544ba4615950ed16f2798f3a39b173c0761336b9032a685d653813bc54f843",
+      "size_bytes": 376
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "63111e8a98570d00bfdd091a22e702bed6954a394d25c3793e045b4327810123",
+      "size_bytes": 98
+    },
+    {
+      "path": "DELIVERY_MANIFEST_V0_2.json",
+      "sha256": "4454abaa94dfc8eb8b3ff1dce9cb4b69aecc2f077eb786ac45ba50620d8e1590",
+      "size_bytes": 14155
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "d330ca0376757b189f74aff6b5d1399dd48205cf8881296695821bfa2b2e3b4c",
+      "size_bytes": 823
+    },
+    {
+      "path": "HANDOFF_README_CN.md",
+      "sha256": "c071907297a57d635b41d1e6b345834fb249a5f10c61fcdf72b16a0a4a55af63",
+      "size_bytes": 1099
+    },
+    {
+      "path": "MODEL_CARD_TEMPLATE.md",
+      "sha256": "b593dcbaab15209f2951421eb1c4686f61e03e064397b5009b4f3158a702d1a8",
+      "size_bytes": 487
+    },
+    {
+      "path": "README.md",
+      "sha256": "929ad6b4928f8b6c64f14dba93380fbdedf951ac2d641d306fdaecdb67e06bfa",
+      "size_bytes": 1992
+    },
+    {
+      "path": "RELEASE_POLICY.md",
+      "sha256": "eb17cc18096954a8a67c8648cacfb4981f4770284a364057a429763746e34087",
+      "size_bytes": 309
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "5377d2936a68cf04e79b9a0776f868250b0669450d1c1fa09653320b38d166e2",
+      "size_bytes": 188
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "a72c898d615b9af94f50bd2a2031fa5a51eb0909dd973f3b6b99224f4ee042b0",
+      "size_bytes": 8370
+    },
+    {
+      "path": "TRAINING_LANE_REGISTRY.md",
+      "sha256": "09865a11a48f4b6817afc2c5798d3e1a4bedc17ee73f8209db1e8ac16c8b6590",
+      "size_bytes": 458
+    },
+    {
+      "path": "VERSION",
+      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9",
+      "size_bytes": 6
+    },
+    {
+      "path": "configs/v0_2_trace_hix_config.json",
+      "sha256": "68278cb5c71c04b347de114d4f0ad95946f7d2b30810e91c917d2e1378adea00",
+      "size_bytes": 417
+    },
+    {
+      "path": "data/trace_hix_v0_2/gold_seed_30.jsonl",
+      "sha256": "48ac0f3d134449ff88583853a224af284537c9bc1a9cd1d4f389f1cd0cd452a2",
+      "size_bytes": 191421
+    },
+    {
+      "path": "data/trace_hix_v0_2/negative_seed_30.jsonl",
+      "sha256": "178c3d8460a383295f024b4d20f687f85d7e4781865d2126001f1ee752fcd254",
+      "size_bytes": 192546
+    },
+    {
+      "path": "data_manifests/trace_hix_v0_2_data_manifest.json",
+      "sha256": "e81bb7030a17af07a97f73d0fb2967b6e1d38de6614150ed38cfb59d6d9a5da9",
+      "size_bytes": 349
+    },
+    {
+      "path": "docs/TRACE_HIX_V0_2_ENGINEERING_NOTES.md",
+      "sha256": "5e48d088164cef029dbe656ec42f7a5f8dd3abe74efe56c2e17b32fb50bb31da",
+      "size_bytes": 711
+    },
+    {
+      "path": "registries/allowed_predicate_registry_v0.json",
+      "sha256": "a209a1d3bab59218a84bcc806707192c0f1d51ade1d1e814f5e82f08321a5757",
+      "size_bytes": 815
+    },
+    {
+      "path": "registries/forbidden_output_registry_v0.json",
+      "sha256": "268f3b397cce6c0f09ede9311282f95919faa56aa3cf78be501afff3796d6007",
+      "size_bytes": 741
+    },
+    {
+      "path": "registries/rejection_reason_taxonomy_v0.json",
+      "sha256": "3dcc052d2568fda8d68594068fc0ea6442cc997b79fd006ca1da008c786342fa",
+      "size_bytes": 409
+    },
+    {
+      "path": "release_manifests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "release_manifests/trace_hix_v0_2_release_manifest.json",
+      "sha256": "cfe7908cf304823146a3602961da7f90587c92924228f9b1deb95e0dfd785dde",
+      "size_bytes": 8211
+    },
+    {
+      "path": "reports/v0_2/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "reports/v0_2/TRACE_HIX_AUTHORITY_LEAKAGE_REPORT_V0.json",
+      "sha256": "fad9c948e8792dd2468f9b4d298acd966abeea4c07031e194250023e7abf5d57",
+      "size_bytes": 18557
+    },
+    {
+      "path": "reports/v0_2/TRACE_HIX_CLAIM_SUPPORT_REPORT_V0.json",
+      "sha256": "442e18450b9c3ab086edbee608dd25c45f40a627f84433fa934ea0b2b5f78450",
+      "size_bytes": 13684
+    },
+    {
+      "path": "reports/v0_2/TRACE_HIX_COUNTERFACTUAL_ONLY_REPORT_V0.json",
+      "sha256": "ee105aa5c1160bc560f4551e87658457e2c3391cdb598e1779c1e0e2bda40745",
+      "size_bytes": 13041
+    },
+    {
+      "path": "reports/v0_2/TRACE_HIX_FORBIDDEN_OUTPUT_SCAN_REPORT_V0.json",
+      "sha256": "dbdda425f0fc420e541cd21556a6af8f47a62c920ac568bc1970e6dc99e44b93",
+      "size_bytes": 13885
+    },
+    {
+      "path": "reports/v0_2/TRACE_HIX_REFERENCE_CLOSURE_REPORT_V0.json",
+      "sha256": "6b6ea978d921b63f493c07fb69c08abc37c8374da2744179bf25a95065eae7f0",
+      "size_bytes": 16782
+    },
+    {
+      "path": "reports/v0_2/TRACE_HIX_SCHEMA_VALIDATION_REPORT_V0.json",
+      "sha256": "137fce3a4e57fa6ffade60a8493188cc631f572d923beefda25acaabc2af1d68",
+      "size_bytes": 16297
+    },
+    {
+      "path": "reports/v0_2/TRACE_HIX_TRACE_IMMUTABILITY_REPORT_V0.json",
+      "sha256": "07277e19aec0c397d7ad6803aa0e02358f34093b960fa2b0a73ba46aa7d166a7",
+      "size_bytes": 12934
+    },
+    {
+      "path": "reports/v0_2/trace_hix_v0_2_validation_summary.json",
+      "sha256": "716da75e2cac59f4b631f1263659dfd0a5777cc52922ff22a85441df98df880b",
+      "size_bytes": 514
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "3f74a5a31a4d858b9d355b977df79398f9ba8820dd01644b8ef51fae248e9e45",
+      "size_bytes": 126
+    },
+    {
+      "path": "schemas/trace_hix_claim_atom_v0.schema.json",
+      "sha256": "2136cc2133c58c5137ce6f5d532422855c16d78abcc756e42c7405cc3a21768f",
+      "size_bytes": 904
+    },
+    {
+      "path": "schemas/trace_hix_drl_decision_explanation_bundle_v0.schema.json",
+      "sha256": "f500130d94c8f6c26116f02bb97a7f8043762f054ce4e07cedf8ebdc174532e7",
+      "size_bytes": 1042
+    },
+    {
+      "path": "schemas/trace_hix_human_explanation_preview_v0.schema.json",
+      "sha256": "8bad436292fdb0e12a86fc7928709b8b8fb815c87f026cc9c7c2caf1d4ee9569",
+      "size_bytes": 1361
+    },
+    {
+      "path": "scripts/PUSH_V0_2_BASED_ON_REMOTE_V0_1.ps1",
+      "sha256": "fdfa72b929df614ab5fbb00074fa3a5c8a566cc5d9cfcf6b1cf23edd34bb5b3b",
+      "size_bytes": 2062
+    },
+    {
+      "path": "scripts/PUSH_V0_2_BRANCH_TO_GITHUB.ps1",
+      "sha256": "f5582a01a71eec3b35d75319f8f26c2eb80b5a56a4cb466529adfda8133e2d73",
+      "size_bytes": 1208
+    },
+    {
+      "path": "scripts/RUN_TRACE_HIX_V0_2_VALIDATORS.ps1",
+      "sha256": "5b781b1040f4fac98ed8ca30e8d758f8e13856ed752429c476c35a75325e7dff",
+      "size_bytes": 372
+    },
+    {
+      "path": "scripts/RUN_V0_2_ALL_LOCAL.ps1",
+      "sha256": "8b1a6dd40c5c4836ad86f1cb1986de3a916de027e875a9e38e0093db60cf56b6",
+      "size_bytes": 1074
+    },
+    {
+      "path": "scripts/VERIFY_TRACE_HIX_V0_2_LOCAL.ps1",
+      "sha256": "2d2cf945a9cd2ddd2700b14b4cc8c69e13bd26dad032c3aa0adde6d825bd4519",
+      "size_bytes": 807
+    },
+    {
+      "path": "scripts/__pycache__/make_trace_hix_v0_2_release_manifest.cpython-313.pyc",
+      "sha256": "972151d1d71438ddad74a9eaba9d2386b6266798e6444c818c9af8e249666986",
+      "size_bytes": 3076
+    },
+    {
+      "path": "scripts/__pycache__/run_trace_hix_v0_2_validators.cpython-313.pyc",
+      "sha256": "07964944d5020ce38a9cb474b96db64ee9567179b373e27046e9386b12fdf5ef",
+      "size_bytes": 4819
+    },
+    {
+      "path": "scripts/__pycache__/run_v0_2_stdlib_tests.cpython-313.pyc",
+      "sha256": "e493803603cc7ebb79defacd9163dff7edf672d29de2ed32237a0a596332d082",
+      "size_bytes": 2148
+    },
+    {
+      "path": "scripts/__pycache__/validate_v0_2_repository.cpython-313.pyc",
+      "sha256": "2c59ec8d06fd8bacc2c088bd0f1352293a37036e30f9198833a933f8a252510b",
+      "size_bytes": 3577
+    },
+    {
+      "path": "scripts/make_trace_hix_v0_2_release_manifest.py",
+      "sha256": "97e8317c4b0cab34c5d117ef415cfeeabea8bb421752edd6abbac296f183039a",
+      "size_bytes": 1774
+    },
+    {
+      "path": "scripts/run_trace_hix_v0_2_validators.py",
+      "sha256": "b3ca63e6ef4502d9378bc0c0f1e47f864438b17dd89f7b5193cea7ffc55ac15a",
+      "size_bytes": 2891
+    },
+    {
+      "path": "scripts/run_v0_2_stdlib_tests.py",
+      "sha256": "fac447918bc983d20e040fa425d7a787abeb51a52d412b1a25ba8f7f4ddf1f2d",
+      "size_bytes": 1026
+    },
+    {
+      "path": "scripts/validate_v0_2_repository.py",
+      "sha256": "979b3a97101cfb72911a834ee474bbd55932afaf42aa370dfd89ad658e741987",
+      "size_bytes": 2108
+    },
+    {
+      "path": "src/zant_llm/__init__.py",
+      "sha256": "667d4a15b970b851e20d17510224670c14646cfb6d5a1e388ca6b9cc6da8bf41",
+      "size_bytes": 22
+    },
+    {
+      "path": "src/zant_llm/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "c876392d8b195b9915d2d129b261f5eeba918ea48a6e7510b78fdf42a76b5ca2",
+      "size_bytes": 213
+    },
+    {
+      "path": "src/zant_llm/__pycache__/trace_hix_contracts.cpython-313.pyc",
+      "sha256": "c870f0ae933c50c0dbb0622d761ad1c3583e9500060f2777b074522e7d785577",
+      "size_bytes": 1825
+    },
+    {
+      "path": "src/zant_llm/trace_hix_contracts.py",
+      "sha256": "053e6d928f2bbcbb3bf6c2304e48ae6211eb4d458fa5356c1d49fe47f9a590f6",
+      "size_bytes": 1951
+    },
+    {
+      "path": "src/zant_llm/validators/__init__.py",
+      "sha256": "203b8e12adf5b77fd448c56c299ef48e8c5115ae6aab55a27c0b29e5e56c44c0",
+      "size_bytes": 60
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "441e195442c3e6f6dd5bead229f4afe09b658bc98c59573f45cfcc949a105a8e",
+      "size_bytes": 271
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/authority_leakage_scanner_v0.cpython-313.pyc",
+      "sha256": "e7ee855d9e429120966349a742d2fe254e957a18a77db851f322b93f25715b1e",
+      "size_bytes": 1339
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/claim_support_validator_v0.cpython-313.pyc",
+      "sha256": "6c4eb19580d7128b068c5651597b4e977c6e7f8ec84ce058db52bfbeaff1b2ba",
+      "size_bytes": 3052
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/common.cpython-313.pyc",
+      "sha256": "7b8d0229acae95c6e575c10118de9f4646305ba2ad4a12a81182f226d03a32c8",
+      "size_bytes": 4356
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/counterfactual_gate_v0.cpython-313.pyc",
+      "sha256": "8ff4cf90429d4be064a3dd5c29723d15a6f8cbcfa0d9e7134c287ae0a673aac5",
+      "size_bytes": 1380
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/forbidden_output_scanner_v0.cpython-313.pyc",
+      "sha256": "c126adef1b70575a147eed9a3c4be9c561df6d356b84846d54df9d7d706b738b",
+      "size_bytes": 1048
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/reference_closure_validator_v0.cpython-313.pyc",
+      "sha256": "c865c6d4765571bd8c043134c0ba0dc8597660ff418aa10f640ece6c723c54f8",
+      "size_bytes": 1314
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/schema_validator_v0.cpython-313.pyc",
+      "sha256": "c3b7fe06155d078bae88bbf06cc247a19e77cba0e859676a70d2054b713b3f8c",
+      "size_bytes": 1717
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/trace_hix_validator_v0.cpython-313.pyc",
+      "sha256": "f914c4cbc554e957d58bfeded852eec7921cb12970d37ddc0862cf8ef86c4b6e",
+      "size_bytes": 2084
+    },
+    {
+      "path": "src/zant_llm/validators/__pycache__/trace_immutability_validator_v0.cpython-313.pyc",
+      "sha256": "a06bb1c19b2de14bcdd3beda6e4ea07a5ac820b40ed8e4e5b8cf47e85f65314e",
+      "size_bytes": 1736
+    },
+    {
+      "path": "src/zant_llm/validators/authority_leakage_scanner_v0.py",
+      "sha256": "c3e1f9eb790bb8da7c69e74db4bdc9584a1594ef9066edad5d00592b7f56daaa",
+      "size_bytes": 898
+    },
+    {
+      "path": "src/zant_llm/validators/claim_support_validator_v0.py",
+      "sha256": "0ea158f9409e3e78b978377060f1399dbc1e30bd0ddf19628feb554ecdef7bc9",
+      "size_bytes": 2175
+    },
+    {
+      "path": "src/zant_llm/validators/common.py",
+      "sha256": "50ac58e5fe4eaaf17f710eacf98fa569923aa1397ecacdec4a7aa87736d9f4e9",
+      "size_bytes": 2042
+    },
+    {
+      "path": "src/zant_llm/validators/counterfactual_gate_v0.py",
+      "sha256": "e1d94177cc7fdc8a22c0bd6b78844981beb1b5c90e005703085abdbcef426d6e",
+      "size_bytes": 831
+    },
+    {
+      "path": "src/zant_llm/validators/forbidden_output_scanner_v0.py",
+      "sha256": "999ee582bfe3589a98763fa7f7779214890dddc9f677f9cc3a09fbabb659ed1a",
+      "size_bytes": 627
+    },
+    {
+      "path": "src/zant_llm/validators/reference_closure_validator_v0.py",
+      "sha256": "0c88ff17f3af168ebf1ef115288284eec9db7a741878b60957c918bc21ecaed9",
+      "size_bytes": 677
+    },
+    {
+      "path": "src/zant_llm/validators/schema_validator_v0.py",
+      "sha256": "6ec8d3b6a54249c12950e2a5688a8148f79ae3a2f5dd88d58c50db73650fb108",
+      "size_bytes": 1158
+    },
+    {
+      "path": "src/zant_llm/validators/trace_hix_validator_v0.py",
+      "sha256": "e9d52538f00d55e3c3f4a8c508d51f964bb95c737596c8ec2d4a25d5fdb5b157",
+      "size_bytes": 1300
+    },
+    {
+      "path": "src/zant_llm/validators/trace_immutability_validator_v0.py",
+      "sha256": "82aaef8ae1f600583eb95b37141c3dfcd881dce013f0cfdbcb3cfa9f65c425b2",
+      "size_bytes": 1121
+    },
+    {
+      "path": "tests/__pycache__/test_trace_hix_v0_2_contracts.cpython-313.pyc",
+      "sha256": "f871a18b70d4424268228b13cac0b9ca85b4eb39b2d62a546cbf6ad529990a3e",
+      "size_bytes": 1189
+    },
+    {
+      "path": "tests/__pycache__/test_trace_hix_v0_2_validators.cpython-313.pyc",
+      "sha256": "57fc456ada1877f2d49c9f63394f38b254cdae20d8c19d685d067930e7b85b42",
+      "size_bytes": 1759
+    },
+    {
+      "path": "tests/test_trace_hix_v0_2_contracts.py",
+      "sha256": "5169777e15f4630f0345f7969c7bf3fe4419766bb189b7d55f19894e587d435b",
+      "size_bytes": 683
+    },
+    {
+      "path": "tests/test_trace_hix_v0_2_validators.py",
+      "sha256": "7ae7785fb1b08fd6a28bbb9b5513941978c19371304e8c4602d79e11b0ddc59f",
+      "size_bytes": 716
+    }
+  ]
+}

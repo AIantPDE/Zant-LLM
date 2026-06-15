@@ -1,0 +1,8 @@
+{
+  "manifest_version": "trace_hix_v0_2_data_manifest",
+  "gold_seed_path": "data/trace_hix_v0_2/gold_seed_30.jsonl",
+  "negative_seed_path": "data/trace_hix_v0_2/negative_seed_30.jsonl",
+  "gold_seed_count": 30,
+  "negative_seed_count": 30,
+  "purpose": "Contracts and validators branch for trace-referenced, authority-constrained explanations."
+}

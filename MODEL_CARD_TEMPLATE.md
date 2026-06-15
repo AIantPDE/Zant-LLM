@@ -1,20 +1,24 @@
-# Model Card Template
+# Zant-LLM TRACE-HIX Model Card Template
 
-## Model
+## Model / Branch
 
-- Name: Zant-LLM explanation preview baseline
-- Version: v0.1
-- Type: local text baseline
+## Training data
 
-## Intended Use
+## Supported task
 
-Generate explanation preview text from semantic preview, evidence references, reason codes, residual hints, and uncertainty hints.
+Trace-referenced, authority-constrained explanation preview generation.
 
-## Not Intended For
+## Unsupported task
 
-- Route decisions
-- Fetch decisions
-- Provider dispatch
-- Runtime authority
-- Worker activation
-- Side-effect execution
+Runtime authority, provider dispatch, route decision, fetch decision, worker trigger, writeback execution, or decision override.
+
+## Hard gates
+
+- Schema
+- Reference closure
+- Claim support
+- Forbidden output
+- Authority leakage
+- New decision leakage
+- Counterfactual-only
+- Trace immutability

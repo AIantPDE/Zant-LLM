@@ -1,67 +1,71 @@
-# Zant-LLM v0.1 Explanation Preview Baseline
+# Zant-LLM v0.2 TRACE-HIX Contracts and Validators
 
-Branch: `v0.1-explanation-preview-baseline`
+Branch: `v0.2-trace-hix-contracts-and-validators`
 
-This is the initial PowerShell-trainable branch package for `AIantPDE/Zant-LLM`.
+This branch turns the TRACE-HIX Training Formalization v0.2 design into executable repository assets for Zant-LLM:
 
-## Purpose
+- TRACE-HIX bundle, explanation preview, and claim atom schemas.
+- Forbidden output, predicate, and rejection taxonomy registries.
+- Reference closure, claim support, authority leakage, forbidden output, trace immutability, and counterfactual-only validators.
+- 30 gold seed cases and 30 negative attack cases.
+- PowerShell local verification and validator report generation.
 
-Zant-LLM v0.1 is a local, text-only, PowerShell-runnable baseline for explanation preview generation.
-It is designed as the first editable training branch, not as a runtime integration package.
-
-Allowed:
-- Train a baseline explanation preview generator.
-- Evaluate the baseline on local seed data.
-- Produce model artifacts and release manifests.
-- Push this branch to `https://github.com/AIantPDE/Zant-LLM`.
-
-Forbidden in v0.1:
-- No aiant-zant runtime integration.
-- No provider dispatch.
-- No provider registry changes.
-- No route/fetch decisions.
-- No worker activation.
-- No runtime authority.
-
-## Quick start in PowerShell
+## Local run
 
 ```powershell
-cd C:\Users\Administrator\Desktop\zant_llm_v0_1_powershell_trainable_branch
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_1_ALL_LOCAL.ps1
+cd C:/Users/Hilo/Desktop/zant_llm_v0_2_trace_hix_contracts_and_validators_branch
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_2_ALL_LOCAL.ps1
 ```
 
-## Push to GitHub branch
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V0_1_BRANCH_TO_GITHUB.ps1
-```
-
-Default repository: `https://github.com/AIantPDE/Zant-LLM.git`
-
-Default branch: `v0.1-explanation-preview-baseline`
-
-## Training outputs
+Expected success markers:
 
 ```text
-outputs/v0_1/model_artifact.json
-outputs/v0_1/train_report.json
-outputs/v0_1/eval_report.json
-outputs/v0_1/predictions.jsonl
-release_manifests/zant_llm_v0_1_release_manifest.json
+TRACE_HIX_V0_2_LOCAL_VERIFY_OK=True
+TRACE_HIX_V0_2_VALIDATORS_RAN=True
+ALL_EXPECTATIONS_MET=True
+TRACE_HIX_V0_2_RELEASE_MANIFEST_CREATED=True
+TRACE_HIX_V0_2_ALL_LOCAL_OK=True
+RUNTIME_AUTHORITY_GRANTED=False
+PROVIDER_DISPATCH_ENABLED=False
 ```
 
-
-## v0.1 PowerShell 修正版说明
-
-本版本修复了 `validate_v0_1_repository.py` 因扫描自身禁用词而误报的问题，并修复了 `RUN_V0_1_ALL_LOCAL.ps1` 对子 PowerShell 失败没有立即中止的问题。
-
-一键本地运行：
+## Push directly as v0.2 branch
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_1_ALL_LOCAL.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V0_2_BRANCH_TO_GITHUB.ps1
 ```
 
+Default repository:
 
-## Fresh Windows/Python note
+```text
+https://github.com/AIantPDE/Zant-LLM.git
+```
 
-This v0.1 package does not require pytest. If pytest is missing, the local verify script automatically uses `scripts/run_v0_1_stdlib_tests.py`.
+Default branch:
+
+```text
+v0.2-trace-hix-contracts-and-validators
+```
+
+## Push while preserving v0.1 history
+
+Recommended if `v0.1-explanation-preview-baseline` already exists remotely:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V0_2_BASED_ON_REMOTE_V0_1.ps1
+```
+
+This script clones the remote v0.1 branch, creates v0.2, overlays this package, removes known v0.1 stale files, verifies locally, commits, and pushes.
+
+## Boundary
+
+Zant-LLM v0.2 remains an external training/contracts branch only.
+
+```text
+runtime_authority_granted=False
+provider_dispatch_enabled=False
+route_decision_created=False
+fetch_decision_created=False
+worker_trigger_enabled=False
+writeback_execution_enabled=False
+```
