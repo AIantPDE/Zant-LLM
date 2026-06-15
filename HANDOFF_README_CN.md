@@ -1,48 +1,47 @@
-# Zant-LLM v0.1 PowerShell 可训练分支交接说明
+# Zant-LLM v0.2 分支交接说明
 
-目标仓库：`https://github.com/AIantPDE/Zant-LLM`
+本包对应分支：
 
-目标分支：`v0.1-explanation-preview-baseline`
-
-## 一键本地训练
-
-```powershell
-cd C:\Users\Administrator\Desktop\zant_llm_v0_1_powershell_trainable_branch
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_1_ALL_LOCAL.ps1
+```text
+v0.2-trace-hix-contracts-and-validators
 ```
 
-## 单独训练
+作用：
+
+把 TRACE-HIX Training Formalization v0.2 落成 Zant-LLM 可运行工程资产，包括 schema、registry、validator、gold seed、negative seed、validation report 和 release manifest。
+
+## 一键运行
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\TRAIN_ZANT_LLM_V0_1_POWERSHELL.ps1
+cd C:/Users/Hilo/Desktop/zant_llm_v0_2_trace_hix_contracts_and_validators_branch
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_2_ALL_LOCAL.ps1
 ```
 
-## 单独评估
+## 推荐推送方式
+
+如果 GitHub 已经有 v0.1 分支，建议执行：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\EVAL_ZANT_LLM_V0_1_POWERSHELL.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V0_2_BASED_ON_REMOTE_V0_1.ps1
 ```
 
-## 推送分支
+它会：
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V0_1_BRANCH_TO_GITHUB.ps1
-```
+1. clone 远程 v0.1 分支；
+2. 新建 v0.2 分支；
+3. 覆盖 v0.2 文件；
+4. 删除已知 v0.1 残留冲突文件；
+5. 本地验证；
+6. commit；
+7. push 到 GitHub。
 
-这版是 v0.1 最初始可训练分支。训练方式是标准库实现的 token-overlap explanation baseline，用于建立训练/评估/manifest 流程，后续可以替换为 Gemma/QLoRA/Transformers 训练脚本。
+## 当前仍然禁止
 
-当前仍然禁止接入 aiant-zant runtime。
-
-## 2026-06-15 fixed2 note
-
-本版本修复 fresh Windows/Python 环境中没有 pytest 时验证失败的问题。
-`VERIFY_ZANT_LLM_V0_1_LOCAL.ps1` 会自动检测 pytest：
-
-- 如果已安装 pytest，则运行 `python -m pytest -q`；
-- 如果未安装 pytest，则运行标准库 fallback：`scripts/run_v0_1_stdlib_tests.py`。
-
-因此不需要额外安装依赖，也可以直接执行：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_1_ALL_LOCAL.ps1
+```text
+RUNTIME_AUTHORITY_GRANTED=False
+PROVIDER_DISPATCH_ENABLED=False
+ROUTE_DECISION_CREATED=False
+FETCH_DECISION_CREATED=False
+WORKER_TRIGGER_ENABLED=False
+WRITEBACK_EXECUTION_ENABLED=False
 ```

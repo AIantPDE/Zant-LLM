@@ -1,5 +1,10 @@
 # Release Policy
 
-A v0.1 release candidate must include frozen seed manifest, training config, model artifact hash, train report, eval report, and release manifest.
+A v0.2 release may only be considered valid when:
 
-Model weights or large binary artifacts should not be committed repeatedly to the source repository.
+- local verification passes;
+- all gold seed cases pass hard gates;
+- all negative seed cases fail as expected;
+- validation reports are generated;
+- release manifest is generated;
+- runtime authority and provider dispatch remain disabled.

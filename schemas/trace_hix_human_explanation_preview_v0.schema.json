@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "trace_hix_human_explanation_preview_v0.schema.json",
+  "title": "TRACE_HIX_HUMAN_EXPLANATION_PREVIEW_V0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "summary",
+    "why_selected",
+    "why_not_alternatives",
+    "evidence_refs",
+    "trace_refs",
+    "uncertainty_notes",
+    "residual_questions",
+    "counterfactual_explanations",
+    "claim_atoms",
+    "reason_codes",
+    "source_bundle_ref"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "trace_hix_human_explanation_preview_v0"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "why_selected": {
+      "type": "string"
+    },
+    "why_not_alternatives": {
+      "type": "array"
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trace_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainty_notes": {
+      "type": "array"
+    },
+    "residual_questions": {
+      "type": "array"
+    },
+    "counterfactual_explanations": {
+      "type": "array"
+    },
+    "claim_atoms": {
+      "type": "array"
+    },
+    "reason_codes": {
+      "type": "array"
+    },
+    "source_bundle_ref": {
+      "type": "string"
+    },
+    "validator_report_refs": {
+      "type": "array"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "config_version": "v0_2_trace_hix_config",
+  "branch": "v0.2-trace-hix-contracts-and-validators",
+  "gold_seed_count": 30,
+  "negative_seed_count": 30,
+  "hard_gates": [
+    "schema",
+    "trace_immutability",
+    "reference_closure",
+    "claim_support",
+    "forbidden_output",
+    "authority_leakage",
+    "counterfactual_only"
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

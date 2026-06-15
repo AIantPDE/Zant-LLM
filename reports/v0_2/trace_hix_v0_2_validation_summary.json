@@ -1,0 +1,18 @@
+{
+  "summary_version": "trace_hix_v0_2_validation_summary",
+  "total_cases": 60,
+  "passed_cases": 30,
+  "failed_cases": 30,
+  "reason_counts": {
+    "trace_immutability_failure": 5,
+    "evidence_references_escape_bundle": 5,
+    "unsupported_claim_atom": 10,
+    "forbidden_output_field": 10,
+    "authority_or_decision_leakage": 10,
+    "counterfactual_not_explanation_only": 5
+  },
+  "mismatches": [],
+  "all_expectations_met": true,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}
