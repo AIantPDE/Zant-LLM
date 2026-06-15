@@ -1,27 +1,12 @@
 {
   "registry_version": "trace_hix_allowed_predicate_registry_v0",
-  "allowed_claim_types": [
-    "why_selected",
-    "why_not_alternative",
-    "evidence_summary",
-    "risk_comparison",
-    "uncertainty_disclosure",
-    "residual_question",
-    "counterfactual_condition",
-    "abstention"
-  ],
   "allowed_predicates": [
     "has_lower_multi_agent_conflict_risk",
-    "has_stronger_evidence_support",
-    "has_lower_constraint_violation_risk",
-    "has_higher_trace_score",
-    "alternative_has_unresolved_conflict",
-    "alternative_has_weaker_support",
-    "evidence_indicates_constraint_pressure",
-    "evidence_indicates_uncertainty",
-    "evidence_indicates_stale_signal",
-    "needs_human_confirmation",
-    "would_change_if_missing_evidence_changes",
-    "abstains_due_to_insufficient_trace_support"
+    "alternative_has_higher_constraint_risk",
+    "has_bounded_uncertainty",
+    "requires_human_confirmation",
+    "counterfactual_only_condition",
+    "abstains_due_to_missing_evidence",
+    "summarizes_evidence_ref"
   ]
 }

@@ -1,49 +1,11 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "trace_hix_claim_atom_v0.schema.json",
-  "title": "TRACE_HIX_CLAIM_ATOM_V0",
-  "type": "object",
+  "schema": "TRACE_HIX_CLAIM_ATOM_V0",
   "required": [
     "claim_atom_version",
     "claim_id",
     "claim_type",
     "subject_ref",
     "predicate",
-    "object_ref",
-    "qualifier",
-    "support_refs",
-    "text_span"
-  ],
-  "properties": {
-    "claim_atom_version": {
-      "const": "trace_hix_claim_atom_v0"
-    },
-    "claim_id": {
-      "type": "string"
-    },
-    "claim_type": {
-      "type": "string"
-    },
-    "subject_ref": {
-      "type": "string"
-    },
-    "predicate": {
-      "type": "string"
-    },
-    "object_ref": {
-      "type": "string"
-    },
-    "qualifier": {
-      "type": "object"
-    },
-    "support_refs": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "text_span": {
-      "type": "string"
-    }
-  }
+    "support_refs"
+  ]
 }

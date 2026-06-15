@@ -1,50 +1,10 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "trace_hix_drl_decision_explanation_bundle_v0.schema.json",
-  "title": "TRACE_HIX_DRL_DECISION_EXPLANATION_BUNDLE_V0",
-  "type": "object",
+  "schema": "TRACE_HIX_DRL_DECISION_EXPLANATION_BUNDLE_V0",
   "required": [
-    "schema_version",
-    "case_id",
-    "bundle_ref",
+    "bundle_version",
     "decision_preview",
     "actual_trace",
     "evidence_projection",
-    "uncertainty_context",
-    "interaction_context",
-    "constraints",
-    "metadata"
-  ],
-  "properties": {
-    "schema_version": {
-      "const": "trace_hix_drl_decision_explanation_bundle_v0"
-    },
-    "case_id": {
-      "type": "string"
-    },
-    "bundle_ref": {
-      "type": "string"
-    },
-    "decision_preview": {
-      "type": "object"
-    },
-    "actual_trace": {
-      "type": "object"
-    },
-    "evidence_projection": {
-      "type": "array"
-    },
-    "uncertainty_context": {
-      "type": "object"
-    },
-    "interaction_context": {
-      "type": "object"
-    },
-    "constraints": {
-      "type": "object"
-    },
-    "metadata": {
-      "type": "object"
-    }
-  }
+    "constraints"
+  ]
 }

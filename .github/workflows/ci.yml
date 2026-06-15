@@ -1,17 +1,19 @@
-name: zant-llm-v0-2-ci
-
+name: zant-llm-v0-3-ci
 on:
-  pull_request:
   push:
-
+    branches: [v0.3-gemma4-qlora-explanation-baseline]
+  pull_request:
 jobs:
   verify:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - name: Run v0.2 local verification
-        shell: pwsh
-        run: powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_2_ALL_LOCAL.ps1
+      - run: python scripts/validate_v0_3_repository.py
+      - run: python -m compileall src scripts
+      - run: python scripts/run_v0_3_stdlib_tests.py
+      - run: python scripts/build_v0_3_sft_dataset.py
+      - run: python scripts/eval_v0_3_gemma4_qlora.py --mode contract
+      - run: python scripts/make_v0_3_release_manifest.py

@@ -1,20 +1,22 @@
 # Training Lane Registry
 
-## Current branch
+| Branch | Purpose | Status |
+|---|---|---|
+| v0.1-explanation-preview-baseline | PowerShell baseline and seed skeleton | previous |
+| v0.2-trace-hix-contracts-and-validators | TRACE-HIX contracts, schema, validators | previous |
+| v0.3-gemma4-qlora-explanation-baseline | Gemma 4 E2B QLoRA explanation baseline | current |
 
-`v0.2-trace-hix-contracts-and-validators`
+## v0.3 Scope
 
-Purpose:
+- Build SFT dataset from TRACE-HIX bundles and human explanation previews.
+- Train a first Gemma 4 E2B LoRA/QLoRA adapter.
+- Run contract validation before and after generation.
+- Generate model card draft, eval report, release manifest.
 
-- Convert TRACE-HIX v0.2 formalization into executable schemas, registries, validators, gold seeds, negative seeds, and validation reports.
+## Out of Scope
 
-Base branch:
-
-`v0.1-explanation-preview-baseline`
-
-## Next branches
-
-- `v0.3-gemma4-qlora-explanation-baseline`
-- `v0.4-evidence-grounded-explanation`
-- `v0.5-explanation-hard-cases`
-- `v0.6-realworld-explanation-eval`
+- Runtime provider connection.
+- aiant-zant model call enablement.
+- Provider dispatch.
+- Route/fetch decision generation.
+- Execution/writeback/worker actions.

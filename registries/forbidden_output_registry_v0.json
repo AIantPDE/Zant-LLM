@@ -1,8 +1,6 @@
 {
   "registry_version": "trace_hix_forbidden_output_registry_v0",
-  "scan_scope": "explanation_output_payload_only",
-  "important_note": "Forbidden fields must not appear in explanation output at any value, including false. Input bundle governance metadata may declare authority boundaries separately.",
-  "forbidden_output_fields": [
+  "forbidden_fields": [
     "agent_action",
     "execution_action",
     "fetch_decision",
