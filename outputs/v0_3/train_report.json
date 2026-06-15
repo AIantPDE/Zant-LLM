@@ -1,0 +1,19 @@
+{
+  "report_version": "zant_llm_v0_3_train_report_v1_windows_no_pyarrow",
+  "branch": "v0.3-gemma4-qlora-explanation-baseline",
+  "base_model": "D:\\gemma-4-E2B-it",
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\Zant-LLM-v0.3-train\\outputs\\v0_3\\gemma4_qlora_adapter",
+  "train_rows": 60,
+  "eval_rows": 12,
+  "max_seq_len": 64,
+  "epochs": 1.0,
+  "batch_size": 1,
+  "grad_accum": 64,
+  "learning_rate": 0.0001,
+  "no_4bit": true,
+  "elapsed_seconds": 178.38073325157166,
+  "train_data_sha256": "dd08f3ab04582730d29da486d43c8920ba698e55ca78a036327b0bbc2e6248b3",
+  "eval_data_sha256": "b74ca432b5d2568d3ac3b826d6ca40432656d32b091997a7ebfeec42fcfb0838",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}
