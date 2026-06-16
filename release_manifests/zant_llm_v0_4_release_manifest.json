@@ -18,6 +18,41 @@
       "path": "reports/v0_4/zant_llm_v0_4_gate_aware_eval_report.json",
       "sha256": "476144020d4835f3a0e28e20fd056161c28800c3e2253d6b7e817d1f9ebe9047",
       "size_bytes": 5700
+    },
+    {
+      "path": "outputs/v0_4/gemma4_lora_adapter/adapter_config.json",
+      "sha256": "e8c34f221e76d716344ac0ecee67d8526eaad73890f508cf1fa624dc4c356b2b",
+      "size_bytes": 1192
+    },
+    {
+      "path": "outputs/v0_4/gemma4_lora_adapter/adapter_model.safetensors",
+      "sha256": "192480bf7fc9b108f14a7b416f323d901839d4c05933c5fc4a80979ca492018c",
+      "size_bytes": 11449296
+    },
+    {
+      "path": "outputs/v0_4/gemma4_lora_adapter/chat_template.jinja",
+      "sha256": "7b6c1bcb70c9ed021aac728785c3d769bb5c04377e0fb43dd1e787be48fa817f",
+      "size_bytes": 17154
+    },
+    {
+      "path": "outputs/v0_4/gemma4_lora_adapter/README.md",
+      "sha256": "33d27a4a7e6a9d9686ff017698845636f0417e7bd568a9fc70862c28c5408248",
+      "size_bytes": 5188
+    },
+    {
+      "path": "outputs/v0_4/gemma4_lora_adapter/tokenizer.json",
+      "sha256": "3741e0ab1763a455b73bc7ec6917f80e6b62a468fa277762f873ad7260ad548d",
+      "size_bytes": 32169723
+    },
+    {
+      "path": "outputs/v0_4/gemma4_lora_adapter/tokenizer_config.json",
+      "sha256": "63810c214e620bc5c0af37b058eb9f6eb1c7d2a72b770745d2767dc1fee67034",
+      "size_bytes": 2837
+    },
+    {
+      "path": "outputs/v0_4/gemma4_lora_adapter/zant_llm_v0_4_training_manifest.json",
+      "sha256": "6355e494ae2cb40c650ee15ff236cbabf0b82e68e156774858c3090211b913b2",
+      "size_bytes": 816
     }
   ]
 }
