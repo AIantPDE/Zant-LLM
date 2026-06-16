@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "case_id",
+    "gate_result",
+    "prompt",
+    "completion"
+  ],
+  "additionalProperties": true
+}

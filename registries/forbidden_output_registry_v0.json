@@ -1,6 +1,6 @@
 {
-  "registry_version": "trace_hix_forbidden_output_registry_v0",
-  "forbidden_fields": [
+  "version": "forbidden_output_registry_v0",
+  "forbidden_output_fields": [
     "agent_action",
     "execution_action",
     "fetch_decision",

@@ -1,86 +1,38 @@
-# Zant-LLM v0.3 Gemma4 QLoRA Explanation Baseline
+# Zant-LLM v0.4 Evidence-Gated Explanation Admissibility
 
-分支名：`v0.3-gemma4-qlora-explanation-baseline`
+Branch: `v0.4-evidence-gated-explanation-admissibility`.
 
-本分支的目标是把 v0.2 的 TRACE-HIX schema、registry、validator 与 gold/negative seed，推进到第一个可训练的 **Gemma 4 E2B QLoRA explanation baseline**。
+This branch upgrades v0.3 Gemma4 LoRA baseline into gate-aware explanation training. It includes gate-aware SFT data, READY / BLOCKED / CLOSEOUT / FAILCLOSED targets, TRACE-HIX admissibility gates, contract evaluation, and Windows PowerShell training scripts.
 
-本分支允许：
+## Boundary
 
-- 构造 TRACE-HIX supervised fine-tuning dataset；
-- 使用本地 `D:\gemma-4-E2B-it` 进行 QLoRA / LoRA 解释生成基线训练；
-- 运行 contract-only eval 与可选 model eval；
-- 输出 adapter manifest、eval report、release manifest；
-- 保留 checkpoint sha256 / config / data manifest / model card 信息。
+- `RUNTIME_AUTHORITY_GRANTED=False`
+- `PROVIDER_DISPATCH_ENABLED=False`
+- no route decision
+- no fetch decision
+- no worker trigger
+- no writeback execution
 
-本分支仍然禁止：
-
-- 接入 `aiant-zant runtime`；
-- provider dispatch；
-- provider registry update；
-- route decision；
-- fetch decision；
-- worker trigger；
-- writeback execution；
-- runtime authority。
-
-## 快速开始：只做本地验证
+## Local run
 
 ```powershell
-cd C:\Users\Hilo\Desktop\zant_llm_v0_3_gemma4_qlora_explanation_baseline_branch
-powershell -ExecutionPolicy Bypass -File .\scripts\VERIFY_ZANT_LLM_V0_3_LOCAL.ps1
+cd C:\Users\Administrator\Desktop\Zant-LLM-v0.4-work
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_4_ALL_LOCAL.ps1
 ```
 
-## 构建 v0.3 SFT 数据集
+## Real Gemma4 LoRA fallback training
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\BUILD_V0_3_SFT_DATASET.ps1
+$env:PYTHONPATH = "$PWD\src"
+$env:CUDA_VISIBLE_DEVICES = "0"
+$env:PYTORCH_CUDA_ALLOC_CONF = "max_split_size_mb:128"
+
+python -X faulthandler .\scripts\train_v0_4_gemma4_lora.py `
+  --base-model "D:\gemma-4-E2B-it" `
+  --max-seq-len 64 `
+  --epochs 1 `
+  --batch-size 1 `
+  --grad-accum 64 `
+  --learning-rate 1e-4 `
+  --no-4bit
 ```
-
-## 安装训练依赖
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\INSTALL_ZANT_LLM_V0_3_TRAIN_DEPS.ps1
-```
-
-如果你的 CUDA / torch 环境已经稳定，可以先不运行安装脚本，直接使用当前环境。
-
-## 训练 Gemma 4 E2B QLoRA baseline
-
-默认 base model：`D:\gemma-4-E2B-it`
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\TRAIN_ZANT_LLM_V0_3_GEMMA4_QLORA.ps1
-```
-
-自定义 base model：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\TRAIN_ZANT_LLM_V0_3_GEMMA4_QLORA.ps1 `
-  -BaseModelPath "D:\gemma-4-E2B-it" `
-  -OutputDir "E:\Zant-LLM-v0.3\gemma4_qlora_adapter"
-```
-
-## 评估
-
-contract-only 评估不加载大模型，只验证 eval targets 是否满足 TRACE-HIX gates：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\EVAL_ZANT_LLM_V0_3_GEMMA4_QLORA.ps1 -Mode contract
-```
-
-model 评估会尝试加载 base model + adapter：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\EVAL_ZANT_LLM_V0_3_GEMMA4_QLORA.ps1 `
-  -Mode model `
-  -BaseModelPath "D:\gemma-4-E2B-it" `
-  -AdapterPath "outputs0_3\gemma4_qlora_adapter"
-```
-
-## 推送到 GitHub
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V0_3_BASED_ON_REMOTE_V0_2.ps1
-```
-
-默认从远程 `v0.2-trace-hix-contracts-and-validators` 新建 `v0.3-gemma4-qlora-explanation-baseline` 并推送到 `https://github.com/AIantPDE/Zant-LLM.git`。

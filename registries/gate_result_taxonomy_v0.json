@@ -1,0 +1,9 @@
+{
+  "version": "trace_hix_gate_result_taxonomy_v0",
+  "allowed_results": [
+    "READY",
+    "BLOCKED",
+    "CLOSEOUT",
+    "FAILCLOSED"
+  ]
+}

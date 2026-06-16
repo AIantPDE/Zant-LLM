@@ -1,0 +1,23 @@
+{
+  "release_manifest_version": "zant_llm_v0_4_release_manifest_v0",
+  "branch": "v0.4-evidence-gated-explanation-admissibility",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "files": [
+    {
+      "path": "data/trace_hix_v0_4/sft_train_180.jsonl",
+      "sha256": "bb69fca85cf3c873dd500da301bfb28bbbc5c172880bd51b71bd064313acfd32",
+      "size_bytes": 520650
+    },
+    {
+      "path": "data/trace_hix_v0_4/sft_eval_45.jsonl",
+      "sha256": "ea27f793fb10c0da02e0c5069e08edb3f1e7aa4bbb9e59e5d9985fed77dda9fc",
+      "size_bytes": 129874
+    },
+    {
+      "path": "reports/v0_4/zant_llm_v0_4_gate_aware_eval_report.json",
+      "sha256": "476144020d4835f3a0e28e20fd056161c28800c3e2253d6b7e817d1f9ebe9047",
+      "size_bytes": 5700
+    }
+  ]
+}

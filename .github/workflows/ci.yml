@@ -1,19 +1,13 @@
-name: zant-llm-v0-3-ci
-on:
-  push:
-    branches: [v0.3-gemma4-qlora-explanation-baseline]
-  pull_request:
+name: ci
+on: [push, pull_request]
 jobs:
-  verify:
+  v0_4_verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - run: python scripts/validate_v0_3_repository.py
+      - run: python scripts/validate_v0_4_repository.py
       - run: python -m compileall src scripts
-      - run: python scripts/run_v0_3_stdlib_tests.py
-      - run: python scripts/build_v0_3_sft_dataset.py
-      - run: python scripts/eval_v0_3_gemma4_qlora.py --mode contract
-      - run: python scripts/make_v0_3_release_manifest.py
+      - run: PYTHONPATH=src python scripts/run_v0_4_stdlib_tests.py

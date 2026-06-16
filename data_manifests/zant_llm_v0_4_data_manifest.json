@@ -1,0 +1,7 @@
+{
+  "version": "zant_llm_v0_4_data_manifest",
+  "train_cases": 180,
+  "eval_cases": 45,
+  "sft_train": "data/trace_hix_v0_4/sft_train_180.jsonl",
+  "sft_eval": "data/trace_hix_v0_4/sft_eval_45.jsonl"
+}

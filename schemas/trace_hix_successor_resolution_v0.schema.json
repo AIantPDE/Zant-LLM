@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "current_lane",
+    "candidate_successor",
+    "decision",
+    "blocking_residuals"
+  ],
+  "additionalProperties": true
+}

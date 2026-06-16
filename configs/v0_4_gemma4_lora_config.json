@@ -1,0 +1,17 @@
+{
+  "base_model": "D:\\gemma-4-E2B-it",
+  "max_seq_len": 64,
+  "batch_size": 1,
+  "grad_accum": 64,
+  "learning_rate": 0.0001,
+  "no_4bit": true,
+  "target_modules": [
+    "q_proj.linear",
+    "k_proj.linear",
+    "v_proj.linear",
+    "o_proj.linear",
+    "gate_proj.linear",
+    "up_proj.linear",
+    "down_proj.linear"
+  ]
+}

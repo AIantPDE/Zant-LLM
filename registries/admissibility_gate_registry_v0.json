@@ -1,0 +1,10 @@
+{
+  "version": "admissibility_gate_registry_v0",
+  "gates": [
+    "ExplanationAdmissibilityGate",
+    "TrainingSampleAdmissibilityGate",
+    "FollowUpAdmissibilityGate",
+    "CounterfactualAdmissibilityGate",
+    "LaneSuccessorAdmissibilityGate"
+  ]
+}

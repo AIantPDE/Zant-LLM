@@ -1,0 +1,280 @@
+{
+  "report_version": "zant_llm_v0_4_gate_aware_eval_v0",
+  "total": 45,
+  "passed": 45,
+  "pass_rate": 1.0,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "details": [
+    {
+      "case_id": "eval_000",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_001",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_002",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_003",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_004",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_005",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_006",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_007",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_008",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_009",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_010",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_011",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_012",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_013",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_014",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_015",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_016",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_017",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_018",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_019",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_020",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_021",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_022",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_023",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_024",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_025",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_026",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_027",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_028",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_029",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_030",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_031",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_032",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_033",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_034",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_035",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_036",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_037",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_038",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_039",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_040",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    },
+    {
+      "case_id": "eval_041",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_042",
+      "expected": "CLOSEOUT",
+      "actual": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "case_id": "eval_043",
+      "expected": "FAILCLOSED",
+      "actual": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "case_id": "eval_044",
+      "expected": "READY",
+      "actual": "READY",
+      "ok": true
+    }
+  ]
+}
