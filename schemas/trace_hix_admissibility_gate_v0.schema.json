@@ -1,11 +1,21 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+ v0.4-evidence-gated-explanation-admissibility
+
   "$id": "trace_hix_admissibility_gate_v0.schema.json",
   "title": "TRACE-HIX Admissibility Gate V0",
+ v0.1-explanation-preview-baseline
   "type": "object",
   "required": [
     "gate_name",
     "action_type",
+v0.4-evidence-gated-explanation-admissibility
+    "decision",
+    "readiness_vector"
+  ],
+  "additionalProperties": true
+}
+
     "readiness_vector",
     "decision"
   ],
@@ -55,3 +65,4 @@
   },
   "additionalProperties": true
 }
+v0.1-explanation-preview-baseline

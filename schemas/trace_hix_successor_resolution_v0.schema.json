@@ -1,5 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+ v0.4-evidence-gated-explanation-admissibility
+  "type": "object",
+  "required": [
+    "current_lane",
+    "candidate_successor",
+    "decision",
+    "blocking_residuals"
+  ],
+  "additionalProperties": true
+}
+
   "$id": "trace_hix_successor_resolution_v0.schema.json",
   "title": "TRACE-HIX Successor Resolution V0",
   "type": "object",
@@ -42,3 +53,4 @@
   },
   "additionalProperties": true
 }
+v0.1-explanation-preview-baseline

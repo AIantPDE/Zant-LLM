@@ -1,13 +1,23 @@
+ v0.4-evidence-gated-explanation-admissibility
+from __future__ import annotations
+from typing import Any
+from .common import GateDecision, base_gate_decision
+
 ﻿from __future__ import annotations
 
 from typing import Any
 
 from .common import GateDecision, contains_forbidden_key, evaluate_readiness_vector
 
+ v0.1-explanation-preview-baseline
 
 class ExplanationAdmissibilityGate:
     name = "ExplanationAdmissibilityGate"
     action_type = "explanation_output"
+v0.4-evidence-gated-explanation-admissibility
+    def evaluate(self, payload: dict[str, Any]) -> GateDecision:
+        return base_gate_decision(self.name, self.action_type, payload)
+
 
     def evaluate(self, payload: dict[str, Any]) -> GateDecision:
         readiness = dict(payload.get("readiness_vector", {}))
@@ -69,3 +79,4 @@ class ExplanationAdmissibilityGate:
             blocking_residuals=missing,
             reason="ready" if decision == "READY" else "missing evidence or admissibility residuals",
         )
+ v0.1-explanation-preview-baseline

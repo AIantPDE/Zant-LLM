@@ -1,8 +1,0 @@
-[project]
-name = "zant-llm-v0-3"
-version = "0.3.0"
-requires-python = ">=3.10"
-
-[tool.pytest.ini_options]
-pythonpath = ["src"]
-testpaths = ["tests"]

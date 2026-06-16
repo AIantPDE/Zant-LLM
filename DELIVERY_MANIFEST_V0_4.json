@@ -1,0 +1,11 @@
+{
+  "package": "zant_llm_v0_4_evidence_gated_explanation_admissibility_branch",
+  "branch": "v0.4-evidence-gated-explanation-admissibility",
+  "train_cases": 180,
+  "eval_cases": 45,
+  "stdlib_tests_passed": 5,
+  "gate_pass_rate": 1.0,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "member_count": 79
+}

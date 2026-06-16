@@ -1,5 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+< v0.4-evidence-gated-explanation-admissibility
+  "type": "object",
+  "required": [
+    "receipt_id",
+    "branch",
+    "predecessor",
+    "gate_results",
+    "sha256_seal"
+  ],
+  "additionalProperties": true
+}
+
   "$id": "trace_hix_gate_aware_receipt_v0.schema.json",
   "title": "TRACE-HIX Gate-aware Receipt V0",
   "type": "object",
@@ -58,3 +70,4 @@
   },
   "additionalProperties": true
 }
+ v0.1-explanation-preview-baseline

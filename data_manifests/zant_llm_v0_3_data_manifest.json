@@ -1,7 +1,0 @@
-{
-  "branch": "v0.3-gemma4-qlora-explanation-baseline",
-  "train_case_count": 60,
-  "eval_case_count": 12,
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}

@@ -1,5 +1,1 @@
-# Release Policy v0.3
-
-v0.3 releases may include source code, configs, data manifests, eval reports, release manifests, and model card drafts.
-
-Large model weights should not be committed repeatedly into source branches. Store adapter artifacts in controlled model artifact storage or release assets with SHA256 sidecars.
+A v0.4 release requires local verification, SFT build, contract evaluation, release manifest, and false runtime/provider boundary flags.

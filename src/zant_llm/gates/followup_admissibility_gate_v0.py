@@ -1,4 +1,14 @@
 from __future__ import annotations
+ v0.4-evidence-gated-explanation-admissibility
+from typing import Any
+from .common import GateDecision, base_gate_decision
+
+class FollowUpAdmissibilityGate:
+    name = "FollowUpAdmissibilityGate"
+    action_type = "followup_output"
+    def evaluate(self, payload: dict[str, Any]) -> GateDecision:
+        return base_gate_decision(self.name, self.action_type, payload)
+
 
 from typing import Any
 
@@ -25,3 +35,4 @@ class FollowUpAdmissibilityGate:
             blocking_residuals=missing,
             reason="ready" if decision == "READY" else "missing evidence or admissibility residuals",
         )
+ v0.1-explanation-preview-baseline

@@ -1,26 +1,13 @@
-# Zant-LLM v0.3 Model Card Template
+# Zant-LLM v0.4 Model Card Template
 
-## Model
+## Intended use
+Generate bounded explanation artifacts conditioned on TRACE-HIX bundles, claim atoms, readiness vectors, and gate reports.
 
-- Base model: `D:\gemma-4-E2B-it`
-- Adapter type: QLoRA / LoRA
-- Training branch: `v0.3-gemma4-qlora-explanation-baseline`
+## Non-use
+No runtime authority, provider dispatch, route decision, fetch decision, worker trigger, or writeback execution.
 
-## Intended Use
+## Training data
+`data/trace_hix_v0_4/sft_train_180.jsonl`
 
-Generate TRACE-HIX compliant explanation previews from DRL decision preview, actual decision trace, and bounded evidence projections.
-
-## Not Intended For
-
-- Creating new DRL decisions.
-- Routing, fetching, provider dispatch, writeback, worker trigger, execution authority.
-- Direct runtime use inside aiant-zant without separate provider readiness and guarded integration.
-
-## Required Validators
-
-- Schema validation.
-- Reference closure validation.
-- Claim support validation.
-- Forbidden output scan.
-- Authority leakage scan.
-- New decision leakage scan.
+## Evaluation data
+`data/trace_hix_v0_4/sft_eval_45.jsonl`

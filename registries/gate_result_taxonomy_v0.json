@@ -1,4 +1,14 @@
 {
+ v0.4-evidence-gated-explanation-admissibility
+  "version": "trace_hix_gate_result_taxonomy_v0",
+  "allowed_results": [
+    "READY",
+    "BLOCKED",
+    "CLOSEOUT",
+    "FAILCLOSED"
+  ]
+}
+
   "READY": {
     "meaning": "All required evidence and admissibility conditions are satisfied."
   },
@@ -14,3 +24,4 @@
   "runtime_authority_granted": false,
   "provider_dispatch_enabled": false
 }
+ v0.1-explanation-preview-baseline

@@ -1,10 +1,18 @@
 {
+ v0.4-evidence-gated-explanation-admissibility
+  "version": "admissibility_gate_registry_v0",
+
+ v0.1-explanation-preview-baseline
   "gates": [
     "ExplanationAdmissibilityGate",
     "TrainingSampleAdmissibilityGate",
     "FollowUpAdmissibilityGate",
     "CounterfactualAdmissibilityGate",
     "LaneSuccessorAdmissibilityGate"
+ v0.4-evidence-gated-explanation-admissibility
+  ]
+}
+
   ],
   "action_types": [
     "explanation_output",
@@ -22,3 +30,4 @@
   "runtime_authority_granted": false,
   "provider_dispatch_enabled": false
 }
+ v0.1-explanation-preview-baseline
