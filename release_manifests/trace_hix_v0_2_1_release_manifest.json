@@ -1,0 +1,16 @@
+{
+  "receipt_id": "trace_hix_v0_2_1_orsc_gate_alignment_receipt_v0",
+  "lane": "v0.2.1-trace-hix-orsc-gate-alignment",
+  "predecessor_ref": "v0.2-trace-hix-contracts-and-validators",
+  "gate_result": "READY",
+  "successor_candidates": [
+    "v0.3-gemma4-qlora-explanation-baseline",
+    "v0.4-evidence-gated-explanation-admissibility"
+  ],
+  "actual_successor": "v0.4-evidence-gated-explanation-admissibility",
+  "missing_evidence": [],
+  "report_sha256": "7baf9f3d191568d0aefd77b536b5b4497cfc2260366c326989e0c1a56563de1a",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "receipt_hash": "a4d8925ddf7e4a46413703bb278aba9be2880ef62f06d19056837a18ed88dfd4"
+}

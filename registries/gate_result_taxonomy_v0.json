@@ -1,0 +1,16 @@
+{
+  "READY": {
+    "meaning": "All required evidence and admissibility conditions are satisfied."
+  },
+  "BLOCKED": {
+    "meaning": "Missing evidence or admissibility residuals must be enumerated."
+  },
+  "CLOSEOUT": {
+    "meaning": "No safe action path remains for this lane or route."
+  },
+  "FAILCLOSED": {
+    "meaning": "Authority, support, reference, state, or successor safety condition failed."
+  },
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

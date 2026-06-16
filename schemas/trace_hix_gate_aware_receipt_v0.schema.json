@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "trace_hix_gate_aware_receipt_v0.schema.json",
+  "title": "TRACE-HIX Gate-aware Receipt V0",
+  "type": "object",
+  "required": [
+    "receipt_id",
+    "lane",
+    "predecessor_ref",
+    "gate_result",
+    "receipt_hash"
+  ],
+  "properties": {
+    "receipt_id": {
+      "type": "string"
+    },
+    "lane": {
+      "type": "string"
+    },
+    "predecessor_ref": {
+      "type": "string"
+    },
+    "gate_result": {
+      "enum": [
+        "READY",
+        "BLOCKED",
+        "CLOSEOUT",
+        "FAILCLOSED"
+      ]
+    },
+    "successor_candidates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actual_successor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "receipt_hash": {
+      "type": "string"
+    },
+    "runtime_authority_granted": {
+      "const": false
+    },
+    "provider_dispatch_enabled": {
+      "const": false
+    }
+  },
+  "additionalProperties": true
+}
