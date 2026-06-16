@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "trace_hix_admissibility_gate_v0.schema.json",
+  "title": "TRACE-HIX Admissibility Gate V0",
+  "type": "object",
+  "required": [
+    "gate_name",
+    "action_type",
+    "readiness_vector",
+    "decision"
+  ],
+  "properties": {
+    "gate_name": {
+      "type": "string"
+    },
+    "action_type": {
+      "type": "string"
+    },
+    "readiness_vector": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          true,
+          false,
+          "Unknown"
+        ]
+      }
+    },
+    "decision": {
+      "enum": [
+        "READY",
+        "BLOCKED",
+        "CLOSEOUT",
+        "FAILCLOSED"
+      ]
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blocking_residuals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "runtime_authority_granted": {
+      "const": false
+    },
+    "provider_dispatch_enabled": {
+      "const": false
+    }
+  },
+  "additionalProperties": true
+}

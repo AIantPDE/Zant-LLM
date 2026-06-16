@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "trace_hix_successor_resolution_v0.schema.json",
+  "title": "TRACE-HIX Successor Resolution V0",
+  "type": "object",
+  "required": [
+    "resolver_version",
+    "input_receipt_ref",
+    "gate_result",
+    "actual_successor"
+  ],
+  "properties": {
+    "resolver_version": {
+      "const": "trace_hix_successor_resolver_v0"
+    },
+    "input_receipt_ref": {
+      "type": "string"
+    },
+    "gate_result": {
+      "enum": [
+        "READY",
+        "BLOCKED",
+        "CLOSEOUT",
+        "FAILCLOSED"
+      ]
+    },
+    "actual_successor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "runtime_authority_granted": {
+      "const": false
+    },
+    "provider_dispatch_enabled": {
+      "const": false
+    }
+  },
+  "additionalProperties": true
+}
