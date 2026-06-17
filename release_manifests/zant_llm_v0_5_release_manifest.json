@@ -1,8 +1,8 @@
 {
   "manifest_version": "zant_llm_v0_5_release_manifest_v1",
   "branch": "v0.5-adversarial-hard-cases-and-failclosed-eval",
-  "file_count": 64,
-  "created_at": "2026-06-17T03:37:03Z",
+  "file_count": 72,
+  "created_at": "2026-06-17T04:20:41Z",
   "runtime_authority_granted": false,
   "provider_dispatch_enabled": false,
   "files": [
@@ -82,9 +82,49 @@
       "bytes": 0
     },
     {
+      "path": "outputs/v0_5/gemma4_lora_adapter/adapter_config.json",
+      "sha256": "1e4e1df84b1881b8dfc787580fa7d207bf819d55b2fe7b835c454e5020e0c016",
+      "bytes": 1192
+    },
+    {
+      "path": "outputs/v0_5/gemma4_lora_adapter/adapter_model.safetensors",
+      "sha256": "e61fc3638cc0b2e2d61c44821851faab5a7e468309d00ea52a1387a8e2d303ed",
+      "bytes": 11449296
+    },
+    {
+      "path": "outputs/v0_5/gemma4_lora_adapter/chat_template.jinja",
+      "sha256": "7b6c1bcb70c9ed021aac728785c3d769bb5c04377e0fb43dd1e787be48fa817f",
+      "bytes": 17154
+    },
+    {
+      "path": "outputs/v0_5/gemma4_lora_adapter/README.md",
+      "sha256": "33d27a4a7e6a9d9686ff017698845636f0417e7bd568a9fc70862c28c5408248",
+      "bytes": 5188
+    },
+    {
+      "path": "outputs/v0_5/gemma4_lora_adapter/tokenizer.json",
+      "sha256": "3741e0ab1763a455b73bc7ec6917f80e6b62a468fa277762f873ad7260ad548d",
+      "bytes": 32169723
+    },
+    {
+      "path": "outputs/v0_5/gemma4_lora_adapter/tokenizer_config.json",
+      "sha256": "63810c214e620bc5c0af37b058eb9f6eb1c7d2a72b770745d2767dc1fee67034",
+      "bytes": 2837
+    },
+    {
+      "path": "outputs/v0_5/gemma4_lora_adapter/zant_llm_v0_5_training_manifest.json",
+      "sha256": "36aeabe8584fe441d4ef7bab99400ebc1e15061663c6c60f502f4a7d709e4059",
+      "bytes": 683
+    },
+    {
       "path": "outputs/v0_5/README.md",
       "sha256": "f579e0dcfcda33360a4e88bc657adb48484afdaf08690ba9fd05c7a389edc74b",
       "bytes": 26
+    },
+    {
+      "path": "outputs/v0_5/train_report.json",
+      "sha256": "36aeabe8584fe441d4ef7bab99400ebc1e15061663c6c60f502f4a7d709e4059",
+      "bytes": 683
     },
     {
       "path": "README.md",
@@ -118,7 +158,7 @@
     },
     {
       "path": "release_manifests/zant_llm_v0_5_release_manifest.json",
-      "sha256": "c4584a6c74b10ea7fc2daaadddc38d40c028748565f8d4e9eb41c1847315dbff",
+      "sha256": "f2f52ea26b9381d16c5345a3ab2d3da4a3d4b20c157921e0ce4e80d1d53ff89f",
       "bytes": 11503
     },
     {
