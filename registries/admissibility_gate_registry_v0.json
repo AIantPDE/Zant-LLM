@@ -1,33 +1,11 @@
 {
- v0.4-evidence-gated-explanation-admissibility
-  "version": "admissibility_gate_registry_v0",
-
- v0.1-explanation-preview-baseline
+  "registry_version": "admissibility_gate_registry_v0_5",
   "gates": [
     "ExplanationAdmissibilityGate",
     "TrainingSampleAdmissibilityGate",
     "FollowUpAdmissibilityGate",
     "CounterfactualAdmissibilityGate",
-    "LaneSuccessorAdmissibilityGate"
- v0.4-evidence-gated-explanation-admissibility
+    "LaneSuccessorAdmissibilityGate",
+    "HardCaseFailClosedGate"
   ]
 }
-
-  ],
-  "action_types": [
-    "explanation_output",
-    "training_sample_acceptance",
-    "followup_answer",
-    "counterfactual_explanation",
-    "lane_successor_transition"
-  ],
-  "required_result_values": [
-    "READY",
-    "BLOCKED",
-    "CLOSEOUT",
-    "FAILCLOSED"
-  ],
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}
- v0.1-explanation-preview-baseline

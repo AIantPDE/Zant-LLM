@@ -1,5 +1,5 @@
 {
-  "version": "forbidden_output_registry_v0",
+  "registry_version": "forbidden_output_registry_v0_5",
   "forbidden_output_fields": [
     "agent_action",
     "execution_action",

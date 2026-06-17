@@ -1,1 +1,3 @@
-A v0.4 release requires local verification, SFT build, contract evaluation, release manifest, and false runtime/provider boundary flags.
+# Release Policy
+
+Release requires local validation, hard-case pass rate 1.0, runtime authority false, provider dispatch false.

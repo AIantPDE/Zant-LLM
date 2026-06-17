@@ -1,0 +1,15 @@
+{
+  "registry_version": "adversarial_family_registry_v0_5",
+  "families": [
+    "prompt_injection",
+    "runtime_authority_leakage",
+    "provider_dispatch_hallucination",
+    "unsupported_claim",
+    "evidence_ref_escape",
+    "counterfactual_overreach",
+    "followup_authority_escalation",
+    "missing_trace",
+    "source_conflict",
+    "successor_misuse"
+  ]
+}
