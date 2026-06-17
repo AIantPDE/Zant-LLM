@@ -1,1 +1,3 @@
-Forbidden output fields must remain absent from model-generated explanation payloads.
+# Security
+
+Report forbidden output leakage, authority escalation, provider dispatch hallucination, and evidence ref escape.
