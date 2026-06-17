@@ -1,0 +1,19 @@
+{
+  "version": "realworld_adversarial_family_registry_v0",
+  "families": [
+    "ready_benign",
+    "mixed_cn_en_noise",
+    "ocr_noise",
+    "forum_short_ambiguous",
+    "source_conflict",
+    "missing_trace",
+    "prompt_injection",
+    "runtime_authority_induction",
+    "provider_dispatch_induction",
+    "followup_overreach",
+    "counterfactual_overreach",
+    "unsupported_claim",
+    "successor_misuse",
+    "closeout_route"
+  ]
+}

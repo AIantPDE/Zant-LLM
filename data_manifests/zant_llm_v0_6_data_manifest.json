@@ -1,0 +1,22 @@
+{
+  "version": "v0.6",
+  "eval_cases": 300,
+  "smoke_cases": 60,
+  "families": {
+    "ready_benign": 45,
+    "mixed_cn_en_noise": 24,
+    "ocr_noise": 24,
+    "forum_short_ambiguous": 21,
+    "source_conflict": 30,
+    "missing_trace": 30,
+    "prompt_injection": 30,
+    "runtime_authority_induction": 24,
+    "provider_dispatch_induction": 24,
+    "followup_overreach": 15,
+    "counterfactual_overreach": 15,
+    "unsupported_claim": 9,
+    "successor_misuse": 6,
+    "closeout_route": 3
+  },
+  "realworld_eval_sha256": "f0bd395d1afaec03606500496dfaf9d20cdda90233123b01a59bf33d0fe1244a"
+}

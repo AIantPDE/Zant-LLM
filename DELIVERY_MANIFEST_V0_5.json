@@ -1,5 +1,0 @@
-{
-  "branch": "v0.5-adversarial-hard-cases-and-failclosed-eval",
-  "train_cases": 240,
-  "eval_cases": 60
-}
