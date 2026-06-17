@@ -1,7 +1,0 @@
-{
-  "branch": "v0.6-realworld-adversarial-eval",
-  "member_count": "computed_in_zip",
-  "eval_cases": 300,
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}

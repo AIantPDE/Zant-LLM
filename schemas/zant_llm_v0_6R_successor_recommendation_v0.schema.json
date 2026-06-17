@@ -1,0 +1,9 @@
+{
+  "schema": "zant_llm_v0_6R_successor_recommendation_v0",
+  "required": [
+    "successor",
+    "reason",
+    "runtime_authority_granted",
+    "provider_dispatch_enabled"
+  ]
+}
