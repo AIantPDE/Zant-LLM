@@ -1,1 +1,3 @@
-This branch evaluates and summarizes adversarial behavior. It does not execute providers, tools, writeback, runtime tasks, or external dispatch.
+# Security
+
+Fail-closed behavior is required for injection, authority escalation, provider dispatch requests, unsupported claims, and evidence-reference escape.

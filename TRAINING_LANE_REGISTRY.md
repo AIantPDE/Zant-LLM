@@ -1,3 +1,5 @@
-- v0.6: real-world adversarial eval
-- v0.6R: real-world eval calibration
-- proposed successor: v0.7 calibration-informed SFT or v0.7 live adapter eval
+# Training Lane Registry
+
+predecessor: v0.6R-realworld-eval-calibration
+current: v0.7-calibration-informed-sft
+successor candidate: v0.8-heldout-model-eval

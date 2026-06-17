@@ -1,9 +1,0 @@
-{
-  "schema": "zant_llm_v0_6R_calibration_report_v0",
-  "required": [
-    "total",
-    "pass_rate",
-    "decision_counts",
-    "successor_recommendation"
-  ]
-}
