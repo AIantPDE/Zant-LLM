@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "required": [
+    "total",
+    "pass_rate",
+    "decision_counts"
+  ]
+}

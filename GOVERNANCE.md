@@ -1,1 +1,3 @@
-v0.6R is a read-only calibration branch. It must not grant runtime authority, provider dispatch, writeback, routing, scheduling, or execution semantics.
+# Governance
+
+v0.7 uses v0.6R calibration residuals as bounded SFT deltas. No runtime authority or provider dispatch is granted.

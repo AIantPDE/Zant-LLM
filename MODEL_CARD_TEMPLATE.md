@@ -1,1 +1,3 @@
-v0.6R does not produce a new model artifact. It produces calibration reports and v0.7 candidate datasets.
+# Model Card Template
+
+Base model: Gemma4 E2B. Adapter type: LoRA. Purpose: calibration-informed gate-aware explanation / refusal behavior.

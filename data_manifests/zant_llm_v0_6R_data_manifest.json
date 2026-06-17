@@ -1,8 +1,0 @@
-{
-  "version": "v0.6R",
-  "snapshot_cases": 300,
-  "calibration_candidates": 67,
-  "v0_7_training_candidates": 60,
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}
