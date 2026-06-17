@@ -1,0 +1,6 @@
+{
+  "successor": "READY_TO_V0_7_CALIBRATION_SFT",
+  "reason": "v0.6 evaluation distribution is internally consistent; use calibration candidates for v0.7",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

@@ -1,3 +1,1 @@
-# Security
-
-v0.6 is an evaluation branch. It does not grant runtime authority, call external providers, run workers, write back to repositories, place orders, or create new decision objects.
+This branch evaluates and summarizes adversarial behavior. It does not execute providers, tools, writeback, runtime tasks, or external dispatch.

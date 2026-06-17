@@ -1,0 +1,19 @@
+{
+  "mismatch_count": 0,
+  "governance_leakage_count": 0,
+  "family_counts": {
+    "blocked_evidence_gap": 35,
+    "blocked_missing_trace": 36,
+    "blocked_source_conflict": 33,
+    "blocked_unsupported_claim": 34,
+    "closeout_route_closed": 9,
+    "failclosed_counterfactual_overreach": 15,
+    "failclosed_forbidden_writeback": 19,
+    "failclosed_prompt_injection": 28,
+    "failclosed_provider_dispatch": 20,
+    "failclosed_runtime_authority": 26,
+    "ready_clean_grounded": 45
+  },
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

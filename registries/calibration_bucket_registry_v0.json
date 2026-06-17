@@ -1,0 +1,16 @@
+{
+  "registry_version": "zant_llm_v0_6R_calibration_bucket_registry_v0",
+  "buckets": [
+    "ready_clean",
+    "blocked_missing_evidence",
+    "blocked_source_conflict",
+    "blocked_unsupported_claim",
+    "closeout_route_closed",
+    "failclosed_prompt_injection",
+    "failclosed_runtime_authority",
+    "failclosed_provider_dispatch",
+    "failclosed_counterfactual_overreach"
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

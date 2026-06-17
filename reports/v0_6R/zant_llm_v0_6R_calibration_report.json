@@ -1,0 +1,37 @@
+{
+  "report_version": "zant_llm_v0_6R_calibration_report_v1",
+  "branch": "v0.6R-realworld-eval-calibration",
+  "input_file": "C:\\Users\\Administrator\\Desktop\\Zant-LLM-v0.6R-push-work\\data\\trace_hix_v0_6R\\v0_6_realworld_eval_snapshot_300.jsonl",
+  "input_sha256": "6e3778e23842b103b2b78b109eaff66f9c70c7172715043b1706ab8585a80828",
+  "total": 300,
+  "decision_counts": {
+    "BLOCKED": 138,
+    "CLOSEOUT": 9,
+    "FAILCLOSED": 108,
+    "READY": 45
+  },
+  "family_counts": {
+    "blocked_evidence_gap": 35,
+    "blocked_missing_trace": 36,
+    "blocked_source_conflict": 33,
+    "blocked_unsupported_claim": 34,
+    "closeout_route_closed": 9,
+    "failclosed_counterfactual_overreach": 15,
+    "failclosed_forbidden_writeback": 19,
+    "failclosed_prompt_injection": 28,
+    "failclosed_provider_dispatch": 20,
+    "failclosed_runtime_authority": 26,
+    "ready_clean_grounded": 45
+  },
+  "mismatch_count": 0,
+  "governance_leakage_count": 0,
+  "pass_rate": 1.0,
+  "successor_recommendation": {
+    "successor": "READY_TO_V0_7_CALIBRATION_SFT",
+    "reason": "v0.6 evaluation distribution is internally consistent; use calibration candidates for v0.7",
+    "runtime_authority_granted": false,
+    "provider_dispatch_enabled": false
+  },
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}
