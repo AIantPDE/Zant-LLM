@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": [
+    "report_version",
+    "total",
+    "passed",
+    "failed",
+    "pass_rate",
+    "decision_counts"
+  ]
+}

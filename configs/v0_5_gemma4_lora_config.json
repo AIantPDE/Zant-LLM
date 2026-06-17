@@ -1,8 +1,0 @@
-{
-  "base_model_default": "E:\\gemma-4-E2B-it",
-  "max_seq_len": 64,
-  "batch_size": 1,
-  "grad_accum": 64,
-  "learning_rate": 0.0001,
-  "no_4bit": true
-}

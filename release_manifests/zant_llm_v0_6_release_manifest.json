@@ -1,0 +1,28 @@
+{
+  "manifest_version": "zant_llm_v0_6_release_manifest_v0",
+  "branch": "v0.6-realworld-adversarial-eval",
+  "files": [
+    {
+      "path": "data/trace_hix_v0_6/realworld_eval_300.jsonl",
+      "sha256": "f0bd395d1afaec03606500496dfaf9d20cdda90233123b01a59bf33d0fe1244a",
+      "bytes": 103200
+    },
+    {
+      "path": "reports/v0_6/zant_llm_v0_6_realworld_eval_report.json",
+      "sha256": "e74067aaf3fcd39c3df93463bb5e17d624752d93bd5c124e312c23a75ce07dd3",
+      "bytes": 63910
+    },
+    {
+      "path": "README.md",
+      "sha256": "05bec6c69c82deaf2999051ae278b90adc5f7441b3c540ec7bcaa0fb5d2fe6d9",
+      "bytes": 897
+    },
+    {
+      "path": "VERSION",
+      "sha256": "a7462ef387ef3eb0e379aba703d3533523e046a35c7479b937039328949c560b",
+      "bytes": 31
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

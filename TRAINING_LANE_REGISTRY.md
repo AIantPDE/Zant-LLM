@@ -1,5 +1,8 @@
-# Training Lane Registry
+# Training / Evaluation Lane Registry
 
-| Lane | Purpose |
-|---|---|
-| v0.5 | adversarial hard cases and fail-closed eval |
+| Lane | Version | Purpose | Model Training |
+|---|---:|---|---|
+| explanation baseline | v0.3 | Gemma4 LoRA baseline | yes |
+| evidence-gated admissibility | v0.4 | gate-aware explanation training | yes |
+| adversarial hard cases | v0.5 | fail-closed hard case training/eval | yes |
+| real-world adversarial eval | v0.6 | noisy mixed real-world eval | no, eval-first |

@@ -1,9 +1,8 @@
 {
-  "registry_version": "gate_result_taxonomy_v0_5",
-  "results": {
-    "READY": "ready",
-    "BLOCKED": "missing evidence",
-    "CLOSEOUT": "route closeout",
-    "FAILCLOSED": "forbidden or illegal"
-  }
+  "allowed": [
+    "READY",
+    "BLOCKED",
+    "CLOSEOUT",
+    "FAILCLOSED"
+  ]
 }
