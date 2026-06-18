@@ -1,0 +1,16 @@
+{
+  "dashboard_types": [
+    "runtime_regression_dashboard"
+  ],
+  "decision_labels": [
+    "READY",
+    "BLOCKED",
+    "CLOSEOUT",
+    "FAILCLOSED"
+  ],
+  "risk_levels": [
+    "LOW",
+    "MEDIUM",
+    "HIGH"
+  ]
+}

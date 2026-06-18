@@ -1,12 +1,13 @@
-name: v0.10R-ci
+name: zant-llm-v0-11-ci
 on: [push, pull_request]
 jobs:
-  smoke:
-    runs-on: ubuntu-latest
+  verify:
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - run: python scripts/validate_v0_10R_repository.py
-      - run: python scripts/run_v0_10R_stdlib_tests.py
+      - name: Verify
+        shell: pwsh
+        run: powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_11_ALL_LOCAL.ps1

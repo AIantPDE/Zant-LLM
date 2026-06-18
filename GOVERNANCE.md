@@ -1,1 +1,1 @@
-Runtime authority and provider dispatch remain disabled. All unsafe or malformed runtime requests must fail closed.
+Runtime authority remains disabled. Provider dispatch remains disabled. v0.11 is a dashboard/reporting branch only.

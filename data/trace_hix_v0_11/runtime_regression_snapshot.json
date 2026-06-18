@@ -1,0 +1,49 @@
+{
+  "snapshots": [
+    {
+      "branch": "v0.9-inference-contract-stabilization",
+      "mode": "inference-contract-eval",
+      "total": 160,
+      "pass_rate": 1.0,
+      "ready": 32,
+      "blocked": 64,
+      "closeout": 16,
+      "failclosed": 48,
+      "runtime_authority_granted": false,
+      "provider_dispatch_enabled": false,
+      "log_rows": null,
+      "request_id_unique": null,
+      "all_flags_false": true
+    },
+    {
+      "branch": "v0.10-runtime-api-batch-harness",
+      "mode": "runtime-api-batch-harness-eval",
+      "total": 200,
+      "pass_rate": 1.0,
+      "ready": 40,
+      "blocked": 80,
+      "closeout": 20,
+      "failclosed": 60,
+      "runtime_authority_granted": false,
+      "provider_dispatch_enabled": false,
+      "log_rows": 4,
+      "request_id_unique": true,
+      "all_flags_false": true
+    },
+    {
+      "branch": "v0.10R-runtime-harness-stress-and-log-audit",
+      "mode": "runtime-harness-stress-and-log-audit",
+      "total": 380,
+      "pass_rate": 1.0,
+      "ready": 60,
+      "blocked": 175,
+      "closeout": 40,
+      "failclosed": 105,
+      "runtime_authority_granted": false,
+      "provider_dispatch_enabled": false,
+      "log_rows": 380,
+      "request_id_unique": true,
+      "all_flags_false": true
+    }
+  ]
+}
