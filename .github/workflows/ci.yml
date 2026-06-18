@@ -1,11 +1,12 @@
-name: v0.10-ci
+name: v0.10R-ci
 on: [push, pull_request]
 jobs:
-  stdlib:
+  smoke:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: '3.10'}
-      - run: python scripts/validate_v0_10_repository.py
-      - run: python scripts/run_v0_10_stdlib_tests.py
+        with:
+          python-version: '3.10'
+      - run: python scripts/validate_v0_10R_repository.py
+      - run: python scripts/run_v0_10R_stdlib_tests.py

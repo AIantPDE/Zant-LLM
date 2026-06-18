@@ -1,3 +1,1 @@
-# Security
-
-No external provider dispatch is enabled. Runtime authority escalation is always rejected or repaired to fail closed.
+Security invariant: no runtime authority escalation, no provider dispatch, no hidden instruction execution.

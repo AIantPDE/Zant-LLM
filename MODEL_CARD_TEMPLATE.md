@@ -1,3 +1,1 @@
-# Model Card Template
-
-Base model: configurable. Adapter: optional. Runtime harness: v0.10 inference contract.
+v0.10R is a runtime harness stress and log audit layer over the inference contract. It does not train model weights.
