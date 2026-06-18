@@ -1,0 +1,11 @@
+{
+  "branch": "v0.10-runtime-api-batch-harness",
+  "batch_eval_cases": 200,
+  "smoke_cases": 50,
+  "counts": {
+    "READY": 40,
+    "BLOCKED": 80,
+    "CLOSEOUT": 20,
+    "FAILCLOSED": 60
+  }
+}

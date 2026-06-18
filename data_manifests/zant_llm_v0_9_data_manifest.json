@@ -1,7 +1,0 @@
-{
-  "branch": "v0.9-inference-contract-stabilization",
-  "inference_contract_cases": 160,
-  "smoke_cases": 40,
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}

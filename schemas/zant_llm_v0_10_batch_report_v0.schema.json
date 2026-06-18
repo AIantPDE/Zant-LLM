@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "required": [
+    "branch",
+    "mode",
+    "total",
+    "pass_rate",
+    "runtime_authority_granted",
+    "provider_dispatch_enabled"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "branch": "v0.10-runtime-api-batch-harness",
+  "purpose": "runtime-api-batch-harness",
+  "inference_cases": 200,
+  "smoke_cases": 50,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

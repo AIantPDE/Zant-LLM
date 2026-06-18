@@ -1,9 +1,0 @@
-{
-  "modes": [
-    "json",
-    "json_fragment",
-    "fallback_case_text",
-    "repair_failclosed",
-    "default_failclosed"
-  ]
-}

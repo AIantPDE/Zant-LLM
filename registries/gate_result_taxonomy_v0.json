@@ -1,8 +1,6 @@
 {
-  "allowed": [
-    "READY",
-    "BLOCKED",
-    "CLOSEOUT",
-    "FAILCLOSED"
-  ]
+  "READY": "ready",
+  "BLOCKED": "blocked",
+  "CLOSEOUT": "closeout",
+  "FAILCLOSED": "failclosed"
 }

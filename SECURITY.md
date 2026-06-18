@@ -1,1 +1,3 @@
-All unsafe, malformed, authority-claiming, or provider-dispatch outputs must fail closed.
+# Security
+
+No external provider dispatch is enabled. Runtime authority escalation is always rejected or repaired to fail closed.
