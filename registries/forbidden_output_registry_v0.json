@@ -1,10 +1,8 @@
 {
-  "forbidden_fields": [
+  "forbidden_keys": [
     "runtime_authority_granted",
     "provider_dispatch_enabled",
-    "new_decision_created",
-    "writeback_execution",
-    "worker_trigger",
-    "tool_dispatch"
+    "tool_call",
+    "provider_dispatch"
   ]
 }

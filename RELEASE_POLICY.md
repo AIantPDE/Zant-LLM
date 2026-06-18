@@ -1,3 +1,1 @@
-# Release Policy
-
-Release only after local verification, SFT build, contract eval, dry-run training, and manifest creation pass.
+v0.8 may be released after local verification, heldout contract eval, manifest generation, and branch push.

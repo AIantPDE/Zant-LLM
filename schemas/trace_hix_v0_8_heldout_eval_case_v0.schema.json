@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "family",
+    "input_text",
+    "expected_decision"
+  ]
+}
