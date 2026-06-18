@@ -1,0 +1,223 @@
+{
+  "branch": "v0.8R-heldout-model-output-calibration",
+  "file_count": 43,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "5cd5e1a3cab8124c35f93b63fe494618a081e643b2daf4759429eefb3af29cb7",
+      "bytes": 314
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c5747135c48b5a3f6c0a1476158e00f089421beee4211e6286cf30b5efa00baf",
+      "bytes": 41
+    },
+    {
+      "path": "data/trace_hix_v0_8R/calibration_probe_cases_12.jsonl",
+      "sha256": "ae39a553536d52a2c47ce6fc0979d76d894dc98743df671af52bd921eadfdbc5",
+      "bytes": 7315
+    },
+    {
+      "path": "data/trace_hix_v0_8R/v0_8_model_probe_snapshot_12.json",
+      "sha256": "bf943244da87b72152526eab6e96ee6b44af485c4eb4fbc094ca62289280643d",
+      "bytes": 8005
+    },
+    {
+      "path": "data_manifests/zant_llm_v0_8R_data_manifest.json",
+      "sha256": "e8069fde28bdb84480974c0befe86fbac3ac34b073f1136dc27c580ae7d6e3fa",
+      "bytes": 163
+    },
+    {
+      "path": "DELIVERY_MANIFEST_V0_8R.json",
+      "sha256": "0f2b7773756aa64f7741db6c9d451e85dee5825342ca8f1eda8d029d2d41af48",
+      "bytes": 269
+    },
+    {
+      "path": "docs/ORSC_V6_OUTPUT_CALIBRATION_SUCCESSOR_MAPPING.md",
+      "sha256": "f2a59f6d2718ca1093447acd49db28431cdaf9b204a43d6fad1b2a0b68d87f03",
+      "bytes": 103
+    },
+    {
+      "path": "docs/V0_8R_HELDOUT_MODEL_OUTPUT_CALIBRATION.md",
+      "sha256": "1750a59f9edc9298e1c3f3897dfe01095a9f07bf8798bb80c9d0d40a2d8b4561",
+      "bytes": 125
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "0eb5a60cb64928c6336591ab8e7dc207bce16a6b89d95259357f5cd6d36496b3",
+      "bytes": 64
+    },
+    {
+      "path": "HANDOFF_README_CN.md",
+      "sha256": "0fd9d087d1e7c29cc2680500b9b30030b6fdff94d0d8bf23a3f36f294e728573",
+      "bytes": 139
+    },
+    {
+      "path": "MODEL_CARD_TEMPLATE.md",
+      "sha256": "da412a6f331d816b8a39d7fa55607203cedba4c43f155ea7606897d0bd56388c",
+      "bytes": 63
+    },
+    {
+      "path": "outputs/v0_8R/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "README.md",
+      "sha256": "41f8385d55f37e8c58a56d9ca46f4bb259fe849044a65b68f5657eb496af0495",
+      "bytes": 354
+    },
+    {
+      "path": "registries/forbidden_output_registry_v0.json",
+      "sha256": "f0e4b42a34eb76ef4d688a7b81abc6ca02a052d05a5f14befcabe3aca82f1734",
+      "bytes": 163
+    },
+    {
+      "path": "registries/gate_result_taxonomy_v0.json",
+      "sha256": "168b7885f10e3d18c89089c5dac3be8827697f8c8993b250a542baaeee512154",
+      "bytes": 86
+    },
+    {
+      "path": "registries/output_parse_mode_registry_v0.json",
+      "sha256": "b64d9c6ed4e4c0bf1d56730864eee1900ea9fb2fc1ab50a65cf0cdb29e74b13e",
+      "bytes": 172
+    },
+    {
+      "path": "release_manifests/zant_llm_v0_8R_release_manifest.json",
+      "sha256": "b91b53a7efb0646a17c657155096f2e043a33650387f368d50c07d6d2e8f2e6d",
+      "bytes": 7742
+    },
+    {
+      "path": "RELEASE_POLICY.md",
+      "sha256": "e9d37fcf5a0dd2b8c4f3f4a621eaa8b29833a494c06a24fa28b4d182118f066f",
+      "bytes": 95
+    },
+    {
+      "path": "reports/v0_8R/zant_llm_v0_8R_calibrated_model_probe_report.json",
+      "sha256": "608e2ab439f6cbc3a8d9595a8b638272447ebb755eca55967bb9a5a342b4bd5a",
+      "bytes": 3604
+    },
+    {
+      "path": "reports/v0_8R/zant_llm_v0_8R_live_calibrated_model_probe_report.json",
+      "sha256": "301209d8756e56958c6a19a49c1d52b5f85000f0d6b082bcb7da3d453ab13b05",
+      "bytes": 2358
+    },
+    {
+      "path": "reports/v0_8R/zant_llm_v0_8R_successor_recommendation.json",
+      "sha256": "e2c646ed42efd03c6b978c8461beb5cb3ea4bcf7c7db44029069171967c435cb",
+      "bytes": 385
+    },
+    {
+      "path": "requirements-v0.8R.txt",
+      "sha256": "60f6cc515f1990dc7f6e82e783d51ea55760a4d67ea456e53abd29221610b664",
+      "bytes": 36
+    },
+    {
+      "path": "schemas/zant_llm_v0_8R_calibrated_probe_report_v0.schema.json",
+      "sha256": "f004d9131a96747a94198c36b3c68253ca4ada7a8716eb0e77d3c6bb24e7aaee",
+      "bytes": 270
+    },
+    {
+      "path": "schemas/zant_llm_v0_8R_successor_recommendation_v0.schema.json",
+      "sha256": "91e51e6f0645033b1222a042cbad4328d3ecc03fe8dc06edad0b889f87a17a47",
+      "bytes": 100
+    },
+    {
+      "path": "scripts/ANALYZE_V0_8R_MODEL_OUTPUT_CALIBRATION.ps1",
+      "sha256": "e69f54e6ea7658d70ce200959a0901d273abc06dd63f0e62b7e5bdda8112b6c0",
+      "bytes": 240
+    },
+    {
+      "path": "scripts/analyze_v0_8R_model_output_calibration.py",
+      "sha256": "69112b5eb5da44e14eb27610046405a57bf2f8d815b529d472dd68b0aed992af",
+      "bytes": 1955
+    },
+    {
+      "path": "scripts/eval_v0_8R_calibrated_heldout_model.py",
+      "sha256": "16bf73d88b04f317a7039e1767d688d6d06da1ae88ed3c9cd6c5ab75da88b6ed",
+      "bytes": 3346
+    },
+    {
+      "path": "scripts/EVAL_ZANT_LLM_V0_8R_CALIBRATED_HELDOUT_MODEL.ps1",
+      "sha256": "f33c347f3c03a1bd58cd3a8f8e8735bf0fbca56e35abb0c70972be5e8e082109",
+      "bytes": 608
+    },
+    {
+      "path": "scripts/MAKE_V0_8R_RELEASE_MANIFEST.ps1",
+      "sha256": "8b3cfccf82c49db72dadbc8c59f69a4ab04c87130bb46886d3b59e399287c905",
+      "bytes": 229
+    },
+    {
+      "path": "scripts/make_v0_8R_release_manifest.py",
+      "sha256": "bfa3f09572f27397af37c86e31be51ce6de1ccbef6143f0202b8340f821f16e7",
+      "bytes": 809
+    },
+    {
+      "path": "scripts/make_v0_8R_successor_recommendation.py",
+      "sha256": "ec8b06f3c273c351a80f9b59944ade8675446d8ba3fe33efe6f6f866948e0718",
+      "bytes": 1189
+    },
+    {
+      "path": "scripts/PUSH_V0_8R_BASED_ON_REMOTE_V0_8.ps1",
+      "sha256": "38fd39d2d6c080e655ff56e03bd3d98b4f287bd9d2e17f5ff3bb7a285c75a917",
+      "bytes": 1316
+    },
+    {
+      "path": "scripts/RUN_V0_8R_ALL_LOCAL.ps1",
+      "sha256": "1f928f28da119cb9003a2d02694ec2fa69f3fb3eeacbcb3625b7e61cb33865ac",
+      "bytes": 1106
+    },
+    {
+      "path": "scripts/run_v0_8R_stdlib_tests.py",
+      "sha256": "04caac02e287111ae1f578dce510cef177396a88a118fce751ebf1dd9a9600ea",
+      "bytes": 860
+    },
+    {
+      "path": "scripts/validate_v0_8R_repository.py",
+      "sha256": "7e2b842ffe059d179b389bf2c76a1deceba347b06b28730a029c7cd4591608ca",
+      "bytes": 712
+    },
+    {
+      "path": "scripts/VERIFY_ZANT_LLM_V0_8R_LOCAL.ps1",
+      "sha256": "8f4f8d641c151310b97d766d8e05907de3ff525de73398906f43e7d4f4ef56b0",
+      "bytes": 688
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "4c1bf5242d57e6006c7207d8622f7faf53103a6e1dd5af3dd4f1ca7624bceb05",
+      "bytes": 79
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "0abd37e57302a55b021c9236d984fd878d34f09f791ca1aa390cf7f7861db74a",
+      "bytes": 4292
+    },
+    {
+      "path": "src/zant_llm/__init__.py",
+      "sha256": "b57897a7f687e1ad0dacb5eced98bdeb1693e479984129801c4a15579e4422ed",
+      "bytes": 19
+    },
+    {
+      "path": "src/zant_llm/governance.py",
+      "sha256": "703f8db93c89940d84951c520f3058569e6aaa1c06b8d9f14ab60265a0610f4b",
+      "bytes": 197
+    },
+    {
+      "path": "src/zant_llm/output_calibration_v0_8R.py",
+      "sha256": "e28cace715c99b5ad35437cff01221f27b27b37f47cb5bdebc938ebae96b023c",
+      "bytes": 2839
+    },
+    {
+      "path": "TRAINING_LANE_REGISTRY.md",
+      "sha256": "9b3a5e6c828c3edb4cd3d3af2a55a7df3dbdbcda4d069bed0588c104c1639f83",
+      "bytes": 67
+    },
+    {
+      "path": "VERSION",
+      "sha256": "1d4992076cc8482b700d221486ee14be23b8fdf4c8e364cb5ed066bcb3a3fd4b",
+      "bytes": 39
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

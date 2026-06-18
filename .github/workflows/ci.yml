@@ -1,13 +1,11 @@
-name: zant-llm-v0.8-ci
+name: v0-8R-ci
 on: [push, pull_request]
 jobs:
-  verify:
-    runs-on: windows-latest
+  test:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-      - name: Verify v0.8
-        shell: pwsh
-        run: powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_8_ALL_LOCAL.ps1
+        with: {python-version: "3.10"}
+      - run: python scripts/validate_v0_8R_repository.py
+      - run: python scripts/run_v0_8R_stdlib_tests.py
