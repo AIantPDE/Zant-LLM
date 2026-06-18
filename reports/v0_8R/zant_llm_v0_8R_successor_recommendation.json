@@ -1,9 +1,0 @@
-{
-  "branch": "v0.8R-heldout-model-output-calibration",
-  "calibrated_accuracy": 1.0,
-  "json_rate": 0.0,
-  "recommended_successor": "v0.9-inference-contract-stabilization",
-  "reason": "Calibrated parser recovers decisions, but raw JSON rate is low; stabilize inference contract before more SFT.",
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}

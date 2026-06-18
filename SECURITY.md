@@ -1,1 +1,1 @@
-v0.8R fail-closed: runtime/provider/injection/forbidden markers => FAILCLOSED.
+All unsafe, malformed, authority-claiming, or provider-dispatch outputs must fail closed.

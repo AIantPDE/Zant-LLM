@@ -1,1 +1,1 @@
-Release when local verify, calibration report, successor recommendation and manifest all pass.
+v0.9 is a contract-stabilization release. Merge only after local verification and report review.

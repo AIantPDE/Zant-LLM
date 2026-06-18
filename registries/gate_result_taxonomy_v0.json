@@ -1,5 +1,5 @@
 {
-  "decisions": [
+  "allowed": [
     "READY",
     "BLOCKED",
     "CLOSEOUT",

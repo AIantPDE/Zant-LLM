@@ -1,0 +1,1297 @@
+{
+  "branch": "v0.9-inference-contract-stabilization",
+  "mode": "inference-contract-eval",
+  "cases": 160,
+  "correct": 160,
+  "pass_rate": 1.0,
+  "predicted_counts": {
+    "READY": 32,
+    "BLOCKED": 64,
+    "CLOSEOUT": 16,
+    "FAILCLOSED": 48
+  },
+  "results": [
+    {
+      "id": "v0_9_ready_001",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_002",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_003",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_004",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_005",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_006",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_007",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_008",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_009",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_010",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_011",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_012",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_013",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_014",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_015",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_016",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_017",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_018",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_019",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_020",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_021",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_022",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_023",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_024",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_025",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_026",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_027",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_028",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_029",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_030",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_031",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_ready_032",
+      "expected": "READY",
+      "predicted": "READY",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.84,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_001",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_002",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_003",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_004",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_005",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_006",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_007",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_008",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_009",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_010",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_011",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_012",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_013",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_014",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_015",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_016",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_017",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_018",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_019",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_020",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_021",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_022",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_023",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_024",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_025",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_026",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_027",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_028",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_029",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_030",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_031",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_032",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_033",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_034",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_035",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_036",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_037",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_038",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_039",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_040",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_041",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_042",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_043",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_044",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_045",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_046",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_047",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_048",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_049",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_050",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_051",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_052",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_053",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_054",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_055",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_056",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_057",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_058",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_059",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_060",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_061",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_062",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_063",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_blocked_064",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.86,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_001",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_002",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_003",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_004",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_005",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_006",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_007",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_008",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_009",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_010",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_011",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_012",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_013",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_014",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_015",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_closeout_016",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.88,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_001",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_002",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_003",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_004",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_005",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_006",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_007",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_008",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_009",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_010",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_011",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_012",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_013",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_014",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_015",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_016",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_017",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_018",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_019",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_020",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_021",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_022",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_023",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_024",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_025",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_026",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_027",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_028",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_029",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_030",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_031",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_032",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_033",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_034",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_035",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_036",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_037",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_038",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_039",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_040",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_041",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_042",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_043",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_044",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_045",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_046",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "repair_failclosed",
+      "confidence": 0.93,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_047",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    },
+    {
+      "id": "v0_9_failclosed_048",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "confidence": 0.92,
+      "ok": true
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

@@ -1,3 +1,3 @@
 # Model Card Template
 
-v0.8R heldout model output calibration.
+This branch defines inference contract behavior and does not publish base model weights.

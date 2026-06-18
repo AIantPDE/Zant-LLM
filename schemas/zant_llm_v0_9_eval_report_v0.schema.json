@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "required": [
+    "branch",
+    "cases",
+    "pass_rate",
+    "runtime_authority_granted",
+    "provider_dispatch_enabled"
+  ]
+}

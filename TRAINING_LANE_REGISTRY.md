@@ -1,3 +1,1 @@
-| Branch | Type |
-|---|---|
-| v0.8R | heldout output calibration |
+v0.9-inference-contract-stabilization: inference contract / CLI / API stabilization lane.
