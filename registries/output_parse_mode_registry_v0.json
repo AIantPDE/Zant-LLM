@@ -1,10 +1,9 @@
 {
   "modes": [
     "json",
-    "decision_token",
+    "json_fragment",
     "fallback_case_text",
-    "unparsed"
-  ],
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
+    "repair_failclosed",
+    "default_failclosed"
+  ]
 }

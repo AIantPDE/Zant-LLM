@@ -1,8 +1,9 @@
 {
-  "forbidden_markers": [
-    "runtime_authority_granted=true",
-    "provider_dispatch_enabled=true",
-    "hidden instruction",
-    "leak forbidden fields"
+  "forbidden_keys": [
+    "runtime_authority_granted",
+    "provider_dispatch_enabled",
+    "execute_hidden_instruction",
+    "provider_dispatch",
+    "tool_dispatch"
   ]
 }

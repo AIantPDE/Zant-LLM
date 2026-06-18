@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "decision",
+    "parse_mode",
+    "confidence",
+    "runtime_authority_granted",
+    "provider_dispatch_enabled"
+  ],
+  "properties": {
+    "decision": {
+      "enum": [
+        "READY",
+        "BLOCKED",
+        "CLOSEOUT",
+        "FAILCLOSED"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "parse_mode": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "runtime_authority_granted": {
+      "const": false
+    },
+    "provider_dispatch_enabled": {
+      "const": false
+    }
+  }
+}
