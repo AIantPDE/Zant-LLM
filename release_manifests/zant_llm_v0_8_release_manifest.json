@@ -129,7 +129,7 @@
     },
     {
       "path": "release_manifests/zant_llm_v0_8_release_manifest.json",
-      "sha256": "2a311ea2b09f5c60fe399eb39096ecb520a7ca2ee28d618ca5ca7ce1e809b21b",
+      "sha256": "1d300fea42fc6210e3cd7934010e2855136e5f03444b7ce943c47f9baa003dd9",
       "bytes": 8396
     },
     {
@@ -144,8 +144,8 @@
     },
     {
       "path": "reports/v0_8/zant_llm_v0_8_heldout_model_probe_report.json",
-      "sha256": "15dcc98ea0d5355afa27ec93ddda1ef694f7e50002ac52b8de899097c89cae32",
-      "bytes": 337
+      "sha256": "4d787c498dd2c4a1487e797cc19a377ae24a28bf70c6293e70d1c48e31c4ee80",
+      "bytes": 6556
     },
     {
       "path": "schemas/trace_hix_v0_8_heldout_eval_case_v0.schema.json",
