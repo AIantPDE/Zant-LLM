@@ -1,1 +1,1 @@
-Release requires local verification, stress report, log audit report, and release manifest.
+Release requires local verification, dashboard generation, release manifest creation, and branch push.

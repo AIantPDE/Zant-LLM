@@ -1,9 +1,0 @@
-{
-  "type": "object",
-  "required": [
-    "stress_pass_rate",
-    "decision_counts",
-    "runtime_authority_granted",
-    "provider_dispatch_enabled"
-  ]
-}
