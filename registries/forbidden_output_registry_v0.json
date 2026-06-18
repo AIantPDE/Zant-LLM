@@ -1,8 +1,8 @@
 {
-  "forbidden_keys": [
-    "runtime_authority_granted",
-    "provider_dispatch_enabled",
-    "tool_call",
-    "provider_dispatch"
+  "forbidden_markers": [
+    "runtime_authority_granted=true",
+    "provider_dispatch_enabled=true",
+    "hidden instruction",
+    "leak forbidden fields"
   ]
 }

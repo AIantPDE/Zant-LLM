@@ -1,1 +1,1 @@
-v0.8 may be released after local verification, heldout contract eval, manifest generation, and branch push.
+Release when local verify, calibration report, successor recommendation and manifest all pass.

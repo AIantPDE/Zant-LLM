@@ -1,0 +1,95 @@
+{
+  "branch": "v0.8R-heldout-model-output-calibration",
+  "mode": "live-calibrated-model-probe-dry-run",
+  "cases": 12,
+  "correct": 12,
+  "calibrated_accuracy": 1.0,
+  "results": [
+    {
+      "id": "v0_8_heldout_153",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_152",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_063",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_141",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_143",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_062",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_144",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_109",
+      "expected": "CLOSEOUT",
+      "predicted": "CLOSEOUT",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_163",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_047",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_138",
+      "expected": "FAILCLOSED",
+      "predicted": "FAILCLOSED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    },
+    {
+      "id": "v0_8_heldout_042",
+      "expected": "BLOCKED",
+      "predicted": "BLOCKED",
+      "parse_mode": "fallback_case_text",
+      "ok": true
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

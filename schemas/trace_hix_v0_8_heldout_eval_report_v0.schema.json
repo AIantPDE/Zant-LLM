@@ -1,9 +1,0 @@
-{
-  "type": "object",
-  "required": [
-    "branch",
-    "heldout_cases",
-    "pass_rate",
-    "decision_counts"
-  ]
-}

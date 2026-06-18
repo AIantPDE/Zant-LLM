@@ -1,1 +1,1 @@
-No runtime authority, no provider dispatch, no external tool execution by model output.
+v0.8R fail-closed: runtime/provider/injection/forbidden markers => FAILCLOSED.

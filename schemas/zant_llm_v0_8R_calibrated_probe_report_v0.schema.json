@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "branch",
+    "cases",
+    "calibrated_accuracy"
+  ],
+  "properties": {
+    "branch": {
+      "type": "string"
+    },
+    "cases": {
+      "type": "integer"
+    },
+    "calibrated_accuracy": {
+      "type": "number"
+    }
+  }
+}
