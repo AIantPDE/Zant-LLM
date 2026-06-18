@@ -1,0 +1,12 @@
+{
+  "branch": "v0.8-heldout-model-eval",
+  "heldout_cases": 180,
+  "smoke_cases": 45,
+  "heldout_contract_pass_rate": 1.0,
+  "ready_count": 27,
+  "blocked_count": 81,
+  "closeout_count": 12,
+  "failclosed_count": 60,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

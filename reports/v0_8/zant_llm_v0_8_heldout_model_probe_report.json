@@ -1,0 +1,9 @@
+{
+  "branch": "v0.8-heldout-model-eval",
+  "mode": "heldout-model-probe-dry-run",
+  "cases": 12,
+  "base_model": "E:\\gemma-4-E2B-it",
+  "adapter_path": "C:\\Users\\Administrator\\Desktop\\Zant-LLM-v0.7-push-work\\outputs\\v0_7\\gemma4_lora_adapter",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

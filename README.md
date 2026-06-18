@@ -1,31 +1,32 @@
-# Zant-LLM v0.7 Calibration-Informed SFT
+# Zant-LLM v0.8 — Heldout Model Eval
 
-This branch turns the v0.6R real-world adversarial calibration into supervised fine-tuning data.
+This branch evaluates the v0.7 calibration-informed SFT lane on heldout adversarial and real-world style examples.
 
-目标：把 v0.6 / v0.6R 的真实输入校准结果转成可训练的 gate-aware SFT 样本，使模型在真实噪声、缺证据、source conflict、prompt injection、runtime authority 诱导、provider dispatch 诱导等场景下稳定输出 READY / BLOCKED / CLOSEOUT / FAILCLOSED。
-
-本分支仍保持：
-
-- `runtime_authority_granted=false`
-- `provider_dispatch_enabled=false`
-- explanation plane 不升级为 decision plane / execution authority plane
-- SFT 样本只能训练解释与拒绝格式，不能训练执行权限
+v0.8 is primarily an evaluation lane, not a new training lane. It contains a contract-level heldout eval and an optional adapter-backed model probe that can load the v0.7 LoRA adapter when available locally.
 
 ## Run locally
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_7_ALL_LOCAL.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_8_ALL_LOCAL.ps1
 ```
 
 ## Push
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V0_7_BASED_ON_REMOTE_V0_6R.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V0_8_BASED_ON_REMOTE_V0_7.ps1
 ```
 
-## Real training
+## Optional model-backed probe
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\TRAIN_ZANT_LLM_V0_7_GEMMA4_LORA.ps1 `
-  -BaseModelPath "E:\gemma-4-E2B-it"
+powershell -ExecutionPolicy Bypass -File .\scripts\EVAL_ZANT_LLM_V0_8_HELDOUT_MODEL.ps1 `
+  -BaseModelPath "E:\gemma-4-E2B-it" `
+  -AdapterPath "C:\Users\Administrator\Desktop\Zant-LLM-v0.7-push-work\outputs\v0_7\gemma4_lora_adapter"
+```
+
+Governance flags must remain false:
+
+```text
+RUNTIME_AUTHORITY_GRANTED=False
+PROVIDER_DISPATCH_ENABLED=False
 ```
