@@ -1,3 +1,3 @@
 # Model Card Template
 
-This branch defines inference contract behavior and does not publish base model weights.
+Base model: configurable. Adapter: optional. Runtime harness: v0.10 inference contract.

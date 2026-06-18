@@ -1,12 +1,14 @@
 {
-  "branch": "v0.9-inference-contract-stabilization",
-  "decision_field": "decision",
-  "allowed_decisions": [
+  "decisions": [
     "READY",
     "BLOCKED",
     "CLOSEOUT",
     "FAILCLOSED"
   ],
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
+  "parse_modes": [
+    "json",
+    "json_fragment",
+    "fallback_classifier",
+    "repair_failclosed"
+  ]
 }

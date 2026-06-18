@@ -1,7 +1,0 @@
-{
-  "branch": "v0.9-inference-contract-stabilization",
-  "successor": "v0.10-runtime-api-batch-harness",
-  "reason": "inference contract stable; next step is runtime API and batch harness integration",
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}
