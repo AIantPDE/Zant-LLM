@@ -1,0 +1,7 @@
+{
+  "branch": "v0.10R-runtime-harness-stress-and-log-audit",
+  "successor": "v0.11-runtime-regression-dashboard",
+  "reason": "stress and runtime log audit passed",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

@@ -1,3 +1,1 @@
-# Training Lane Registry
-
-v0.10 is not a training lane. Successor candidate: v0.11-runtime-regression-and-receipt-audit.
+v0.10R: runtime-harness-stress-and-log-audit -> successor: v0.11-runtime-regression-dashboard

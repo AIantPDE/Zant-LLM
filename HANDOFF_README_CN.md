@@ -1,11 +1,15 @@
-# Zant-LLM v0.10 交接说明
+# Zant-LLM v0.10R 交付说明
 
-v0.10 是 runtime-api-batch-harness 分支，不是训练分支。
+分支：`v0.10R-runtime-harness-stress-and-log-audit`
 
-它把 v0.9 的稳定推理契约扩展为：单条 CLI 推理、JSONL 批量推理、HTTP API 服务、请求日志、批量评估报告和 runtime receipt。
+v0.10R 是运行时压力测试与日志审计分支，不是训练分支。
 
-运行：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_10_ALL_LOCAL.ps1
-```
+主要验证：
+- 300 条 runtime stress cases
+- 80 条 edge / malformed cases
+- request_id 唯一性
+- runtime log 完整性
+- READY / BLOCKED / CLOSEOUT / FAILCLOSED 分布
+- 所有越权输入 fail-closed
+- runtime_authority_granted=false
+- provider_dispatch_enabled=false

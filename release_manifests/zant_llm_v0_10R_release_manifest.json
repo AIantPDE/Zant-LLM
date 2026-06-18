@@ -1,0 +1,233 @@
+{
+  "branch": "v0.10R-runtime-harness-stress-and-log-audit",
+  "file_count": 46,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "5b721952af18c5185cb6019f6220b78d0034d5e2d8234f3212f8ea4f13c106f3",
+      "bytes": 326
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c5747135c48b5a3f6c0a1476158e00f089421beee4211e6286cf30b5efa00baf",
+      "bytes": 41
+    },
+    {
+      "path": "data/trace_hix_v0_10R/runtime_edge_cases_80.jsonl",
+      "sha256": "b3943e91327bbf6cb4b721d18f1362df66806cb8829b790939846d2ffe3a6376",
+      "bytes": 85025
+    },
+    {
+      "path": "data/trace_hix_v0_10R/runtime_stress_cases_300.jsonl",
+      "sha256": "3201cba20a0bba255f527fa6af1e79b72508463728ec8780dd63d062d6221998",
+      "bytes": 56202
+    },
+    {
+      "path": "data_manifests/zant_llm_v0_10R_data_manifest.json",
+      "sha256": "c388fd9be7e6ffd158d6a335613e09f6c31325f9dfbd31715a448ed17e06adb6",
+      "bytes": 291
+    },
+    {
+      "path": "DELIVERY_MANIFEST_V0_10R.json",
+      "sha256": "f4fe2c2ffb54e17f62fab2b25e56d206086eddc9ba6e81aa1907b8ea9e9fd349",
+      "bytes": 271
+    },
+    {
+      "path": "docs/ORSC_V6_RUNTIME_AUDIT_SUCCESSOR_MAPPING.md",
+      "sha256": "3f650bb359d778fc7b543d659fecf823c72b7ef96f7e48592f3a73b6dcdc0041",
+      "bytes": 79
+    },
+    {
+      "path": "docs/V0_10R_RUNTIME_HARNESS_STRESS_AND_LOG_AUDIT.md",
+      "sha256": "ed4004ea132ac269315fc8a7eefb2bbbc75066f2332bbb45de28e33e35a52998",
+      "bytes": 78
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "aaa392c2bff382925e3857c96e95d4fa6867781047edb8346dac2931c1993d2b",
+      "bytes": 116
+    },
+    {
+      "path": "HANDOFF_README_CN.md",
+      "sha256": "a396b4547437145e0e37201b0ece47687fdf172a15120a54522b388afbe5a7a2",
+      "bytes": 442
+    },
+    {
+      "path": "MODEL_CARD_TEMPLATE.md",
+      "sha256": "fa709a0f09cac66b92eb718bfdfa21ffdbe023f69347b4d450b6933658ac1bf0",
+      "bytes": 117
+    },
+    {
+      "path": "outputs/v0_10R/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "README.md",
+      "sha256": "82bf1cba36fe890904ffce2e52d75c36597dd3bef5a6ed0af1a28785c4752c51",
+      "bytes": 693
+    },
+    {
+      "path": "registries/forbidden_output_registry_v0.json",
+      "sha256": "327657b5fd4f41370dcc91cf38846e2959c0aa0d61908ecd0f443187d938e1da",
+      "bytes": 166
+    },
+    {
+      "path": "registries/gate_result_taxonomy_v0.json",
+      "sha256": "f96204143df154b11b178179dd079877d4594919f5dcde4b1f5941bff419c682",
+      "bytes": 162
+    },
+    {
+      "path": "registries/runtime_harness_registry_v0.json",
+      "sha256": "6cf9a92ed49b34790929d3bb1489a09e637da4cb5f572c851a7764dd4ab4e13b",
+      "bytes": 376
+    },
+    {
+      "path": "RELEASE_POLICY.md",
+      "sha256": "919751e6823943b2ea9b1522cba2b8efa8af8668f3eb8a2f91917e808df8ba48",
+      "bytes": 92
+    },
+    {
+      "path": "reports/v0_10R/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/v0_10R/zant_llm_v0_10R_runtime_log_audit_report.json",
+      "sha256": "40b088033a1d55c325eae0d2e5b52d559ce181c83f7ad38264e4a82d7bddfd77",
+      "bytes": 435
+    },
+    {
+      "path": "reports/v0_10R/zant_llm_v0_10R_runtime_stress_report.json",
+      "sha256": "15ba9a0d46c6fff5ae10f9fd831ddd57c6a0ff1fb6013ef810858479a0fdba6f",
+      "bytes": 485
+    },
+    {
+      "path": "reports/v0_10R/zant_llm_v0_10R_successor_recommendation.json",
+      "sha256": "751dd9625da7361b020aa74d226bf413b0d28b0821a3ef68c41dee17a692a546",
+      "bytes": 247
+    },
+    {
+      "path": "requirements-v0.10R.txt",
+      "sha256": "33b022f68b4b15b3aa2e3f95f1717498b623e7aa83c02a1216064bdac1f72090",
+      "bytes": 13
+    },
+    {
+      "path": "runtime_logs/v0_10R/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runtime_logs/v0_10R/runtime_stress_log.jsonl",
+      "sha256": "9d3c346fd9ad8a86509965ee213ae396c13d434a6615ad2795f4364476d46e3e",
+      "bytes": 189075
+    },
+    {
+      "path": "schemas/zant_llm_v0_10R_log_audit_report_v0.schema.json",
+      "sha256": "1f3e27ad6f9fbdbbef64a8788ae0717e216257f877dcb3d6bf85a4747d730b03",
+      "bytes": 107
+    },
+    {
+      "path": "schemas/zant_llm_v0_10R_stress_report_v0.schema.json",
+      "sha256": "ae03d8cf4691d020c5ff86d41debef41cfff31d0db756dbfd4bcd4aecd1d7818",
+      "bytes": 156
+    },
+    {
+      "path": "scripts/audit_v0_10R_runtime_logs.py",
+      "sha256": "c3f97bf5e06c0f9bf8ca5c54702b20571d11f69b6b7c4023d3d36ccdba0ef9c1",
+      "bytes": 1922
+    },
+    {
+      "path": "scripts/AUDIT_ZANT_LLM_V0_10R_RUNTIME_LOGS.ps1",
+      "sha256": "a5fb5410f07b79b2547f059981316de406eed57689bec1d7ffcee39dbd2cde3f",
+      "bytes": 247
+    },
+    {
+      "path": "scripts/MAKE_V0_10R_RELEASE_MANIFEST.ps1",
+      "sha256": "b01f0288041e998d1c347f91af59779bb5d8a740138098214f6c586d951c85e5",
+      "bytes": 253
+    },
+    {
+      "path": "scripts/make_v0_10R_release_manifest.py",
+      "sha256": "e8e3092935e0dedaea5050f4dc5decce6e412ce02479ced02dadc8a688719075",
+      "bytes": 1197
+    },
+    {
+      "path": "scripts/make_v0_10R_successor_recommendation.py",
+      "sha256": "a32e78d20ac66555f2e79117fa8174964919381363c68fc15e71bf0ab8108569",
+      "bytes": 1150
+    },
+    {
+      "path": "scripts/PUSH_V0_10R_BASED_ON_REMOTE_V0_10.ps1",
+      "sha256": "ab6c8ac1b6bada97884c435a85d0bee2b4792de290bd62c491b99f73d65a4f31",
+      "bytes": 1333
+    },
+    {
+      "path": "scripts/RUN_V0_10R_ALL_LOCAL.ps1",
+      "sha256": "484cae3c6fa564ab7718a766a9510ab29fd6bca166971a325626884b0de4256d",
+      "bytes": 1000
+    },
+    {
+      "path": "scripts/run_v0_10R_stdlib_tests.py",
+      "sha256": "c847fe78e3db1e047beea1fb1fb4c132cbd403909a6d0caba0917338df41ca95",
+      "bytes": 1268
+    },
+    {
+      "path": "scripts/stress_v0_10R_runtime_harness.py",
+      "sha256": "93c99024279b4b1125fd637c2426558a759c4502895e482d5802877f98a54452",
+      "bytes": 2191
+    },
+    {
+      "path": "scripts/STRESS_ZANT_LLM_V0_10R_RUNTIME_HARNESS.ps1",
+      "sha256": "211afe9df4cc548305ac6314e8ce98205e0d404a2223304eea85d17e76e67b4f",
+      "bytes": 255
+    },
+    {
+      "path": "scripts/validate_v0_10R_repository.py",
+      "sha256": "9c4903a1cb13163468fca48e3e24ab9bc9180d9e17a4301cd5b419a978f3bd35",
+      "bytes": 1055
+    },
+    {
+      "path": "scripts/VERIFY_ZANT_LLM_V0_10R_LOCAL.ps1",
+      "sha256": "d8f3dd56b0812603355dd2cfb609a8b8e12dfe81fe998def171e7e206d101b25",
+      "bytes": 713
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "4ab7ae63531e0c9a7728b39d801e4ab8becb171036ceaa14996f2ebca1f6acab",
+      "bytes": 108
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "9535cc962705aaadf80b1723bae9d2c4cab3873ba6b311b75f21f6014df8d558",
+      "bytes": 4144
+    },
+    {
+      "path": "src/zant_llm/__init__.py",
+      "sha256": "df08d325ee2cd36256f461af743da0cdcddee98b45d1a10e23b6ba6b82c039fd",
+      "bytes": 22
+    },
+    {
+      "path": "src/zant_llm/governance.py",
+      "sha256": "ffe86739028fc831c7d3465bccc5fee1bed260f8a5b5226785dffb37b54b2dcc",
+      "bytes": 68
+    },
+    {
+      "path": "src/zant_llm/inference_contract_v0_10R.py",
+      "sha256": "6a9bdfe42c7c024f606956d72efbf33da08d873cf6bbbc2ad9771526b0899368",
+      "bytes": 2587
+    },
+    {
+      "path": "TRAINING_LANE_REGISTRY.md",
+      "sha256": "3660c429dc419772589e455b0698464c06c7bbc75aafa26c4500c216aaab34cf",
+      "bytes": 94
+    },
+    {
+      "path": "VERSION",
+      "sha256": "f7b8f0c3f4b1ef83c03450428e4b949b323dceb82405575948c11b5e2fa73b04",
+      "bytes": 43
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

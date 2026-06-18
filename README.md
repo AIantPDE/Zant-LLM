@@ -1,20 +1,18 @@
-# Zant-LLM v0.10 Runtime API Batch Harness
+# Zant-LLM v0.10R Runtime Harness Stress and Log Audit
 
-Branch: `v0.10-runtime-api-batch-harness`
+Branch: `v0.10R-runtime-harness-stress-and-log-audit`
 
-v0.10 promotes the v0.9 inference contract into a reusable runtime harness:
+This branch stress-tests the v0.10 runtime API / batch harness and audits runtime logs.
 
-- CLI single inference
-- JSONL batch inference
-- stdlib HTTP API server
-- `/health`, `/infer`, `/batch_infer`, `/logs`
-- request logging
-- batch eval report
-- runtime receipt
-- fail-closed repair with `runtime_authority_granted=false` and `provider_dispatch_enabled=false`
+Goals:
+- Stress infer and batch-infer behavior with mixed READY / BLOCKED / CLOSEOUT / FAILCLOSED cases.
+- Check malformed, empty, long, and authority-injection inputs.
+- Verify runtime logs contain unique request_id values, timestamps, decisions, and safe runtime flags.
+- Produce stress and log-audit reports.
+- Keep `runtime_authority_granted=false` and `provider_dispatch_enabled=false`.
 
-Local run:
+Run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_10_ALL_LOCAL.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_10R_ALL_LOCAL.ps1
 ```

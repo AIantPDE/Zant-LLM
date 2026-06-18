@@ -1,0 +1,10 @@
+{
+  "branch": "v0.10R-runtime-harness-stress-and-log-audit",
+  "stress_cases": 300,
+  "edge_cases": 80,
+  "expected_total": 380,
+  "expected_stress_pass_rate": 1.0,
+  "expected_audit_ok": true,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

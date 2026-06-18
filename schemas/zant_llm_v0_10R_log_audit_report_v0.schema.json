@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "required": [
+    "audit_ok",
+    "request_id_unique",
+    "all_flags_false"
+  ]
+}

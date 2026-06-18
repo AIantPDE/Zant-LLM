@@ -1,0 +1,18 @@
+{
+  "branch": "v0.10R-runtime-harness-stress-and-log-audit",
+  "mode": "runtime-log-audit",
+  "rows": 380,
+  "request_id_unique": true,
+  "all_flags_false": true,
+  "all_have_ts": true,
+  "all_have_decision": true,
+  "decision_counts": {
+    "BLOCKED": 175,
+    "FAILCLOSED": 105,
+    "CLOSEOUT": 40,
+    "READY": 60
+  },
+  "audit_ok": true,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

@@ -1,0 +1,19 @@
+{
+  "branch": "v0.10R-runtime-harness-stress-and-log-audit",
+  "endpoints": [
+    "/health",
+    "/infer",
+    "/batch_infer",
+    "/logs"
+  ],
+  "log_fields": [
+    "request_id",
+    "ts_unix",
+    "decision",
+    "parse_mode",
+    "runtime_authority_granted",
+    "provider_dispatch_enabled"
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}
