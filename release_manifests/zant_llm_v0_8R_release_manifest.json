@@ -84,7 +84,7 @@
     },
     {
       "path": "release_manifests/zant_llm_v0_8R_release_manifest.json",
-      "sha256": "b91b53a7efb0646a17c657155096f2e043a33650387f368d50c07d6d2e8f2e6d",
+      "sha256": "5dc6c4825df8a891fa3517b3a5288b208e625ffc8b3c8d2a86074695021cb60f",
       "bytes": 7742
     },
     {
@@ -99,8 +99,8 @@
     },
     {
       "path": "reports/v0_8R/zant_llm_v0_8R_live_calibrated_model_probe_report.json",
-      "sha256": "301209d8756e56958c6a19a49c1d52b5f85000f0d6b082bcb7da3d453ab13b05",
-      "bytes": 2358
+      "sha256": "7a2e91c8021f9047da6c8b96b64043ea5b363ea9662bde0f5d2275995313edf6",
+      "bytes": 4559
     },
     {
       "path": "reports/v0_8R/zant_llm_v0_8R_successor_recommendation.json",
