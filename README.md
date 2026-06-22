@@ -1,25 +1,13 @@
-# Zant-LLM v0.11 Runtime Regression Dashboard
+# Zant-LLM v1.2 Runtime Deployment Readiness
 
-Branch: `v0.11-runtime-regression-dashboard`
+Branch: `v1.2-runtime-deployment-readiness`
 
-This branch builds a regression dashboard from the latest runtime harness results. It is not a training branch. It summarizes v0.9, v0.10, and v0.10R runtime contract outcomes and records whether the system is ready to move toward deployment readiness checks.
+This branch is a deployment-readiness gate after v1.1. It does not train a model. It checks service configuration, start/stop scripts, health/infer/batch contracts, artifact inventory, governance flags, security policy, release manifest, and successor readiness.
 
-## Run locally
+Expected result:
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V0_11_ALL_LOCAL.ps1
-```
-
-Expected markers:
-
-```text
-ZANT_LLM_V0_11_REPOSITORY_VALID=True
-ZANT_LLM_V0_11_STDLIB_TESTS_PASSED=True
-ZANT_LLM_V0_11_DASHBOARD_CREATED=True
-ZANT_LLM_V0_11_RELEASE_MANIFEST_CREATED=True
-ZANT_LLM_V0_11_ALL_LOCAL_OK=True
-```
-
-## Successor
-
-`v0.12-runtime-deployment-readiness`
+- DEPLOYMENT_READINESS_ACCEPTED=True
+- READINESS_SCORE=1.0
+- BLOCKING_ISSUES=0
+- runtime_authority_granted=false
+- provider_dispatch_enabled=false

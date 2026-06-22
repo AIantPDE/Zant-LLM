@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": [
+    "branch",
+    "readiness_score",
+    "blocking_issues",
+    "accepted"
+  ]
+}

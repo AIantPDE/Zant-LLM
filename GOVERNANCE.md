@@ -1,1 +1,8 @@
-Runtime authority remains disabled. Provider dispatch remains disabled. v0.11 is a dashboard/reporting branch only.
+# Governance
+
+All runtime/deployment readiness checks must preserve:
+
+- runtime_authority_granted=false
+- provider_dispatch_enabled=false
+
+Any missing required runtime check is blocking.

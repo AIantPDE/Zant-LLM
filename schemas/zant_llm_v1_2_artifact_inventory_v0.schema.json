@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "required": [
+    "branch",
+    "artifact_count",
+    "artifacts"
+  ]
+}

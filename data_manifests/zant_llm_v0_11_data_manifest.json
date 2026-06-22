@@ -1,9 +1,0 @@
-{
-  "branch": "v0.11-runtime-regression-dashboard",
-  "snapshot_files": [
-    "data/trace_hix_v0_11/runtime_regression_snapshot.json",
-    "data/trace_hix_v0_11/dashboard_input_summary.json"
-  ],
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}

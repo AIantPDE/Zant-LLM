@@ -1,0 +1,5 @@
+{
+  "branch": "v1.2-runtime-deployment-readiness",
+  "deployment_checks": 18,
+  "artifact_inventory_seed": 4
+}

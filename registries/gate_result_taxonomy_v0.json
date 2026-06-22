@@ -1,5 +1,5 @@
 {
-  "labels": [
+  "allowed": [
     "READY",
     "BLOCKED",
     "CLOSEOUT",

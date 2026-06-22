@@ -3,6 +3,6 @@ PROVIDER_DISPATCH_ENABLED = False
 
 def governance_flags():
     return {
-        "runtime_authority_granted": RUNTIME_AUTHORITY_GRANTED,
-        "provider_dispatch_enabled": PROVIDER_DISPATCH_ENABLED,
+        "runtime_authority_granted": False,
+        "provider_dispatch_enabled": False,
     }
