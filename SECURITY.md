@@ -1,3 +1,3 @@
 # Security
 
-v1.2 is deployment-readiness only. It must not grant runtime authority, must not enable provider dispatch, and must fail closed on missing or malformed deployment configuration.
+This branch is a packaging and release-readiness layer. It does not introduce network credentials, secrets, runtime execution authority, or external provider dispatch.

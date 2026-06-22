@@ -1,8 +1,8 @@
 # Governance
 
-All runtime/deployment readiness checks must preserve:
+Zant-LLM v1.3 remains fail-closed by design.
 
-- runtime_authority_granted=false
-- provider_dispatch_enabled=false
-
-Any missing required runtime check is blocking.
+- `runtime_authority_granted=false`
+- `provider_dispatch_enabled=false`
+- No runtime provider dispatch is enabled by this branch.
+- Release candidate packaging is an artifact and checklist operation only.

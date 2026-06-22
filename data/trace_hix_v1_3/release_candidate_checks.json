@@ -1,0 +1,188 @@
+{
+  "branch": "v1.3-release-candidate-packaging",
+  "base_branch": "v1.2-runtime-deployment-readiness",
+  "release_candidate_checks": [
+    {
+      "id": "rc_branch_identity",
+      "order": 1,
+      "category": "packaging",
+      "description": "release candidate branch identity is fixed",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "base_branch_declared",
+      "order": 2,
+      "category": "lineage",
+      "description": "base branch is v1.2 runtime deployment readiness",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "manifest_present",
+      "order": 3,
+      "category": "artifact",
+      "description": "delivery manifest exists",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "release_manifest_present",
+      "order": 4,
+      "category": "artifact",
+      "description": "release manifest is generated",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "readiness_report_present",
+      "order": 5,
+      "category": "artifact",
+      "description": "deployment readiness report is represented in RC inventory",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "artifact_inventory_present",
+      "order": 6,
+      "category": "artifact",
+      "description": "artifact inventory is present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "schemas_present",
+      "order": 7,
+      "category": "schema",
+      "description": "RC schemas are present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "reports_present",
+      "order": 8,
+      "category": "report",
+      "description": "RC reports are present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "docs_present",
+      "order": 9,
+      "category": "documentation",
+      "description": "RC documentation is present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "governance_false",
+      "order": 10,
+      "category": "governance",
+      "description": "runtime governance flags remain false",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "provider_dispatch_false",
+      "order": 11,
+      "category": "governance",
+      "description": "provider dispatch remains false",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "security_policy_present",
+      "order": 12,
+      "category": "security",
+      "description": "security policy present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "release_policy_present",
+      "order": 13,
+      "category": "release",
+      "description": "release policy present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "local_run_script_present",
+      "order": 14,
+      "category": "runtime",
+      "description": "one-click local run script present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "verify_script_present",
+      "order": 15,
+      "category": "runtime",
+      "description": "repository validator present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "stdlib_tests_present",
+      "order": 16,
+      "category": "test",
+      "description": "stdlib tests present",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "successor_declared",
+      "order": 17,
+      "category": "roadmap",
+      "description": "successor recommendation is declared",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "rc_summary_present",
+      "order": 18,
+      "category": "report",
+      "description": "release candidate summary is produced",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "blocking_zero",
+      "order": 19,
+      "category": "acceptance",
+      "description": "blocking issue count is zero",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    },
+    {
+      "id": "accepted_true",
+      "order": 20,
+      "category": "acceptance",
+      "description": "release candidate accepted flag is true",
+      "required": true,
+      "status": "pass",
+      "blocking": false
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

@@ -1,0 +1,9 @@
+{
+  "branch": "v1.3-release-candidate-packaging",
+  "base_branch": "v1.2-runtime-deployment-readiness",
+  "package_mode": "release_candidate",
+  "allow_runtime_authority": false,
+  "allow_provider_dispatch": false,
+  "required_checks": 20,
+  "blocking_issues_allowed": 0
+}
