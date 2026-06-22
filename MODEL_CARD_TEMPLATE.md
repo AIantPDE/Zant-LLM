@@ -1,3 +1,3 @@
 # Model Card Template
 
-v0.11 does not train a model; it summarizes runtime regression outcomes.
+This branch contains runtime deployment readiness checks. It does not add a new trained model artifact.

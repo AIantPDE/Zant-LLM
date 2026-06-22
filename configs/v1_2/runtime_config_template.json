@@ -1,0 +1,31 @@
+{
+  "branch": "v1.2-runtime-deployment-readiness",
+  "host": "127.0.0.1",
+  "port": 7892,
+  "health_path": "/health",
+  "infer_path": "/infer",
+  "batch_infer_path": "/batch_infer",
+  "logs_path": "/logs",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "required_scripts": [
+    "RUN_V1_2_ALL_LOCAL.ps1",
+    "VERIFY_ZANT_LLM_V1_2_LOCAL.ps1",
+    "BUILD_V1_2_DEPLOYMENT_READINESS.ps1",
+    "MAKE_V1_2_RELEASE_MANIFEST.ps1",
+    "PUSH_V1_2_BASED_ON_REMOTE_V1_1.ps1",
+    "START_ZANT_LLM_V1_2_LOCAL_SERVICE.ps1",
+    "STOP_ZANT_LLM_V1_2_LOCAL_SERVICE.ps1"
+  ],
+  "required_runtime_checks": [
+    "config",
+    "health",
+    "infer",
+    "batch_infer",
+    "logs",
+    "security",
+    "governance",
+    "artifacts",
+    "release_manifest"
+  ]
+}

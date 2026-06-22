@@ -1,0 +1,9 @@
+{
+  "branch": "v1.2-runtime-deployment-readiness",
+  "accepted": true,
+  "readiness_score": 1.0,
+  "blocking_issues": 0,
+  "successor": "v1.3-release-candidate-packaging",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

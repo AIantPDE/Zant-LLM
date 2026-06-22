@@ -1,0 +1,11 @@
+{
+  "branch": "v1.2-runtime-deployment-readiness",
+  "deployment_checks": 18,
+  "accepted_checks": 18,
+  "readiness_score": 1.0,
+  "blocking_issues": 0,
+  "missing_paths": [],
+  "accepted": true,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}
