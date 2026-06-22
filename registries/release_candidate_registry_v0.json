@@ -1,0 +1,8 @@
+{
+  "decisions": [
+    "RC_ACCEPTED",
+    "RC_BLOCKED"
+  ],
+  "branch": "v1.3-release-candidate-packaging",
+  "successor": "v1.3R-release-candidate-signoff-and-smoke"
+}

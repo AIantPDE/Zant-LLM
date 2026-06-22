@@ -1,13 +1,13 @@
-name: zant-v0-12-ci
+name: zant-llm-v1-3-ci
 on: [push, pull_request]
 jobs:
-  stdlib:
-    runs-on: ubuntu-latest
+  stdlib-check:
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - run: python -m compileall src scripts
-      - run: python scripts/validate_v1_2_repository.py
-      - run: python scripts/run_v1_2_stdlib_tests.py
+      - name: Run stdlib verification
+        shell: pwsh
+        run: powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_3_ALL_LOCAL.ps1

@@ -1,3 +1,3 @@
 # Model Card Template
 
-This branch contains runtime deployment readiness checks. It does not add a new trained model artifact.
+This branch does not publish a new model checkpoint. It packages runtime, governance, reports, schemas, and release-candidate metadata.
