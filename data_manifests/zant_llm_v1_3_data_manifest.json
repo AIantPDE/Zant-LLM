@@ -1,7 +1,0 @@
-{
-  "branch": "v1.3-release-candidate-packaging",
-  "data_files": 3,
-  "rc_checks": 20,
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}

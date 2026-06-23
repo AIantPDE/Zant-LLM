@@ -1,3 +1,3 @@
 # Training Lane Registry
 
-v1.3 is outside the training lane. It is a runtime release-candidate packaging lane derived from v1.2 deployment readiness.
+v1.3R is not a training lane. It is a release-candidate signoff and smoke validation lane.

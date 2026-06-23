@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "required": [
+    "smoke_cases",
+    "smoke_pass_rate",
+    "accepted"
+  ]
+}

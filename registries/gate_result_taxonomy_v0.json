@@ -1,10 +1,8 @@
 {
-  "results": [
+  "decisions": [
     "READY",
     "BLOCKED",
     "CLOSEOUT",
-    "FAILCLOSED",
-    "RC_ACCEPTED",
-    "RC_BLOCKED"
+    "FAILCLOSED"
   ]
 }

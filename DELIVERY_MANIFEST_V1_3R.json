@@ -1,0 +1,8 @@
+{
+  "branch": "v1.3R-release-candidate-signoff-and-smoke",
+  "base_branch": "v1.3-release-candidate-packaging",
+  "successor": "v1.4-final-release-manifest-and-tagging",
+  "package": "release-candidate-signoff-and-smoke",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

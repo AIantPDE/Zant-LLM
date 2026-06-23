@@ -1,0 +1,8 @@
+{
+  "branch": "v1.3R-release-candidate-signoff-and-smoke",
+  "base_branch": "v1.3-release-candidate-packaging",
+  "require_smoke_pass_rate": 1.0,
+  "require_signoff_score": 1.0,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

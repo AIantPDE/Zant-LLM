@@ -1,5 +1,5 @@
 {
-  "forbidden": [
+  "forbidden_flags": [
     "runtime_authority_granted=true",
     "provider_dispatch_enabled=true"
   ]
