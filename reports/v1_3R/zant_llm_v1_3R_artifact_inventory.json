@@ -1,0 +1,69 @@
+{
+  "report_version": "zant_llm_v1_3R_artifact_inventory_v0",
+  "branch": "v1.3R-release-candidate-signoff-and-smoke",
+  "artifact_count": 12,
+  "artifacts": [
+    {
+      "path": "README.md",
+      "exists": true,
+      "sha256": "bb217e742c00a99f6f9574a8af9a256654ed6e516f2fc3566d3a9a1de2e6076d"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "exists": true,
+      "sha256": "2ea91ed5d6b2f7dce1b987594a7aaa8d2e2cbecbdf238aad6e6de9b6434423db"
+    },
+    {
+      "path": "SECURITY.md",
+      "exists": true,
+      "sha256": "f11577e13d86cca8388b9d4f97867ae7f936af537341819e1818a937f79faf1b"
+    },
+    {
+      "path": "RELEASE_POLICY.md",
+      "exists": true,
+      "sha256": "c62162e31acd4ace1d0f4083c7f36ea198b4ce4a96e289bfabd38611c935a2a8"
+    },
+    {
+      "path": "docs/V1_3R_RELEASE_CANDIDATE_SIGNOFF_AND_SMOKE.md",
+      "exists": true,
+      "sha256": "378b9a2a2bbaa78cbc9bbefa222fd6dbb4f9e236bd87c9b66f90d46a5347c3df"
+    },
+    {
+      "path": "docs/RC_SIGNOFF_AND_SMOKE_CHECKLIST.md",
+      "exists": true,
+      "sha256": "e9ddea6918e3f91e8ca12baef7389e8478f20be9f9c50615f9d503ddb7e7bb07"
+    },
+    {
+      "path": "data/trace_hix_v1_3R/rc_signoff_checks.json",
+      "exists": true,
+      "sha256": "63c68a06b0979790a6f20eee039e50e233fed4c4249fca622e16fded14ab03b0"
+    },
+    {
+      "path": "data/trace_hix_v1_3R/rc_smoke_cases_12.jsonl",
+      "exists": true,
+      "sha256": "d97a756030a1fd4eebeb9d865afa0c507e340b09f2f1ff04eaa60378a70bc11e"
+    },
+    {
+      "path": "schemas/zant_llm_v1_3R_signoff_report_v0.schema.json",
+      "exists": true,
+      "sha256": "4bfbd9b69e799ae0310ff107d44c1a035d80c1c130cca867a4743ed7e8284d5b"
+    },
+    {
+      "path": "scripts/RUN_V1_3R_ALL_LOCAL.ps1",
+      "exists": true,
+      "sha256": "811b111fc7a0e3fd9febcd75d7fe0ba68d530aa41d1b8945a060122c883d5588"
+    },
+    {
+      "path": "scripts/BUILD_V1_3R_SIGNOFF_AND_SMOKE.ps1",
+      "exists": true,
+      "sha256": "00e8e1312f0d75f8c5d26001555f2d5f8ac15681a34456a152beb24923499ff9"
+    },
+    {
+      "path": "src/zant_llm/rc_signoff_v1_3r.py",
+      "exists": true,
+      "sha256": "86ce024f513fca4bde6bb33b9a6c1e13f2cec42ec8eec457426612c0db53c012"
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

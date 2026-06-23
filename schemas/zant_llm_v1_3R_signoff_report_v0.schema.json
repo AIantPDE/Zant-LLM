@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "required": [
+    "signoff_score",
+    "blocking_issues",
+    "accepted"
+  ]
+}

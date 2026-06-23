@@ -1,0 +1,9 @@
+{
+  "branch": "v1.3R-release-candidate-signoff-and-smoke",
+  "files": [
+    "data/trace_hix_v1_3R/rc_signoff_checks.json",
+    "data/trace_hix_v1_3R/rc_smoke_cases_12.jsonl"
+  ],
+  "signoff_checks": 24,
+  "smoke_cases": 12
+}

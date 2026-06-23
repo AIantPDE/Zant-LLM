@@ -1,3 +1,3 @@
 # Release Policy
 
-v1.3 can be considered a release-candidate packaging branch only if all RC packaging checks pass, blocking issues are zero, and governance flags remain false.
+A release candidate can advance only if signoff score is 1.0, smoke pass rate is 1.0, blocking issues are zero, and runtime/provider authority flags remain false.
