@@ -1,0 +1,137 @@
+{
+  "branch": "v1.5-post-release-monitoring-and-maintenance",
+  "smoke_cases": 20,
+  "correct": 20,
+  "smoke_pass_rate": 1.0,
+  "decision_counts": {
+    "READY": 5,
+    "BLOCKED": 5,
+    "FAILCLOSED": 5,
+    "CLOSEOUT": 5
+  },
+  "blocking_issues": 0,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "results": [
+    {
+      "id": "v1_5_smoke_001",
+      "expected_decision": "READY",
+      "decision": "READY",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_002",
+      "expected_decision": "BLOCKED",
+      "decision": "BLOCKED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_003",
+      "expected_decision": "FAILCLOSED",
+      "decision": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_004",
+      "expected_decision": "CLOSEOUT",
+      "decision": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_005",
+      "expected_decision": "READY",
+      "decision": "READY",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_006",
+      "expected_decision": "BLOCKED",
+      "decision": "BLOCKED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_007",
+      "expected_decision": "FAILCLOSED",
+      "decision": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_008",
+      "expected_decision": "CLOSEOUT",
+      "decision": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_009",
+      "expected_decision": "READY",
+      "decision": "READY",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_010",
+      "expected_decision": "BLOCKED",
+      "decision": "BLOCKED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_011",
+      "expected_decision": "FAILCLOSED",
+      "decision": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_012",
+      "expected_decision": "CLOSEOUT",
+      "decision": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_013",
+      "expected_decision": "READY",
+      "decision": "READY",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_014",
+      "expected_decision": "BLOCKED",
+      "decision": "BLOCKED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_015",
+      "expected_decision": "FAILCLOSED",
+      "decision": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_016",
+      "expected_decision": "CLOSEOUT",
+      "decision": "CLOSEOUT",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_017",
+      "expected_decision": "READY",
+      "decision": "READY",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_018",
+      "expected_decision": "BLOCKED",
+      "decision": "BLOCKED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_019",
+      "expected_decision": "FAILCLOSED",
+      "decision": "FAILCLOSED",
+      "ok": true
+    },
+    {
+      "id": "v1_5_smoke_020",
+      "expected_decision": "CLOSEOUT",
+      "decision": "CLOSEOUT",
+      "ok": true
+    }
+  ]
+}

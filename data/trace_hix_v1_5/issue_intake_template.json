@@ -1,0 +1,17 @@
+{
+  "template_version": "v1_5_issue_intake_v0",
+  "required_fields": [
+    "issue_id",
+    "reported_by",
+    "branch",
+    "release_tag",
+    "summary",
+    "severity",
+    "repro_steps",
+    "expected",
+    "actual",
+    "runtime_flags_observed"
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

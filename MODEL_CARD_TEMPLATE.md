@@ -1,3 +1,3 @@
 # Model Card Template
 
-Runtime governance artifact; no new model training in v1.4R.
+This branch does not add or train a model. It records post-release runtime governance health for the v1.4.0 release line.

@@ -1,7 +1,0 @@
-{
-  "type": "object",
-  "required": [
-    "archive_score",
-    "final_archive_accepted"
-  ]
-}
