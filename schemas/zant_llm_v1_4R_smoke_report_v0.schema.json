@@ -1,0 +1,7 @@
+{
+  "type": "object",
+  "required": [
+    "smoke_pass_rate",
+    "smoke_cases"
+  ]
+}

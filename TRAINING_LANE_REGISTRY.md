@@ -1,3 +1,3 @@
 # Training Lane Registry
 
-v1.4 is not a training lane. It is final packaging/tagging.
+v1.4R is non-training: final release smoke and archive lane.
