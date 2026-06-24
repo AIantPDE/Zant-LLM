@@ -1,9 +1,0 @@
-{
-  "branch": "v1.4R-final-release-smoke-and-archive",
-  "data_files": [
-    "archive_checks.json",
-    "final_smoke_cases_16.jsonl",
-    "archive_notes_seed.md",
-    "final_branch_index.json"
-  ]
-}

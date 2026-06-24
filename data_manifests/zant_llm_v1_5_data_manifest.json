@@ -1,0 +1,6 @@
+{
+  "branch": "v1.5-post-release-monitoring-and-maintenance",
+  "monitoring_checks": 20,
+  "smoke_cases": 20,
+  "release_tag": "v1.4.0"
+}

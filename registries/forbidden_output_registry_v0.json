@@ -1,4 +1,6 @@
 {
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
+  "forbidden": [
+    "runtime_authority_granted=true",
+    "provider_dispatch_enabled=true"
+  ]
 }

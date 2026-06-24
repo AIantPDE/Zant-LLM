@@ -1,3 +1,3 @@
 # Governance
 
-Branch: `v1.4R-final-release-smoke-and-archive`. Runtime authority and provider dispatch remain disabled.
+Runtime authority remains disabled. Provider dispatch remains disabled. Post-release monitoring is allowed only for logs, reports, issue intake, and regression triage; it cannot grant runtime authority or provider execution capability.

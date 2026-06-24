@@ -1,0 +1,11 @@
+{
+  "branch": "v1.5-post-release-monitoring-and-maintenance",
+  "artifacts": [
+    "reports/v1_5/zant_llm_v1_5_post_release_monitoring_report.json",
+    "reports/v1_5/zant_llm_v1_5_post_release_smoke_report.json",
+    "reports/v1_5/zant_llm_v1_5_maintenance_summary.md",
+    "data/trace_hix_v1_5/issue_intake_template.json",
+    "data/trace_hix_v1_5/regression_intake_template.json"
+  ],
+  "release_tag_under_watch": "v1.4.0"
+}
