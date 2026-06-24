@@ -1,8 +1,0 @@
-{
-  "report_version": "zant_llm_v1_3R_successor_recommendation_v0",
-  "branch": "v1.3R-release-candidate-signoff-and-smoke",
-  "successor": "v1.4-final-release-manifest-and-tagging",
-  "reason": "release-candidate signoff and smoke passed; proceed to final release manifest and tagging",
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}

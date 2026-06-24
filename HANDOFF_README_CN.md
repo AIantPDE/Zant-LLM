@@ -1,3 +1,5 @@
-# Zant-LLM v1.3R 交接说明
+# Zant-LLM v1.4 交付说明
 
-本分支用于 v1.3 RC 包的最终签核与 smoke 测试，不训练模型，不开启 runtime authority，不开启 provider dispatch。
+本分支用于最终发布清单、tag 建议、Release Notes、分支索引和 GitHub Release 草稿。
+
+推荐 tag：`v1.4.0`

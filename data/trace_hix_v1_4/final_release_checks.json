@@ -1,0 +1,134 @@
+[
+  {
+    "id": "frc_01",
+    "name": "branch index",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_02",
+    "name": "release notes",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_03",
+    "name": "github release draft",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_04",
+    "name": "tag recommendation",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_05",
+    "name": "sha256 summary",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_06",
+    "name": "artifact inventory",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_07",
+    "name": "release manifest",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_08",
+    "name": "successor recommendation",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_09",
+    "name": "runtime authority false",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_10",
+    "name": "provider dispatch false",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_11",
+    "name": "v1.0 recorded",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_12",
+    "name": "v1.0R recorded",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_13",
+    "name": "v1.1 recorded",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_14",
+    "name": "v1.2 recorded",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_15",
+    "name": "v1.3 recorded",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_16",
+    "name": "v1.3R recorded",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_17",
+    "name": "score computed",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_18",
+    "name": "blocking zero",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_19",
+    "name": "docs handoff",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_20",
+    "name": "security governance",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_21",
+    "name": "ci workflow",
+    "required": true,
+    "status": "pass"
+  },
+  {
+    "id": "frc_22",
+    "name": "tag command",
+    "required": true,
+    "status": "pass"
+  }
+]
