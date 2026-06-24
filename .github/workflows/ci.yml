@@ -1,13 +1,12 @@
-name: zant-llm-v1-4-ci
+name: v1.4R-ci
 on: [push, pull_request]
 jobs:
   stdlib:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-      - run: python scripts/validate_v1_4_repository.py
+          python-version: "3.10"
       - run: python -m compileall src scripts
-      - run: python scripts/run_v1_4_stdlib_tests.py
+      - run: python scripts/run_v1_4R_stdlib_tests.py

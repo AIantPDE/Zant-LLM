@@ -1,0 +1,12 @@
+{
+  "branch": "v1.4R-final-release-smoke-and-archive",
+  "base_branch": "v1.4-final-release-manifest-and-tagging",
+  "recommended_tag": "v1.4.0",
+  "archive_checks": 18,
+  "archive_score": 1.0,
+  "blocking_issues": 0,
+  "final_archive_accepted": true,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "successor": "v1.5-post-release-monitoring-and-maintenance"
+}

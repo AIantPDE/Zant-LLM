@@ -1,3 +1,3 @@
 # Security
 
-No credentials, provider keys, or external runtime authority are included.
+No runtime authority escalation is permitted. Final smoke/archive is offline only.

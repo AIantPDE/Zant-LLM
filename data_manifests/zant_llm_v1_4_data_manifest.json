@@ -1,8 +1,0 @@
-{
-  "branch": "v1.4-final-release-manifest-and-tagging",
-  "data_files": [
-    "final_release_checks.json",
-    "final_branch_index.json",
-    "release_notes_seed.md"
-  ]
-}

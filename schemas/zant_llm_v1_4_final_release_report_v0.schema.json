@@ -1,8 +1,0 @@
-{
-  "type": "object",
-  "required": [
-    "branch",
-    "final_release_accepted",
-    "blocking_issues"
-  ]
-}

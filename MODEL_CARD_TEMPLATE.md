@@ -1,3 +1,3 @@
 # Model Card Template
 
-Zant-LLM runtime governance release line. Not a standalone foundation model.
+Runtime governance artifact; no new model training in v1.4R.

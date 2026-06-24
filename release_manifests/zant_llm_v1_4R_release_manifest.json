@@ -1,0 +1,256 @@
+{
+  "manifest_version": "zant_llm_v1_4R_release_manifest_v0",
+  "branch": "v1.4R-final-release-smoke-and-archive",
+  "base_branch": "v1.4-final-release-manifest-and-tagging",
+  "recommended_tag": "v1.4.0",
+  "file_count": 49,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "4e8948a633fcb9d633f72b4cefae07785fd36caa02143ea5352ed000a6daa4df",
+      "bytes": 314
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c5747135c48b5a3f6c0a1476158e00f089421beee4211e6286cf30b5efa00baf",
+      "bytes": 41
+    },
+    {
+      "path": "data/trace_hix_v1_4R/archive_checks.json",
+      "sha256": "f81df5f015df52b5739806b9f8926473cb1d22f86b38c231ca69cf58ffbd08be",
+      "bytes": 2493
+    },
+    {
+      "path": "data/trace_hix_v1_4R/archive_notes_seed.md",
+      "sha256": "e6fe9b8aed11b98befe7d3527b6c221dfde947ea4a04c08498c53b06bac8031a",
+      "bytes": 109
+    },
+    {
+      "path": "data/trace_hix_v1_4R/final_branch_index.json",
+      "sha256": "7d3f8b331e20b8553980d6ac72aeb81e3c224ce29bf86da16f8307cab5d73888",
+      "bytes": 613
+    },
+    {
+      "path": "data/trace_hix_v1_4R/final_smoke_cases_16.jsonl",
+      "sha256": "4d2696a2e65acd36a874247e1eafd4b59efe32ee6a6bd6bb2551e2dfe4beaf63",
+      "bytes": 1984
+    },
+    {
+      "path": "data_manifests/zant_llm_v1_4R_data_manifest.json",
+      "sha256": "b2d2b7d1b4f87c41f9fee40808f72e8a843b175b894ac2fa67fc4a97b6acf254",
+      "bytes": 199
+    },
+    {
+      "path": "docs/FINAL_RELEASE_SMOKE_AND_ARCHIVE_CHECKLIST.md",
+      "sha256": "6770c0b15f696c997a10fa19494981f5fdae5c054f290e9f96d7c18355398f5f",
+      "bytes": 551
+    },
+    {
+      "path": "docs/ORSC_V6_FINAL_ARCHIVE_SUCCESSOR_MAPPING.md",
+      "sha256": "6f5b1bb91bec6371557cc2619f7434276a5bdfffbedb65fa4d40e176be9cbfde",
+      "bytes": 111
+    },
+    {
+      "path": "docs/V1_4R_FINAL_RELEASE_SMOKE_AND_ARCHIVE.md",
+      "sha256": "212ff95bc42e997174146151fcdf8e95b9d3e107bee7d6dbdb47cc6c6f566930",
+      "bytes": 124
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "18c6a78857921c217e8ada7220a5d04a37b50971985d0613bbb3bdbf946605ca",
+      "bytes": 120
+    },
+    {
+      "path": "HANDOFF_README_CN.md",
+      "sha256": "fada08356d68d5231d7c9d07ae37cd7ee8ab04aa50e00a230c3a2c83110e68e5",
+      "bytes": 153
+    },
+    {
+      "path": "MODEL_CARD_TEMPLATE.md",
+      "sha256": "8745d547be3bc9ec584f35423e1f3859059765542637f43eb50c67bac0e6b533",
+      "bytes": 84
+    },
+    {
+      "path": "outputs/v1_4R/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "README.md",
+      "sha256": "b61598fb033fbe9dc978b571974a83f8eafedf6c04c4e834c29fee12b65df5ef",
+      "bytes": 500
+    },
+    {
+      "path": "registries/final_archive_registry_v0.json",
+      "sha256": "7017440dbd2d34bbf05fe613accdfb969b033374b8ffe0d31cdf01ecb7454af4",
+      "bytes": 170
+    },
+    {
+      "path": "registries/forbidden_output_registry_v0.json",
+      "sha256": "94536447a4f9bc9cb71ac516d224212a3793c871ebee6d8a2784604c40721635",
+      "bytes": 79
+    },
+    {
+      "path": "registries/gate_result_taxonomy_v0.json",
+      "sha256": "bd0dc945085bc966985073cbc1e89b21f1c016022b598a8836e7b4626c60a71b",
+      "bytes": 85
+    },
+    {
+      "path": "release_manifests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "RELEASE_POLICY.md",
+      "sha256": "9de017569b00a59ef988124dd2a25647b1775d5a6e8f4ffb38399119fe09a74f",
+      "bytes": 83
+    },
+    {
+      "path": "reports/v1_4R/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/v1_4R/zant_llm_v1_4R_archive_report.json",
+      "sha256": "0e6993a8d73050b65877842791b8912b43bdaba8374a484b1d9d9c8b0622507e",
+      "bytes": 404
+    },
+    {
+      "path": "reports/v1_4R/zant_llm_v1_4R_archive_summary.md",
+      "sha256": "e072ca0d2054bfefe1f00bb8b593d2c8a9d152db50e370aa53eec1469914176f",
+      "bytes": 170
+    },
+    {
+      "path": "reports/v1_4R/zant_llm_v1_4R_artifact_inventory.json",
+      "sha256": "1767e2d99536756d08e325596bcb0f4d82189525bbeb19160f0a74b89648a4fd",
+      "bytes": 568
+    },
+    {
+      "path": "reports/v1_4R/zant_llm_v1_4R_final_smoke_report.json",
+      "sha256": "27239e9371362c4f9344b9982454f3806d4085271ef1ac3556ae02abfb4ce8a4",
+      "bytes": 3830
+    },
+    {
+      "path": "reports/v1_4R/zant_llm_v1_4R_successor_recommendation.json",
+      "sha256": "dc08a5628731af97324554155968276ef81a4296343fd6129850fe40ec907ad7",
+      "bytes": 285
+    },
+    {
+      "path": "requirements-v1.4R.txt",
+      "sha256": "f8def2b2b0b247e0897e5f906835320338910ea36b2d3b6df2e73357c90eb114",
+      "bytes": 14
+    },
+    {
+      "path": "schemas/zant_llm_v1_4R_archive_report_v0.schema.json",
+      "sha256": "a1464bf389fd21f6bbc122c8ae0d57c444849000c5741f6da181176f6b47fa7a",
+      "bytes": 94
+    },
+    {
+      "path": "schemas/zant_llm_v1_4R_smoke_report_v0.schema.json",
+      "sha256": "c7265f85e85dfa66d6ec79cd9b673d447a316d77aae80dd9c434e9f641e770d0",
+      "bytes": 85
+    },
+    {
+      "path": "schemas/zant_llm_v1_4R_successor_recommendation_v0.schema.json",
+      "sha256": "7d4c0a2f806de37431ff715e2c9e40554c57970ed466979bd3ea96516b537c6f",
+      "bytes": 60
+    },
+    {
+      "path": "scripts/BUILD_V1_4R_FINAL_SMOKE_AND_ARCHIVE.ps1",
+      "sha256": "4c8f53621bce09c1fdb98cd2b83472adcf2b45968c34cb8484631894ba68fd0e",
+      "bytes": 267
+    },
+    {
+      "path": "scripts/build_v1_4R_final_smoke_and_archive.py",
+      "sha256": "e03b68b53fb24078972b18d1e00f004ac99a6330f03382949cbcd9e19247ad77",
+      "bytes": 2671
+    },
+    {
+      "path": "scripts/MAKE_V1_4R_RELEASE_MANIFEST.ps1",
+      "sha256": "f188d9932f9c96cfa53df85a71dda6ec3221f70eebb5fb05deae0e0d7a581ed8",
+      "bytes": 251
+    },
+    {
+      "path": "scripts/make_v1_4R_release_manifest.py",
+      "sha256": "dcc428a4205dab25477a6b8cd4dd6dd8a1870cd21add743874d70660386d4468",
+      "bytes": 1142
+    },
+    {
+      "path": "scripts/MAKE_V1_4R_SUCCESSOR_RECOMMENDATION.ps1",
+      "sha256": "dfdc82a6fb89d9854f111f254d43e9234fe2147f4157def2636ca92357bd5c2c",
+      "bytes": 267
+    },
+    {
+      "path": "scripts/make_v1_4R_successor_recommendation.py",
+      "sha256": "e80e8a942f67b4cf01b0ff2682a96e04c30d5854d137f73e7518ba6e579d64f4",
+      "bytes": 736
+    },
+    {
+      "path": "scripts/PUSH_V1_4R_BASED_ON_REMOTE_V1_4.ps1",
+      "sha256": "dd2be60421e259abf8784c8ca4a566d0707c8852e5b4dad87eebc60bbac962da",
+      "bytes": 1132
+    },
+    {
+      "path": "scripts/RUN_V1_4R_ALL_LOCAL.ps1",
+      "sha256": "a151a4fc0a72d535ac5c925a65c59ec0d1805fccf67847127d87cff2926e33b4",
+      "bytes": 907
+    },
+    {
+      "path": "scripts/run_v1_4R_stdlib_tests.py",
+      "sha256": "56d04c6f286835470e81baa448546ccd90940d0bd63692c1e9912196ba5ca692",
+      "bytes": 1020
+    },
+    {
+      "path": "scripts/TAG_ZANT_LLM_V1_4_0.ps1",
+      "sha256": "fc967e05eeb12097d8b63531679d61c95a1b4af23e1d3e17c1c1afe5c4b4df7e",
+      "bytes": 223
+    },
+    {
+      "path": "scripts/validate_v1_4R_repository.py",
+      "sha256": "4c6489cc6cb57e2630458993591ca62b5c470360e8d0b54eb2ede58735e3a9c5",
+      "bytes": 940
+    },
+    {
+      "path": "scripts/VERIFY_ZANT_LLM_V1_4R_LOCAL.ps1",
+      "sha256": "f02b32cfff3fc9ffeaba1e225f15e1a951abc23bc5bf88bea7e6cf9d5917039a",
+      "bytes": 655
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "d12fd548b529a006190085f271563faf63b6742a5e80a4ff14374e9aaef7d33f",
+      "bytes": 95
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "6a1a494897e5b77722a6ff7d46758bb846b6704838acab17d8bf23cbf4000a44",
+      "bytes": 5055
+    },
+    {
+      "path": "src/zant_llm/__init__.py",
+      "sha256": "c7a2434479148b340825551568830a056bc84400c88ad8bb03b2cf174263b3a9",
+      "bytes": 22
+    },
+    {
+      "path": "src/zant_llm/final_archive_v1_4r.py",
+      "sha256": "a905f74ab629f5be9ded757a6fe153df350cac33a4c0e9bb317a637745aaf28f",
+      "bytes": 1093
+    },
+    {
+      "path": "src/zant_llm/governance.py",
+      "sha256": "24e575bed7031c3e8cfb887e2a5b1f21633e5ba8941e87555e9191d10790ca1a",
+      "bytes": 177
+    },
+    {
+      "path": "TRAINING_LANE_REGISTRY.md",
+      "sha256": "671dbb07096ccde9364cb8a68751fc148a0cb9c459eaad4f63fa333127af160f",
+      "bytes": 87
+    },
+    {
+      "path": "VERSION",
+      "sha256": "3de0e747df898111014a4719846815e93e087966827a4c9331d118d3511de28e",
+      "bytes": 6
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

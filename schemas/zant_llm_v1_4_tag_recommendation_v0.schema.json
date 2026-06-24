@@ -1,7 +1,0 @@
-{
-  "type": "object",
-  "required": [
-    "recommended_tag",
-    "tag_command"
-  ]
-}
