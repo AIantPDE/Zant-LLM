@@ -1,3 +1,3 @@
 # Model Card Template
 
-This release lane packages governance/runtime artifacts. It does not introduce new model weights.
+Zant-LLM runtime governance release line. Not a standalone foundation model.

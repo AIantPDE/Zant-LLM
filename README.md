@@ -1,22 +1,14 @@
-# Zant-LLM v1.3R Release Candidate Signoff and Smoke
+# Zant-LLM v1.4-final-release-manifest-and-tagging
 
-Branch: `v1.3R-release-candidate-signoff-and-smoke`
+Final release manifest and tagging branch.
 
-This branch signs off the v1.3 release-candidate package with deterministic smoke checks, artifact inventory checks, governance checks, and final release-readiness signals. It does not train a model and does not enable runtime authority or provider dispatch.
+- Base: `v1.3R-release-candidate-signoff-and-smoke`
+- Recommended tag: `v1.4.0`
+- runtime_authority_granted=False
+- provider_dispatch_enabled=False
 
-## Status
-
-- Base branch: `v1.3-release-candidate-packaging`
-- Signoff checks: 24
-- Smoke cases: 12
-- Signoff score: 1.0
-- Smoke pass rate: 1.0
-- Blocking issues: 0
-- Accepted: true
-- Successor: `v1.4-final-release-manifest-and-tagging`
-
-## Run locally
+## Run
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_3R_ALL_LOCAL.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_4_ALL_LOCAL.ps1
 ```

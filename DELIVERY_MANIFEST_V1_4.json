@@ -1,0 +1,6 @@
+{
+  "branch": "v1.4-final-release-manifest-and-tagging",
+  "base_branch": "v1.3R-release-candidate-signoff-and-smoke",
+  "recommended_tag": "v1.4.0",
+  "successor": "v1.4R-final-release-smoke-and-archive"
+}
