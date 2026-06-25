@@ -1,9 +1,10 @@
 {
-  "version": "v0",
-  "gate_results": [
+  "allowed_status": [
     "pass",
-    "blocked",
-    "requires_review",
-    "fail_closed"
+    "warn",
+    "fail"
+  ],
+  "blocking_status": [
+    "fail"
   ]
 }

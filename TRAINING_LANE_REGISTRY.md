@@ -1,11 +1,11 @@
-# Training Lane Registry
+# Training lane registry
 
-v1.5R 不新增训练 lane。
+v1.6 does not introduce model training.
 
-| Lane | Status | Notes |
-|---|---:|---|
-| runtime authority | disabled | `False` |
-| provider dispatch | disabled | `False` |
-| post-release audit | enabled | local-only |
-| hotfix readiness | enabled | local-only |
-| regression replay | enabled | fixture-only |
+Training lane status:
+
+```text
+TRAINING_LANE_ACTIVE=False
+RUNTIME_AUTHORITY_GRANTED=False
+PROVIDER_DISPATCH_ENABLED=False
+```

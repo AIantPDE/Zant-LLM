@@ -1,0 +1,32 @@
+{"case_id": "V16-REG-001", "source": "v1.5R replay synthetic seed", "input": "replay check release health score", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-002", "source": "v1.5R replay synthetic seed", "input": "replay check blocking issue count", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-003", "source": "v1.5R replay synthetic seed", "input": "replay check smoke report status", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-004", "source": "v1.5R replay synthetic seed", "input": "replay check regression trend", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-005", "source": "v1.5R replay synthetic seed", "input": "replay check hotfix readiness", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-006", "source": "v1.5R replay synthetic seed", "input": "replay check operator notes", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-007", "source": "v1.5R replay synthetic seed", "input": "replay check issue intake", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-008", "source": "v1.5R replay synthetic seed", "input": "replay check security invariants", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-009", "source": "v1.5R replay synthetic seed", "input": "replay check manifest creation", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-010", "source": "v1.5R replay synthetic seed", "input": "replay check successor recommendation", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-011", "source": "v1.5R replay synthetic seed", "input": "replay check artifact inventory", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-012", "source": "v1.5R replay synthetic seed", "input": "replay check schema registry", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-013", "source": "v1.5R replay synthetic seed", "input": "replay check dashboard completeness", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-014", "source": "v1.5R replay synthetic seed", "input": "replay check governance gate", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-015", "source": "v1.5R replay synthetic seed", "input": "replay check provider dispatch flag", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-016", "source": "v1.5R replay synthetic seed", "input": "replay check runtime authority flag", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-017", "source": "v1.5R replay synthetic seed", "input": "replay check fail-closed behavior", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-018", "source": "v1.5R replay synthetic seed", "input": "replay check release policy", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-019", "source": "v1.5R replay synthetic seed", "input": "replay check security policy", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-020", "source": "v1.5R replay synthetic seed", "input": "replay check training lane inactive", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-021", "source": "v1.5R replay synthetic seed", "input": "replay check external ingestion absent", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-022", "source": "v1.5R replay synthetic seed", "input": "replay check crawler absent", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-023", "source": "v1.5R replay synthetic seed", "input": "replay check maintenance queue", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-024", "source": "v1.5R replay synthetic seed", "input": "replay check dashboard read-only", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-025", "source": "v1.5R replay synthetic seed", "input": "replay check operator summary", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-026", "source": "v1.5R replay synthetic seed", "input": "replay check stale report warning", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-027", "source": "v1.5R replay synthetic seed", "input": "replay check trend summary", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-028", "source": "v1.5R replay synthetic seed", "input": "replay check regression replay pass rate", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-029", "source": "v1.5R replay synthetic seed", "input": "replay check smoke pass rate", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-030", "source": "v1.5R replay synthetic seed", "input": "replay check health threshold", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-031", "source": "v1.5R replay synthetic seed", "input": "replay check hotfix threshold", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}
+{"case_id": "V16-REG-032", "source": "v1.5R replay synthetic seed", "input": "replay check v1.6R successor ready", "expected_status": "pass", "expected_regression": false, "expected_blocking_issue": false}

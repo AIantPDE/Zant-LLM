@@ -1,17 +1,45 @@
-# 新聊天交接说明 · Zant-LLM v1.5R
+# Zant-LLM v1.6 中文交接说明
 
-当前版本：`v1.5R-post-release-monitoring-audit-and-hotfix-readiness`
+当前版本：`v1.6-runtime-observability-and-operator-dashboard`
 
-从上一阶段继承的状态：
+## 阶段定位
 
-- v1.4R 已完成 final release smoke and archive。
-- v1.5 已完成 post-release monitoring and maintenance。
-- v1.5 successor 推荐为 v1.5R。
-- v1.5R 目标是审计 v1.5 的 post-release 机制，并建立 hotfix readiness 与 regression replay 闭环。
+v1.6 是 **运行时可观测性与操作员仪表盘阶段**。
 
-下一步：
+它承接：
 
-1. 解压本包到桌面。
-2. 进入目录运行 `scripts\RUN_V1_5R_ALL_LOCAL.ps1`。
-3. 若通过，运行 `scripts\PUSH_V1_5R_BASED_ON_REMOTE_V1_5.ps1`。
-4. push 成功后，进入 v1.6 observability / operator dashboard。
+```text
+v1.4R  final release smoke + archive
+v1.5   post-release monitoring + maintenance
+v1.5R  post-release audit + hotfix readiness
+v1.6   runtime observability + operator dashboard
+```
+
+## 明确不包含
+
+```text
+crawler / scraper / spider / external ingestion / provider dispatch
+```
+
+也就是说，v1.6 不做爬虫、不接外部采集源、不开放运行时权限。
+
+## 核心目标
+
+1. 把 v1.5R 的 audit / hotfix readiness / regression replay 结果汇总为 dashboard。
+2. 给操作员一个每日检查视图。
+3. 给维护者一个 health score / regression trend / blocking issue 概览。
+4. 保持 fail-closed 与治理边界不变。
+5. 生成 v1.6R successor recommendation。
+
+## 本地验证
+
+```powershell
+cd C:\Users\Administrator\Desktop\Zant-LLM-v1.6-runtime-observability-and-operator-dashboard
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_6_ALL_LOCAL.ps1
+```
+
+## 推送
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V1_6_BASED_ON_REMOTE_V1_5R.ps1
+```

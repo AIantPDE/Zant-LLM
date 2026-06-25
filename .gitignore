@@ -3,6 +3,5 @@ __pycache__/
 .pytest_cache/
 .venv/
 .env
-.DS_Store
-outputs/**/*
-!outputs/**/.gitkeep
+outputs/**/*.tmp
+reports/**/*.tmp
