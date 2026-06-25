@@ -1,0 +1,302 @@
+{
+  "version": "v1.6",
+  "branch": "v1.6-runtime-observability-and-operator-dashboard",
+  "created_at": "2026-06-25",
+  "artifact_count": 58,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "7a5bcdd5b7b037d70b6226f51049748c77158f5505e1e75f1fde97f12cf5107f",
+      "bytes": 513
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f8ce2d546a125b041f1d0792be8f583e75b6cba2f7e8c46019065064bdb51449",
+      "bytes": 80
+    },
+    {
+      "path": "data/trace_hix_v1_6/dashboard_panels.json",
+      "sha256": "7bf33aeaa18cdb63a004e9bf10229d49c59ad6782b97b97bae167ac66a96e8de",
+      "bytes": 2682
+    },
+    {
+      "path": "data/trace_hix_v1_6/maintenance_notes_seed.md",
+      "sha256": "000414a97ddaa78ece99296366eb286034a37247c24b8b16ae4fe4730e68d213",
+      "bytes": 268
+    },
+    {
+      "path": "data/trace_hix_v1_6/operator_daily_check_cases_32.jsonl",
+      "sha256": "e7954da7c84ae4ed166576810b8e3f23bcb8fd9d0045c3b874887340a4929d6b",
+      "bytes": 6960
+    },
+    {
+      "path": "data/trace_hix_v1_6/operator_daily_check_template.json",
+      "sha256": "bc2524a57978b94df6c344e85adb9be6ba30f643b6b2ec297f9778e04d715cd9",
+      "bytes": 178
+    },
+    {
+      "path": "data/trace_hix_v1_6/regression_trend_cases_32.jsonl",
+      "sha256": "96a94c60178a155724ced023cdc1a72fb381d152aed1a8ef59b5be7f6e620985",
+      "bytes": 6501
+    },
+    {
+      "path": "data/trace_hix_v1_6/runtime_health_checks.json",
+      "sha256": "c5fb9a1a3f2c715755c82618b449e023f06b7e137c39097f89be4f6fd965e469",
+      "bytes": 6510
+    },
+    {
+      "path": "data_manifests/zant_llm_v1_6_data_manifest.json",
+      "sha256": "12589fcf72ec7dd1589bb1d1406d4c9795a0fffb5f65ae005768159c0fd1b411",
+      "bytes": 322
+    },
+    {
+      "path": "docs/DASHBOARD_PANEL_REGISTRY.md",
+      "sha256": "30c1ddd94e09d883b8ad27e1b841a19db7520d5742c97e2d2bf5b2b551beec31",
+      "bytes": 181
+    },
+    {
+      "path": "docs/HOTFIX_PANEL_POLICY.md",
+      "sha256": "804a25f1ae678404f4039cdd4c518a5e25f370d5d927c78bd72c32658d44282f",
+      "bytes": 134
+    },
+    {
+      "path": "docs/OPERATOR_DAILY_CHECK_GUIDE.md",
+      "sha256": "a421ebc93e50fc38e2b8a94c683386a88c9934e0880a45ddb9308e2746306d76",
+      "bytes": 300
+    },
+    {
+      "path": "docs/ORSC_V6_OBSERVABILITY_SUCCESSOR_MAPPING.md",
+      "sha256": "b1d58088562c4cf0a0a6161d72501d4af90010befea0ca1d1bedb8bfb5e366ef",
+      "bytes": 331
+    },
+    {
+      "path": "docs/REGRESSION_TREND_POLICY.md",
+      "sha256": "ff6ae513bbe029d6fc31b39673161ab513e26c8f5aa0aa40a59f5a08ebce20b1",
+      "bytes": 174
+    },
+    {
+      "path": "docs/RUNTIME_HEALTH_SCORE_POLICY.md",
+      "sha256": "822589189622d66df759ee19573b6c5af9e906a27c8b7b92f0f6d9e3ca9f4b74",
+      "bytes": 155
+    },
+    {
+      "path": "docs/V1_6_RUNTIME_OBSERVABILITY_AND_OPERATOR_DASHBOARD.md",
+      "sha256": "529c6393ad2b4cd6303ead160226c02abe39751f496448a84722473180456247",
+      "bytes": 706
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "260cae3394f48e000c96507c8593364cd924e7c674f8ed7dc3f654f0a6fa5322",
+      "bytes": 373
+    },
+    {
+      "path": "HANDOFF_README_CN.md",
+      "sha256": "42aa2770bd64927175a822929182e9f22f78f584f1652fa4a4a1855473076360",
+      "bytes": 1223
+    },
+    {
+      "path": "MODEL_CARD_TEMPLATE.md",
+      "sha256": "c7a99232dbb0c747da53cc0687bbb3d43efb30f8f5dbe228c8311c435bf1c767",
+      "bytes": 136
+    },
+    {
+      "path": "ONE_PAGE_HANDOFF_CN.txt",
+      "sha256": "da97683d6059b2cf174c350e54e9ec249d97c72e43a4a23db429c2c76db74c28",
+      "bytes": 553
+    },
+    {
+      "path": "outputs/v1_6/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "README.md",
+      "sha256": "f8a63c0943bc1bfb9c9fc15b6a051d4b0f0cfbc56f2b313bc3e21f82c5e4bbf0",
+      "bytes": 1487
+    },
+    {
+      "path": "README_FOR_NEW_CHAT.md",
+      "sha256": "653105dd2ce1883892ff50d959307e5bf067412c133f477714c7d4ea8329660c",
+      "bytes": 500
+    },
+    {
+      "path": "registries/forbidden_output_registry_v0.json",
+      "sha256": "b0803465ec5f7ce3498af2a96bee991c798b4cd5f6e36cafd8b1ec39e2fefa3b",
+      "bytes": 128
+    },
+    {
+      "path": "registries/gate_result_taxonomy_v0.json",
+      "sha256": "7e8127afad796a67d5247fa9fa3be9a51e198f9dd7dabdd06b6e850830c07170",
+      "bytes": 104
+    },
+    {
+      "path": "registries/operator_dashboard_registry_v0.json",
+      "sha256": "082e4d6fa0c683d884c605e08e81856c8a2a3551691348754f57cad2445e6e73",
+      "bytes": 84
+    },
+    {
+      "path": "registries/runtime_observability_registry_v0.json",
+      "sha256": "30c07a204612dafabe5067ccca1fd796451e9446f0686c8713c6a799ad236a47",
+      "bytes": 410
+    },
+    {
+      "path": "release_manifests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "RELEASE_POLICY.md",
+      "sha256": "e0cf48f77ea8d5bbb57c7244eaefe8f420457a4c9bc777e9c5cb4044e93be692",
+      "bytes": 294
+    },
+    {
+      "path": "reports/v1_6/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/v1_6/zant_llm_v1_6_artifact_inventory.json",
+      "sha256": "4ea037d8f83ab274cbbc8d4c0ef20b33d73d60ed0919fca204d0fa5a583b2f3b",
+      "bytes": 398
+    },
+    {
+      "path": "reports/v1_6/zant_llm_v1_6_dashboard_report.json",
+      "sha256": "2dfb97449e608c2e987a9123f7d1b54b30985b4d5a1cf266ef956f51b573dc84",
+      "bytes": 3212
+    },
+    {
+      "path": "reports/v1_6/zant_llm_v1_6_observability_report.json",
+      "sha256": "9d051dbf7b371b5090e6d9ca777d60a4df0031054edc56114f234b3518fcd32b",
+      "bytes": 474
+    },
+    {
+      "path": "reports/v1_6/zant_llm_v1_6_observability_summary.md",
+      "sha256": "747947d99f4848f64f834dcf0537a73507dd341efca31deca179ddb50a6bb7d1",
+      "bytes": 288
+    },
+    {
+      "path": "reports/v1_6/zant_llm_v1_6_operator_daily_report.json",
+      "sha256": "7dfecb7c5e70b9e17a3d393e609a95027feb4988306f06ee1aa59c8dcd696da6",
+      "bytes": 263
+    },
+    {
+      "path": "reports/v1_6/zant_llm_v1_6_successor_recommendation.json",
+      "sha256": "f0df23ed28ae00a7cd6021c1858c896553a1dbad575e96df7c93b1d13df3fc2d",
+      "bytes": 384
+    },
+    {
+      "path": "requirements-v1.6.txt",
+      "sha256": "fa13c7241ef76dfd11762be29a865987b342e81248665913544b193afbf3ad09",
+      "bytes": 64
+    },
+    {
+      "path": "schemas/zant_llm_v1_6_dashboard_report_v0.schema.json",
+      "sha256": "0d0fe7c9ba45b0f18f79b65b9c036e90f371a464b9ee76adf9009e116ba45c13",
+      "bytes": 250
+    },
+    {
+      "path": "schemas/zant_llm_v1_6_observability_report_v0.schema.json",
+      "sha256": "a86f330491a01962c151c62697b8855c54f2abf88b0157e89ed3ffd47b11ad72",
+      "bytes": 274
+    },
+    {
+      "path": "schemas/zant_llm_v1_6_operator_daily_report_v0.schema.json",
+      "sha256": "1772f328947b0c3de4df8db0adff6a3790fcd00ab86e3d2a6db24c76faebf554",
+      "bytes": 247
+    },
+    {
+      "path": "schemas/zant_llm_v1_6_successor_recommendation_v0.schema.json",
+      "sha256": "091b4f6f2bc5e1027f8ba3fd471584995fbf3309ec0d8a44f143d6e156b5fb60",
+      "bytes": 218
+    },
+    {
+      "path": "scripts/BUILD_V1_6_RUNTIME_OBSERVABILITY.ps1",
+      "sha256": "0122205204691d0d17ebcc85d69ec6d78ee2e49aae2b180127acbe584780b4bc",
+      "bytes": 180
+    },
+    {
+      "path": "scripts/build_v1_6_runtime_observability.py",
+      "sha256": "0ab15f59f08fa85bba39d787ffadd49aeef819db4aab39c22e2cfde1c49bfad5",
+      "bytes": 2874
+    },
+    {
+      "path": "scripts/MAKE_V1_6_RELEASE_MANIFEST.ps1",
+      "sha256": "3f31276af24d7ece8f81731fc2668e5c627c76edbae9c4ae09725a51e720bef6",
+      "bytes": 174
+    },
+    {
+      "path": "scripts/make_v1_6_release_manifest.py",
+      "sha256": "f1b2fbba550239c7cc283dc30a9ed476b2149fa1fc5209132ea8e7780447b76e",
+      "bytes": 1337
+    },
+    {
+      "path": "scripts/MAKE_V1_6_SUCCESSOR_RECOMMENDATION.ps1",
+      "sha256": "db5ba1e674bea65bae5121f11bc3f947a1d8acd312901125a5b35cff104101f5",
+      "bytes": 182
+    },
+    {
+      "path": "scripts/make_v1_6_successor_recommendation.py",
+      "sha256": "d29fb19736204429ceaed560e99202f0b88f5cb84573b53e211b58f5a98ec36f",
+      "bytes": 836
+    },
+    {
+      "path": "scripts/PUSH_V1_6_BASED_ON_REMOTE_V1_5R.ps1",
+      "sha256": "aa69e2a8c1dd0153b0fbde72fab105abb62ce40e54828d664b7f4ad7d3ab2646",
+      "bytes": 906
+    },
+    {
+      "path": "scripts/RUN_V1_6_ALL_LOCAL.ps1",
+      "sha256": "6d15a66ec4d08cb70ecd5e28e8162aeff20c262cc687e9f36ebb1eab5df5c243",
+      "bytes": 809
+    },
+    {
+      "path": "scripts/run_v1_6_stdlib_tests.py",
+      "sha256": "3aa58bd2a8b0e66091b5f081763a7feccad79d175c64d502165e6392ca818c50",
+      "bytes": 1352
+    },
+    {
+      "path": "scripts/validate_v1_6_repository.py",
+      "sha256": "4c792643a418b26f569e2df962155a4e589d22cf7ff88859897880e22e096813",
+      "bytes": 2235
+    },
+    {
+      "path": "scripts/VERIFY_ZANT_LLM_V1_6_LOCAL.ps1",
+      "sha256": "4811c2d14fd06f03a96d36b99bbe1f172c596c1411f3e25059c8f23579fa1948",
+      "bytes": 218
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "24ebf46bf88431c84b29ed579b8a85d968abc1c8dff2b4b112d7af8e98bcd082",
+      "bytes": 343
+    },
+    {
+      "path": "src/zant_llm/__init__.py",
+      "sha256": "dcd86bd34cfd584daedd5f16700d3ec21589d4c9de3ea3955008c966753bfc21",
+      "bytes": 20
+    },
+    {
+      "path": "src/zant_llm/governance.py",
+      "sha256": "4cc87139569328d92e5f525656f8a1557ff6618d56bd180eca334274577f255f",
+      "bytes": 317
+    },
+    {
+      "path": "src/zant_llm/runtime_observability_v1_6.py",
+      "sha256": "dcef3a35eda7afa732b9a4325b738b17d9b1d0db3e848c0d1b8b39457ac24d78",
+      "bytes": 3072
+    },
+    {
+      "path": "TRAINING_LANE_REGISTRY.md",
+      "sha256": "4256af9377acf26f13143a91525cb21fd9e2f6cfe0808a2058cfda67bc40c145",
+      "bytes": 193
+    },
+    {
+      "path": "VERSION",
+      "sha256": "e5cd57eee9635f3612a2a913746f7f794cdb573cc3e16f6b7d8e613f92beac83",
+      "bytes": 4
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "successor": "v1.6R-runtime-observability-audit-and-dashboard-hardening",
+  "note": "release manifest excludes itself and SHA256SUMS.txt to avoid self-referential hash drift"
+}

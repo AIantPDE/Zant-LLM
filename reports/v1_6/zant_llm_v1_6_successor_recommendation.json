@@ -1,0 +1,8 @@
+{
+  "version": "v1.6",
+  "branch": "v1.6-runtime-observability-and-operator-dashboard",
+  "successor": "v1.6R-runtime-observability-audit-and-dashboard-hardening",
+  "reason": "v1.6 introduces operator dashboard outputs; v1.6R should audit and harden dashboard correctness before later expansion.",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

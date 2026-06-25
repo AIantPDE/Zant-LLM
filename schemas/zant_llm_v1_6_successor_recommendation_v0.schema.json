@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": [
+    "version",
+    "branch",
+    "successor",
+    "reason"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    }
+  }
+}

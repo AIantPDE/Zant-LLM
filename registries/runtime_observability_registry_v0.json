@@ -1,0 +1,19 @@
+{
+  "version": "v1.6",
+  "branch": "v1.6-runtime-observability-and-operator-dashboard",
+  "panels": [
+    "release_health",
+    "governance_gate",
+    "smoke_trend",
+    "regression_trend",
+    "blocking_issues",
+    "hotfix_readiness",
+    "operator_daily",
+    "artifact_inventory",
+    "manifest_status",
+    "successor_status",
+    "security_invariants",
+    "maintenance_queue"
+  ],
+  "read_only": true
+}

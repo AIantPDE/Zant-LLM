@@ -1,0 +1,11 @@
+{
+  "version": "v1.6",
+  "branch": "v1.6-runtime-observability-and-operator-dashboard",
+  "data_root": "data/trace_hix_v1_6",
+  "runtime_health_checks": 32,
+  "dashboard_panels": 12,
+  "operator_daily_cases": 32,
+  "regression_trend_cases": 32,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": [
+    "version",
+    "branch",
+    "operator_daily_cases",
+    "operator_daily_pass_rate"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    }
+  }
+}

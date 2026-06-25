@@ -1,4 +1,4 @@
-name: zant-llm-v1-5r-ci
+name: zant-llm-v1-6-ci
 
 on:
   push:
@@ -11,10 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: '3.10'
       - name: Verify repository
-        run: python scripts/validate_v1_5R_repository.py --root .
-      - name: Build audit artifacts
-        run: python scripts/build_v1_5R_audit_and_hotfix_readiness.py --root .
+        run: python scripts/validate_v1_6_repository.py
       - name: Run stdlib tests
-        run: python scripts/run_v1_5R_stdlib_tests.py --root .
+        run: python scripts/run_v1_6_stdlib_tests.py
+      - name: Build observability dashboard
+        run: python scripts/build_v1_6_runtime_observability.py
