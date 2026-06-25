@@ -1,0 +1,7 @@
+{
+  "version": "v1.5R",
+  "successor": "v1.6-runtime-observability-and-operator-dashboard",
+  "reason": "v1.5R closes post-release audit and hotfix readiness; the next step should expose local observability and operator dashboard metrics without enabling runtime authority or provider dispatch.",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

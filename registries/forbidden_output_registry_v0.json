@@ -1,6 +1,10 @@
 {
-  "forbidden": [
-    "runtime_authority_granted=true",
-    "provider_dispatch_enabled=true"
+  "version": "v0",
+  "forbidden_output_types": [
+    "runtime_authority_granted",
+    "provider_dispatch_enabled",
+    "external_provider_dispatch",
+    "autonomous_action",
+    "production_release_authorization"
   ]
 }

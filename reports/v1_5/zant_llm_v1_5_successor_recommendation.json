@@ -1,7 +1,0 @@
-{
-  "branch": "v1.5-post-release-monitoring-and-maintenance",
-  "successor": "v1.5R-post-release-monitoring-audit-and-hotfix-readiness",
-  "reason": "Add a post-release monitoring audit and hotfix-readiness pass after the first maintenance lane.",
-  "runtime_authority_granted": false,
-  "provider_dispatch_enabled": false
-}

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "audit_01",
+    "name": "release_health_score_stable",
+    "category": "post_release_audit",
+    "severity": "blocking",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: release_health_score_stable"
+  },
+  {
+    "id": "audit_02",
+    "name": "smoke_pass_rate_full",
+    "category": "post_release_audit",
+    "severity": "blocking",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: smoke_pass_rate_full"
+  },
+  {
+    "id": "audit_03",
+    "name": "blocking_issues_zero",
+    "category": "post_release_audit",
+    "severity": "blocking",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: blocking_issues_zero"
+  },
+  {
+    "id": "audit_04",
+    "name": "runtime_authority_false",
+    "category": "post_release_audit",
+    "severity": "blocking",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: runtime_authority_false"
+  },
+  {
+    "id": "audit_05",
+    "name": "provider_dispatch_false",
+    "category": "post_release_audit",
+    "severity": "blocking",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: provider_dispatch_false"
+  },
+  {
+    "id": "audit_06",
+    "name": "issue_intake_template_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: issue_intake_template_present"
+  },
+  {
+    "id": "audit_07",
+    "name": "regression_intake_template_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: regression_intake_template_present"
+  },
+  {
+    "id": "audit_08",
+    "name": "hotfix_policy_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: hotfix_policy_present"
+  },
+  {
+    "id": "audit_09",
+    "name": "failclosed_registry_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: failclosed_registry_present"
+  },
+  {
+    "id": "audit_10",
+    "name": "audit_schema_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: audit_schema_present"
+  },
+  {
+    "id": "audit_11",
+    "name": "smoke_schema_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: smoke_schema_present"
+  },
+  {
+    "id": "audit_12",
+    "name": "hotfix_schema_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: hotfix_schema_present"
+  },
+  {
+    "id": "audit_13",
+    "name": "successor_schema_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: successor_schema_present"
+  },
+  {
+    "id": "audit_14",
+    "name": "maintenance_summary_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: maintenance_summary_present"
+  },
+  {
+    "id": "audit_15",
+    "name": "artifact_inventory_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: artifact_inventory_present"
+  },
+  {
+    "id": "audit_16",
+    "name": "release_manifest_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: release_manifest_present"
+  },
+  {
+    "id": "audit_17",
+    "name": "data_manifest_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: data_manifest_present"
+  },
+  {
+    "id": "audit_18",
+    "name": "stdlib_tests_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: stdlib_tests_present"
+  },
+  {
+    "id": "audit_19",
+    "name": "push_script_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: push_script_present"
+  },
+  {
+    "id": "audit_20",
+    "name": "ci_workflow_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: ci_workflow_present"
+  },
+  {
+    "id": "audit_21",
+    "name": "regression_replay_cases_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: regression_replay_cases_present"
+  },
+  {
+    "id": "audit_22",
+    "name": "post_release_smoke_cases_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: post_release_smoke_cases_present"
+  },
+  {
+    "id": "audit_23",
+    "name": "hotfix_readiness_cases_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: hotfix_readiness_cases_present"
+  },
+  {
+    "id": "audit_24",
+    "name": "successor_recommendation_present",
+    "category": "post_release_audit",
+    "severity": "normal",
+    "expected_pass": true,
+    "expected_gate": "pass",
+    "notes": "v1.5R audit check: successor_recommendation_present"
+  }
+]

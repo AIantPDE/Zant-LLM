@@ -1,14 +1,20 @@
-name: v1.5-stdlib-ci
+name: zant-llm-v1-5r-ci
+
 on:
   push:
   pull_request:
+
 jobs:
-  stdlib:
-    runs-on: windows-latest
+  stdlib-verify:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-      - run: python -m compileall .\src .\scripts
-      - run: python .\scriptsun_v1_5_stdlib_tests.py
+          python-version: "3.10"
+      - name: Verify repository
+        run: python scripts/validate_v1_5R_repository.py --root .
+      - name: Build audit artifacts
+        run: python scripts/build_v1_5R_audit_and_hotfix_readiness.py --root .
+      - name: Run stdlib tests
+        run: python scripts/run_v1_5R_stdlib_tests.py --root .

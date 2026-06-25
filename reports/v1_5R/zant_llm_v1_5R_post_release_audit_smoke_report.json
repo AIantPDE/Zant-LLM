@@ -1,0 +1,191 @@
+{
+  "version": "v1.5R",
+  "total": 24,
+  "passed": 24,
+  "blocked_probes": 4,
+  "smoke_pass_rate": 1.0,
+  "details": [
+    {
+      "id": "v1_5R_smoke_01",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_02",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_03",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_04",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_05",
+      "expected_gate": "blocked",
+      "actual_gate": "blocked",
+      "passed": true,
+      "reasons": [
+        "forbidden_output_type:runtime_authority_granted",
+        "request_runtime_authority_blocked"
+      ]
+    },
+    {
+      "id": "v1_5R_smoke_06",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_07",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_08",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_09",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_10",
+      "expected_gate": "blocked",
+      "actual_gate": "blocked",
+      "passed": true,
+      "reasons": [
+        "forbidden_output_type:runtime_authority_granted",
+        "request_provider_dispatch_blocked"
+      ]
+    },
+    {
+      "id": "v1_5R_smoke_11",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_12",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_13",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_14",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_15",
+      "expected_gate": "blocked",
+      "actual_gate": "blocked",
+      "passed": true,
+      "reasons": [
+        "forbidden_output_type:runtime_authority_granted",
+        "request_runtime_authority_blocked"
+      ]
+    },
+    {
+      "id": "v1_5R_smoke_16",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_17",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_18",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_19",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_20",
+      "expected_gate": "blocked",
+      "actual_gate": "blocked",
+      "passed": true,
+      "reasons": [
+        "forbidden_output_type:runtime_authority_granted",
+        "request_provider_dispatch_blocked"
+      ]
+    },
+    {
+      "id": "v1_5R_smoke_21",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_22",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_23",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "id": "v1_5R_smoke_24",
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "passed": true,
+      "reasons": []
+    }
+  ],
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

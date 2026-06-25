@@ -1,0 +1,24 @@
+Zant-LLM v1.5R 一页交接
+
+版本名：
+v1.5R-post-release-monitoring-audit-and-hotfix-readiness
+
+定位：
+这是 v1.5 的审计修正版，补齐 post-release audit、hotfix readiness、regression replay、issue intake audit、release-health drift check。
+
+硬约束：
+RUNTIME_AUTHORITY_GRANTED=False
+PROVIDER_DISPATCH_ENABLED=False
+
+运行：
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_5R_ALL_LOCAL.ps1
+
+推送：
+powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V1_5R_BASED_ON_REMOTE_V1_5.ps1
+
+预期：
+ZANT_LLM_V1_5R_ALL_LOCAL_OK=True
+ZANT_LLM_V1_5R_BRANCH_PUSHED=True
+
+后继：
+v1.6-runtime-observability-and-operator-dashboard
