@@ -1,0 +1,18 @@
+{
+  "issue_id": "ZANT-ISSUE-0000",
+  "reported_version": "v1.5",
+  "audit_version": "v1.5R",
+  "severity": "medium",
+  "reproducible": false,
+  "regression": false,
+  "safety_related": false,
+  "expected_triage_lane": "maintenance_backlog",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "required_evidence": [
+    "command_output",
+    "affected_fixture",
+    "expected_behavior",
+    "actual_behavior"
+  ]
+}

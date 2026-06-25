@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Zant-LLM v1.5R hotfix readiness report",
+  "type": "object",
+  "required": [
+    "version",
+    "hotfix_readiness_score",
+    "hotfix_readiness_accepted",
+    "triage_lanes"
+  ],
+  "properties": {
+    "version": {
+      "const": "v1.5R"
+    },
+    "hotfix_readiness_score": {
+      "type": "number"
+    },
+    "hotfix_readiness_accepted": {
+      "type": "boolean"
+    },
+    "triage_lanes": {
+      "type": "array"
+    }
+  }
+}

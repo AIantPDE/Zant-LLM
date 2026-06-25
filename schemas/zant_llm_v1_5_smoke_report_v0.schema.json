@@ -1,9 +1,0 @@
-{
-  "type": "object",
-  "required": [
-    "branch",
-    "smoke_cases",
-    "smoke_pass_rate",
-    "blocking_issues"
-  ]
-}

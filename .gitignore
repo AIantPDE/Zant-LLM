@@ -1,5 +1,8 @@
 __pycache__/
 *.pyc
-.venv/
 .pytest_cache/
+.venv/
+.env
 .DS_Store
+outputs/**/*
+!outputs/**/.gitkeep

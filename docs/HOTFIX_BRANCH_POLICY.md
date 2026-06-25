@@ -1,3 +1,19 @@
 # Hotfix Branch Policy
 
-Hotfix branches must be based on the latest accepted release branch or tag. They must include a regression repro, a smoke result, and a governance flag check. No hotfix may enable runtime authority or provider dispatch.
+Hotfix branches should use:
+
+```text
+hotfix/<short-description>
+```
+
+They must be based on:
+
+```text
+v1.5R-post-release-monitoring-audit-and-hotfix-readiness
+```
+
+Before merging or closing a hotfix branch, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_5R_ALL_LOCAL.ps1
+```

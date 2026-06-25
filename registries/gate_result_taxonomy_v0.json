@@ -1,8 +1,9 @@
 {
-  "decisions": [
-    "READY",
-    "BLOCKED",
-    "CLOSEOUT",
-    "FAILCLOSED"
+  "version": "v0",
+  "gate_results": [
+    "pass",
+    "blocked",
+    "requires_review",
+    "fail_closed"
   ]
 }

@@ -1,0 +1,3 @@
+# Zant-LLM v1.5R uses only Python standard library for local verification.
+# Optional:
+# pytest>=7.0.0

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Zant-LLM v1.5R successor recommendation",
+  "type": "object",
+  "required": [
+    "version",
+    "successor",
+    "reason"
+  ],
+  "properties": {
+    "version": {
+      "const": "v1.5R"
+    },
+    "successor": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  }
+}
