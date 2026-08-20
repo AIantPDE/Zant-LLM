@@ -1,0 +1,15 @@
+{
+  "schema": "ZANT_LLM_V1_6R_GATE_AWARE_OBSERVABILITY_REPORT_V0",
+  "ok": true,
+  "version": "1.6R",
+  "lane": "v1.6R-orsc-v6-gate-aware-observability-and-receipt-hardening",
+  "gate_ready_count": 12,
+  "gate_blocked_count": 12,
+  "gate_closeout_count": 12,
+  "gate_fail_closed_count": 24,
+  "successor_hydration_ok": true,
+  "actual_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+  "receipt_hash": "bd30e6d893a6901a3403a46c1a5a4d61d6e9b5ea24ee768e20f192d8b5c749b2",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

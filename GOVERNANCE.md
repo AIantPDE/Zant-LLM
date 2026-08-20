@@ -1,13 +1,12 @@
 # Governance
 
-Zant-LLM v1.6 keeps governance fail-closed.
-
-Required invariant values:
+ZANT-LLM v1.6R keeps all authority and provider-dispatch boundaries closed.
 
 ```text
-RUNTIME_AUTHORITY_GRANTED=False
-PROVIDER_DISPATCH_ENABLED=False
+runtime_authority_granted = false
+provider_dispatch_enabled = false
+external_delivery_enabled = false
+training_mutation_authorized = false
 ```
 
-The dashboard is observational only. It summarizes local reports and synthetic governance checks.
-It does not call external providers, does not dispatch runtime authority, and does not fetch external content.
+Gate-aware observability is a read-side governance hardening layer. A READY gate can authorize only the next bounded engineering delta named by the resolver. It cannot grant runtime authority, provider dispatch, worker trigger, writeback execution, policy update, or order placement.

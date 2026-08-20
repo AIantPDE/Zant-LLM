@@ -1,22 +1,23 @@
-# New chat handoff for Zant-LLM v1.6
+# 新会话快速继续
 
-Use this folder as the source package for the branch:
+项目：Zant-LLM
+当前阶段：v1.6R-orsc-v6-gate-aware-observability-and-receipt-hardening
+
+请先查看：
+
+```powershell
+cd C:\Users\Administrator\Desktop\Zant-LLM-v1.6R-orsc-v6-gate-aware-observability-and-receipt-hardening
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_6R_ALL_LOCAL.ps1
+```
+
+若通过，再执行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V1_6R_BASED_ON_REMOTE_V1_6.ps1
+```
+
+后续若成功，进入：
 
 ```text
-v1.6-runtime-observability-and-operator-dashboard
-```
-
-The package focuses on runtime observability and operator dashboards only.
-It intentionally avoids crawler/external-ingestion work.
-
-Run:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_6_ALL_LOCAL.ps1
-```
-
-Push:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V1_6_BASED_ON_REMOTE_V1_5R.ps1
+v1.7-trace-hix-v0.2.1-training-gate-foundation
 ```

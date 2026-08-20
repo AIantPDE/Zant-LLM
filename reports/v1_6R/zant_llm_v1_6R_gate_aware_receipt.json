@@ -1,0 +1,58 @@
+{
+  "schema": "ZANT_LLM_V1_6R_GATE_AWARE_RECEIPT_V0",
+  "receipt_id": "zant-llm-v1-6r-gate-aware-receipt-final",
+  "lane": "v1.6R-orsc-v6-gate-aware-observability-and-receipt-hardening",
+  "work_item": "orsc_v6_gate_aware_observability_and_receipt_hardening",
+  "before": {
+    "predecessor": "v1.6-runtime-observability-and-operator-dashboard"
+  },
+  "delta": {
+    "bounded_delta": true,
+    "src_runtime_behavior_change": false,
+    "training_mutation": false
+  },
+  "gate": {
+    "ready_count": 12,
+    "blocked_count": 12,
+    "closeout_count": 12,
+    "fail_closed_count": 24,
+    "blocking_reasons": [
+      "missing_bounded_delta_declaration",
+      "missing_gate_panel_trace",
+      "missing_receipt_schema",
+      "missing_successor_hydration_evidence",
+      "route_closed_no_safe_action_path"
+    ]
+  },
+  "verification": {
+    "local_validation_green": true,
+    "stdlib_tests_green": true,
+    "gate_report_ok": true
+  },
+  "merge": {
+    "branch": "v1.6R-orsc-v6-gate-aware-observability-and-receipt-hardening",
+    "merge_required": true
+  },
+  "after_observed": {
+    "successor_report_ok": true
+  },
+  "residuals": {
+    "evidence": [],
+    "admissibility": [],
+    "authority": []
+  },
+  "authority": {
+    "runtime_authority_granted": false,
+    "provider_dispatch_enabled": false
+  },
+  "successor_resolution": {
+    "schema": "ZANT_LLM_V1_6R_SUCCESSOR_RESOLUTION_REPORT_V0",
+    "ok": true,
+    "proposed_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+    "actual_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+    "adopted": true,
+    "hydration_cases": 24,
+    "adopted_count": 24
+  },
+  "hash": "bd30e6d893a6901a3403a46c1a5a4d61d6e9b5ea24ee768e20f192d8b5c749b2"
+}

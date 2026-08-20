@@ -1,0 +1,9 @@
+{
+  "schema": "ZANT_LLM_V1_6R_SUCCESSOR_RESOLUTION_REPORT_V0",
+  "ok": true,
+  "proposed_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+  "actual_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+  "adopted": true,
+  "hydration_cases": 24,
+  "adopted_count": 24
+}

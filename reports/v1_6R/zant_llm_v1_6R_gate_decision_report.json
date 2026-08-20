@@ -1,0 +1,451 @@
+{
+  "schema": "ZANT_LLM_V1_6R_GATE_DECISION_REPORT_V0",
+  "ok": true,
+  "gate_results": [
+    {
+      "case_id": "gate-ready-01",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-02",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-03",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-04",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-05",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-06",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-07",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-08",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-09",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-10",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-11",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-ready-12",
+      "gate_result": "READY",
+      "denial_reasons": [],
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "gate-blocked-01",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_receipt_schema"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-02",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_successor_hydration_evidence"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-03",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_gate_panel_trace"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-04",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_bounded_delta_declaration"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-05",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_receipt_schema"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-06",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_successor_hydration_evidence"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-07",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_gate_panel_trace"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-08",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_bounded_delta_declaration"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-09",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_receipt_schema"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-10",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_successor_hydration_evidence"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-11",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_gate_panel_trace"
+      ]
+    },
+    {
+      "case_id": "gate-blocked-12",
+      "gate_result": "BLOCKED",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "missing_bounded_delta_declaration"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-01",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-02",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-03",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-04",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-05",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-06",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-07",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-08",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-09",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-10",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-11",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "gate-closeout-12",
+      "gate_result": "CLOSEOUT",
+      "denial_reasons": [],
+      "blocking_reasons": [
+        "route_closed_no_safe_action_path"
+      ]
+    },
+    {
+      "case_id": "negative-authority-01",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "RUNTIME_AUTHORITY_GRANTED_TRUE"
+      ]
+    },
+    {
+      "case_id": "negative-authority-02",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "PROVIDER_DISPATCH_ENABLED_TRUE"
+      ]
+    },
+    {
+      "case_id": "negative-authority-03",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "FORBIDDEN_FIELD_WORKER_TRIGGER"
+      ]
+    },
+    {
+      "case_id": "negative-authority-04",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "FORBIDDEN_FIELD_WRITEBACK_EXECUTION"
+      ]
+    },
+    {
+      "case_id": "negative-authority-05",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "UNKNOWN_SUCCESSOR_INPUT"
+      ]
+    },
+    {
+      "case_id": "negative-authority-06",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "MISSING_GATE_OUTPUT"
+      ]
+    },
+    {
+      "case_id": "negative-authority-07",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "RUNTIME_AUTHORITY_GRANTED_TRUE"
+      ]
+    },
+    {
+      "case_id": "negative-authority-08",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "PROVIDER_DISPATCH_ENABLED_TRUE"
+      ]
+    },
+    {
+      "case_id": "negative-authority-09",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "FORBIDDEN_FIELD_WORKER_TRIGGER"
+      ]
+    },
+    {
+      "case_id": "negative-authority-10",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "FORBIDDEN_FIELD_WRITEBACK_EXECUTION"
+      ]
+    },
+    {
+      "case_id": "negative-authority-11",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "UNKNOWN_SUCCESSOR_INPUT"
+      ]
+    },
+    {
+      "case_id": "negative-authority-12",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "MISSING_GATE_OUTPUT"
+      ]
+    },
+    {
+      "case_id": "negative-authority-13",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "RUNTIME_AUTHORITY_GRANTED_TRUE"
+      ]
+    },
+    {
+      "case_id": "negative-authority-14",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "PROVIDER_DISPATCH_ENABLED_TRUE"
+      ]
+    },
+    {
+      "case_id": "negative-authority-15",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "FORBIDDEN_FIELD_WORKER_TRIGGER"
+      ]
+    },
+    {
+      "case_id": "negative-authority-16",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "FORBIDDEN_FIELD_WRITEBACK_EXECUTION"
+      ]
+    },
+    {
+      "case_id": "negative-authority-17",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "UNKNOWN_SUCCESSOR_INPUT"
+      ]
+    },
+    {
+      "case_id": "negative-authority-18",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "MISSING_GATE_OUTPUT"
+      ]
+    },
+    {
+      "case_id": "negative-authority-19",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "RUNTIME_AUTHORITY_GRANTED_TRUE"
+      ]
+    },
+    {
+      "case_id": "negative-authority-20",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "PROVIDER_DISPATCH_ENABLED_TRUE"
+      ]
+    },
+    {
+      "case_id": "negative-authority-21",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "FORBIDDEN_FIELD_WORKER_TRIGGER"
+      ]
+    },
+    {
+      "case_id": "negative-authority-22",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "FORBIDDEN_FIELD_WRITEBACK_EXECUTION"
+      ]
+    },
+    {
+      "case_id": "negative-authority-23",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "UNKNOWN_SUCCESSOR_INPUT"
+      ]
+    },
+    {
+      "case_id": "negative-authority-24",
+      "gate_result": "FAIL_CLOSED",
+      "denial_reasons": [
+        "MISSING_GATE_OUTPUT"
+      ]
+    }
+  ],
+  "counts": {
+    "READY": 12,
+    "BLOCKED": 12,
+    "CLOSEOUT": 12,
+    "FAIL_CLOSED": 24
+  },
+  "blocking_reasons": [
+    "missing_bounded_delta_declaration",
+    "missing_gate_panel_trace",
+    "missing_receipt_schema",
+    "missing_successor_hydration_evidence",
+    "route_closed_no_safe_action_path"
+  ]
+}

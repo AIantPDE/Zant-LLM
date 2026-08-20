@@ -1,0 +1,6 @@
+{
+  "schema": "ZANT_LLM_SUCCESSOR_RESOLUTION_REGISTRY_V0",
+  "resolver": "ResolveZantV16RSuccessor",
+  "proposed_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+  "fallback_successor": "v1.6R-evidence-readback-or-route-closeout"
+}

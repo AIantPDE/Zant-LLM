@@ -1,11 +1,7 @@
-# Security
+# Security Boundary
 
-v1.6 does not grant runtime authority and does not enable provider dispatch.
+v1.6R is fail-closed by default.
 
-Security posture:
+Forbidden control-plane / execution-plane fields must not appear in explanation artifacts, gate receipts, dashboard panels, successor manifests, or training sample previews unless they are listed only inside forbidden registries or test descriptions.
 
-- Fail closed on missing required reports.
-- Treat blocking issues as release blockers.
-- Keep dashboard read-only.
-- Keep hotfix readiness separate from production execution.
-- Do not add crawler/scraper/spider code in this release.
+Runtime authority and provider dispatch remain disabled.

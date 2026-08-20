@@ -1,0 +1,8 @@
+{
+  "schema": "ZANT_LLM_V1_6R_SUCCESSOR_RECOMMENDATION_V0",
+  "ok": true,
+  "proposed_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+  "actual_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+  "adopted": true,
+  "reason": "gate-aware observability and receipt hardening complete"
+}

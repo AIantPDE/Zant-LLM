@@ -1,10 +1,9 @@
 {
-  "allowed_status": [
-    "pass",
-    "warn",
-    "fail"
-  ],
-  "blocking_status": [
-    "fail"
-  ]
+  "schema": "ZANT_LLM_GATE_RESULT_TAXONOMY_V0",
+  "results": {
+    "READY": "readiness vector true; may enter bounded apply or explicit action gate",
+    "BLOCKED": "action not admissible; blocking reasons must become evidence/admissibility residuals",
+    "CLOSEOUT": "route has no safe action path; stop micro-fragmentation",
+    "FAIL_CLOSED": "authority leakage, forbidden field, unknown input, invalid state, or receipt mismatch"
+  }
 }

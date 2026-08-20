@@ -1,0 +1,102 @@
+{
+  "schema": "ZANT_LLM_V1_6R_DASHBOARD_GATE_REPORT_V0",
+  "ok": true,
+  "dashboard_ready": true,
+  "read_only_dashboard": true,
+  "panel_count": 10,
+  "panels": [
+    {
+      "panel_id": "gate_status_overview",
+      "title": "Gate Status Overview",
+      "metrics": [
+        "ready_count",
+        "blocked_count",
+        "closeout_count",
+        "fail_closed_count"
+      ]
+    },
+    {
+      "panel_id": "readiness_vector_matrix",
+      "title": "Readiness Vector Matrix",
+      "metrics": [
+        "true_count",
+        "false_count",
+        "unknown_count"
+      ]
+    },
+    {
+      "panel_id": "successor_hydration_panel",
+      "title": "Successor Input Hydration",
+      "metrics": [
+        "hydrated_input_null_count",
+        "payload_null_inputs_used"
+      ]
+    },
+    {
+      "panel_id": "actual_successor_panel",
+      "title": "Actual Successor Resolution",
+      "metrics": [
+        "proposed_successor",
+        "actual_successor",
+        "adopted"
+      ]
+    },
+    {
+      "panel_id": "receipt_seal_panel",
+      "title": "Gate-Aware Receipt Seal",
+      "metrics": [
+        "canonical_hash",
+        "seal_valid"
+      ]
+    },
+    {
+      "panel_id": "blocked_reason_panel",
+      "title": "Blocked Reason Coverage",
+      "metrics": [
+        "blocking_reason_count",
+        "residual_emitted"
+      ]
+    },
+    {
+      "panel_id": "closeout_panel",
+      "title": "Route Closeout",
+      "metrics": [
+        "route_closed",
+        "micro_fragmentation_prevented"
+      ]
+    },
+    {
+      "panel_id": "fail_closed_panel",
+      "title": "Fail-Closed Guard",
+      "metrics": [
+        "authority_leakage",
+        "provider_dispatch_leakage",
+        "forbidden_fields"
+      ]
+    },
+    {
+      "panel_id": "training_successor_panel",
+      "title": "TRACE-HIX v0.2.1 Successor Readiness",
+      "metrics": [
+        "gate_foundation_ready",
+        "training_mutation_authorized"
+      ]
+    },
+    {
+      "panel_id": "operator_readback_panel",
+      "title": "Operator Readback",
+      "metrics": [
+        "readback_complete",
+        "reobserve_required"
+      ]
+    }
+  ],
+  "gate_summary": {
+    "READY": 12,
+    "BLOCKED": 12,
+    "CLOSEOUT": 12,
+    "FAIL_CLOSED": 24
+  },
+  "actual_successor": "v1.7-trace-hix-v0.2.1-training-gate-foundation",
+  "receipt_hash": "bd30e6d893a6901a3403a46c1a5a4d61d6e9b5ea24ee768e20f192d8b5c749b2"
+}

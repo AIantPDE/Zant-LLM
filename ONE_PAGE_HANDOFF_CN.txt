@@ -1,15 +1,22 @@
-Zant-LLM v1.6 一页交接
+ZANT-LLM v1.6R 一页交接
+版本：v1.6R-orsc-v6-gate-aware-observability-and-receipt-hardening
+定位：ORSC v6 gate-aware observability + receipt hardening
+前置：v1.6 runtime observability 已本地完成并推送到远程 commit 4b89f99
+后继：v1.7-trace-hix-v0.2.1-training-gate-foundation
 
-版本：v1.6-runtime-observability-and-operator-dashboard
-定位：运行时可观测性与操作员仪表盘
-不包含：爬虫、外部采集、provider dispatch、runtime authority
-继承自：v1.5R-post-release-monitoring-audit-and-hotfix-readiness
-后继建议：v1.6R-runtime-observability-audit-and-dashboard-hardening
+本版做什么：
+- 把 Gate 纳入 v1.6 dashboard / report / receipt / successor 体系
+- 明确 READY / BLOCKED / CLOSEOUT / FAIL_CLOSED 的工程语义
+- 固化 successor input hydration 与 actual successor resolution
+- 生成 gate-aware receipt 与 SHA256 seal
+- 为 TRACE-HIX v0.2.1 training gate foundation 做工程准备
 
-本地运行：
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_6_ALL_LOCAL.ps1
+本版不做什么：
+- 不训练模型
+- 不启用 runtime authority
+- 不启用 provider dispatch
+- 不做 crawler
+- 不产生外部副作用
 
-预期：
-ZANT_LLM_V1_6_ALL_LOCAL_OK=True
-RUNTIME_AUTHORITY_GRANTED=False
-PROVIDER_DISPATCH_ENABLED=False
+运行：
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_6R_ALL_LOCAL.ps1

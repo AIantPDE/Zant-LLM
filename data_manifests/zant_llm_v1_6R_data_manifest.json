@@ -1,0 +1,8 @@
+{
+  "schema": "ZANT_LLM_V1_6R_DATA_MANIFEST_V0",
+  "gate_cases": 36,
+  "successor_hydration_cases": 24,
+  "receipt_cases": 18,
+  "negative_authority_cases": 24,
+  "dashboard_gate_panels": 10
+}

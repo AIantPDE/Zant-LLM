@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "ok",
+    "gate_ready_count",
+    "gate_blocked_count",
+    "gate_closeout_count",
+    "gate_fail_closed_count",
+    "successor_hydration_ok",
+    "runtime_authority_granted",
+    "provider_dispatch_enabled"
+  ]
+}

@@ -1,45 +1,43 @@
-# Zant-LLM v1.6 中文交接说明
+# Zant-LLM v1.6R 交接说明
 
-当前版本：`v1.6-runtime-observability-and-operator-dashboard`
+## 当前阶段
 
-## 阶段定位
+- 前置版本：v1.6-runtime-observability-and-operator-dashboard
+- 当前版本：v1.6R-orsc-v6-gate-aware-observability-and-receipt-hardening
+- 后继候选：v1.7-trace-hix-v0.2.1-training-gate-foundation
 
-v1.6 是 **运行时可观测性与操作员仪表盘阶段**。
+## 本版目标
 
-它承接：
+把 ORSC v6 的 gate-aware 机制加入 ZANT-LLM 的工程治理层，确保后续 TRACE-HIX v0.2.1 训练准入前，工程侧已经具备：
 
-```text
-v1.4R  final release smoke + archive
-v1.5   post-release monitoring + maintenance
-v1.5R  post-release audit + hotfix readiness
-v1.6   runtime observability + operator dashboard
-```
+1. gate result taxonomy；
+2. action readiness vector；
+3. successor input hydration；
+4. actual successor resolution；
+5. gate-aware receipt；
+6. dashboard gate panel；
+7. fail-closed negative smoke。
 
-## 明确不包含
+## 不做的事
 
-```text
-crawler / scraper / spider / external ingestion / provider dispatch
-```
+- 不训练模型；
+- 不接入爬虫；
+- 不开启 provider dispatch；
+- 不授予 runtime authority；
+- 不新增外部副作用执行；
+- 不直接进入 v1.7，必须由 v1.6R 的 resolver 采纳 actual successor。
 
-也就是说，v1.6 不做爬虫、不接外部采集源、不开放运行时权限。
-
-## 核心目标
-
-1. 把 v1.5R 的 audit / hotfix readiness / regression replay 结果汇总为 dashboard。
-2. 给操作员一个每日检查视图。
-3. 给维护者一个 health score / regression trend / blocking issue 概览。
-4. 保持 fail-closed 与治理边界不变。
-5. 生成 v1.6R successor recommendation。
-
-## 本地验证
+## 运行命令
 
 ```powershell
-cd C:\Users\Administrator\Desktop\Zant-LLM-v1.6-runtime-observability-and-operator-dashboard
-powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_6_ALL_LOCAL.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\RUN_V1_6R_ALL_LOCAL.ps1
 ```
 
-## 推送
+## 关键判据
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\PUSH_V1_6_BASED_ON_REMOTE_V1_5R.ps1
-```
+- READY / BLOCKED / CLOSEOUT / FAIL_CLOSED 全部有样例覆盖；
+- BLOCKED 必须列出 blocking reasons；
+- CLOSEOUT 后不得继续微拆同一路线；
+- successor 输入不得使用 null / missing / unknown；
+- actual successor 必须由 resolver 生成；
+- receipt 必须可 canonicalize 并 SHA256 seal。

@@ -1,11 +1,17 @@
-# Training lane registry
+# Training Lane Registry
 
-v1.6 does not introduce model training.
+v1.6R is not a training run. It prepares the engineering gate layer for TRACE-HIX v0.2.1.
 
-Training lane status:
+Planned training lane after v1.6R:
 
 ```text
-TRAINING_LANE_ACTIVE=False
-RUNTIME_AUTHORITY_GRANTED=False
-PROVIDER_DISPATCH_ENABLED=False
+v1.7-trace-hix-v0.2.1-training-gate-foundation
 ```
+
+That later lane should implement:
+
+- ExplanationAdmissibilityGate
+- TrainingSampleAdmissibilityGate
+- FollowUpAdmissibilityGate
+- CounterfactualAdmissibilityGate
+- LaneSuccessorAdmissibilityGate

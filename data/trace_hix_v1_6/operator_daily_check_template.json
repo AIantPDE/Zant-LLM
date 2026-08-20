@@ -1,7 +1,0 @@
-{
-  "date": "2026-06-25",
-  "operator": "local_operator",
-  "release_health_score": 1.0,
-  "blocking_issues": 0,
-  "notes": "Daily check template for v1.6 operator dashboard."
-}

@@ -1,20 +1,19 @@
-name: zant-llm-v1-6-ci
-
+name: zant-llm-v1-6r-ci
 on:
-  push:
   pull_request:
-
+  push:
+    branches:
+      - v1.6R-orsc-v6-gate-aware-observability-and-receipt-hardening
 jobs:
-  stdlib-verify:
+  stdlib:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - name: Verify repository
-        run: python scripts/validate_v1_6_repository.py
-      - name: Run stdlib tests
-        run: python scripts/run_v1_6_stdlib_tests.py
-      - name: Build observability dashboard
-        run: python scripts/build_v1_6_runtime_observability.py
+      - run: python scripts/validate_v1_6R_repository.py
+      - run: python scripts/run_v1_6R_stdlib_tests.py
+      - run: python scripts/build_v1_6R_gate_aware_observability.py
+      - run: python scripts/make_v1_6R_successor_recommendation.py
+      - run: python scripts/make_v1_6R_release_manifest.py

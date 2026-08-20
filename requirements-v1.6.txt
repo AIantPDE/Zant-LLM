@@ -1,1 +1,0 @@
-# Zant-LLM v1.6 uses Python stdlib only for local verification.
