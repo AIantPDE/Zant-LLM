@@ -1,0 +1,22 @@
+{
+  "schema": "ZANT_LLM_V2_4R2_AUDIT_POLICY_GATE_V1_1",
+  "full_eval_coverage": true,
+  "prompt_policy": "audit_prefix",
+  "raw_generation_nonblank_all": true,
+  "raw_prompt_echo_detected": false,
+  "raw_auditable_rationale_all": true,
+  "raw_quality_ready_all": true,
+  "governed_quality_gate_ready": true,
+  "fallback_dependency_detected": false,
+  "forbidden_output_leakage": false,
+  "forbidden_assertive_case_ids": [],
+  "forbidden_mention_case_ids": [
+    "v2_4_extended_eval::060"
+  ],
+  "mojibake_detected": false,
+  "public_release_ready": true,
+  "release_candidate_status": "AUDIT_POLICY_GATE_V1_1_RELEASE_GATES_READY",
+  "actual_successor": "v2.5-release-notes-and-candidate-freeze",
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false
+}

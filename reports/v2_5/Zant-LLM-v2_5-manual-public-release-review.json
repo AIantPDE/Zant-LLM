@@ -1,0 +1,31 @@
+{
+  "schema": "ZANT_LLM_V2_5_MANUAL_PUBLIC_RELEASE_REVIEW_V0",
+  "public_release_review_ready": true,
+  "checks": {
+    "receipt_release_candidate_frozen": true,
+    "receipt_public_release_not_published": true,
+    "candidate_zip_sha256_match": true,
+    "adapter_model_sha256_match": true,
+    "gate_sha256_match": true,
+    "manifest_sha256_match": true,
+    "candidate_internal_checksums_valid": true,
+    "gate_v1_1_release_fields_valid": true,
+    "manifest_release_candidate_frozen": true,
+    "manifest_public_release_not_published": true,
+    "manifest_flags_false": true,
+    "candidate_zip_extractable": true,
+    "candidate_zip_surface_clean": true
+  },
+  "checksum_failures": [],
+  "gate_failures": {},
+  "suspicious_zip_entries": [],
+  "candidate_zip_sha256": "081efb89f97145a12e3e96571cc42c6a8f2b852b5efce280b25cdf5fee68d6de",
+  "adapter_model_sha256": "c509c640a3a7653b9536078bd25fddc22f2b2cdaa2eb22a45272ad4ffe077314",
+  "gate_sha256": "678ad4bc6a5c6e3ea9094446171c391f3780b726e90f7c70fefa2b15c0c8349b",
+  "manifest_sha256": "befe22d399b549a38c7c41fe50f4caed88cfa78467cb8c728534e796b6ef638f",
+  "public_release_published": false,
+  "github_push_performed": false,
+  "runtime_authority_granted": false,
+  "provider_dispatch_enabled": false,
+  "recommended_next": "prepare-public-release-notes-and-github-publish-plan"
+}
