@@ -1,0 +1,14 @@
+{
+    "schema":  "ZANT_LLM_FROZEN_RELEASE_MANIFEST_V1",
+    "version":  "v3.1",
+    "artifact_type":  "local-release-ready",
+    "artifact_file":  "Zant-LLM-v3.1-local-release-ready.zip",
+    "sha256":  "23b072e463a501a84d05c75e18153217f80c3405804a5300a9e4aab10c3f33ac",
+    "source_base_ref":  "origin/v2.5-release-candidate-freeze",
+    "history_branch":  "release-history-v2.6-to-v5.3",
+    "release_branch":  "v3.1-release-frozen",
+    "tag":  "v3.1",
+    "training_performed":  false,
+    "runtime_authority_granted":  false,
+    "provider_dispatch_enabled":  false
+}
