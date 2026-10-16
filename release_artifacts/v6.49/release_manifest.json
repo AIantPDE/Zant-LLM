@@ -1,0 +1,20 @@
+{
+  "schema": "ZANT_LLM_V6_48_TO_V6_52_SUCCESSFUL_RELEASE_ARTIFACT_V15",
+  "version": "v6.49",
+  "release_nature": "HISTORICAL_SUCCESSFUL_RELEASE_ARTIFACT_ARCHIVE",
+  "baseline_ref": "release-history-v2.6-to-v5.3",
+  "baseline_commit": "51270c0db377e006e67885b951268cbe70040b75",
+  "artifact_filename": "Zant-LLM-v6.49-Persistent-Bridge-Runtime-Gate-Calibration-Milestone-delivery.zip",
+  "artifact_sha256": "6d19292e5c7254e936acc041483e0d4cfd6db6c5901d5ecd4f7eaab369e4a4ac",
+  "artifact_bytes": 19242,
+  "git_path": "release_artifacts/v6.49/Zant-LLM-v6.49-Persistent-Bridge-Runtime-Gate-Calibration-Milestone-delivery.zip",
+  "branch": "v6.49-release-frozen",
+  "annotated_tag": "v6.49",
+  "force_push": false,
+  "delete_remote_refs": false,
+  "merge_main": false,
+  "checkout_main": false,
+  "training": false,
+  "model_weights_pushed": false,
+  "source_code_pushed": false
+}\n
