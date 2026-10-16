@@ -1,0 +1,20 @@
+{
+  "schema": "ZANT_LLM_V6_48_TO_V6_52_SUCCESSFUL_RELEASE_ARTIFACT_V15",
+  "version": "v6.48",
+  "release_nature": "HISTORICAL_SUCCESSFUL_RELEASE_ARTIFACT_ARCHIVE",
+  "baseline_ref": "release-history-v2.6-to-v5.3",
+  "baseline_commit": "51270c0db377e006e67885b951268cbe70040b75",
+  "artifact_filename": "Zant-LLM-v6.48-Paired-Context-Token-Identity-Bridge-Training-Milestone-delivery.zip",
+  "artifact_sha256": "6f223b7db0e8be618d84f4e750dfa62a6b98a5ce63b7c10bc7c1a5ecce6be3fd",
+  "artifact_bytes": 19374,
+  "git_path": "release_artifacts/v6.48/Zant-LLM-v6.48-Paired-Context-Token-Identity-Bridge-Training-Milestone-delivery.zip",
+  "branch": "v6.48-release-frozen",
+  "annotated_tag": "v6.48",
+  "force_push": false,
+  "delete_remote_refs": false,
+  "merge_main": false,
+  "checkout_main": false,
+  "training": false,
+  "model_weights_pushed": false,
+  "source_code_pushed": false
+}\n
