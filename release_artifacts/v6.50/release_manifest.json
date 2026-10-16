@@ -1,0 +1,20 @@
+{
+  "schema": "ZANT_LLM_V6_48_TO_V6_52_SUCCESSFUL_RELEASE_ARTIFACT_V15",
+  "version": "v6.50",
+  "release_nature": "HISTORICAL_SUCCESSFUL_RELEASE_ARTIFACT_ARCHIVE",
+  "baseline_ref": "release-history-v2.6-to-v5.3",
+  "baseline_commit": "51270c0db377e006e67885b951268cbe70040b75",
+  "artifact_filename": "Zant-LLM-v6.50-HOTFIX1-Result-Serialization-Helper-Restore-delivery.zip",
+  "artifact_sha256": "36126448e4b6701f5b23eaa6db30f8a4e3bbdeaa2ec01736818950058b5f7dca",
+  "artifact_bytes": 30372,
+  "git_path": "release_artifacts/v6.50/Zant-LLM-v6.50-HOTFIX1-Result-Serialization-Helper-Restore-delivery.zip",
+  "branch": "v6.50-release-frozen",
+  "annotated_tag": "v6.50",
+  "force_push": false,
+  "delete_remote_refs": false,
+  "merge_main": false,
+  "checkout_main": false,
+  "training": false,
+  "model_weights_pushed": false,
+  "source_code_pushed": false
+}\n
