@@ -1,0 +1,19 @@
+{
+  "schema": "ZANT_LLM_POST_V5_3_SELECTED_SUCCESSFUL_RELEASE_ARTIFACT_V14_FINAL",
+  "version": "v6.11",
+  "release_nature": "HISTORICAL_SUCCESSFUL_RELEASE_ARTIFACT_ARCHIVE",
+  "baseline_ref": "release-history-v2.6-to-v5.3",
+  "baseline_commit": "51270c0db377e006e67885b951268cbe70040b75",
+  "artifact_filename": "v6.11-delivery.zip",
+  "artifact_sha256": "a532a46930f8f9f37c38985560e20d4cc64b88c0c0e4845ee40b9dd9f218be07",
+  "artifact_bytes": 14998,
+  "git_path": "release_artifacts/v6.11/v6.11-delivery.zip",
+  "branch": "v6.11-release-frozen",
+  "annotated_tag": "v6.11",
+  "force_push": false,
+  "delete_remote_refs": false,
+  "merge_main": false,
+  "checkout_main": false,
+  "training": false,
+  "model_weights_pushed": false
+}
